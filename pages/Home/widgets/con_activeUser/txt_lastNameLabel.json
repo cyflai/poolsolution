@@ -7,8 +7,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 10.4,
-    "bottomRow": 14.4,
+    "topRow": 10.399999999999272,
+    "bottomRow": 14.399999999999272,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -44,10 +44,10 @@
     ],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "originalTopRow": 6,
+    "originalTopRow": 10.4,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 11,
+    "originalBottomRow": 14.400000000001455,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
