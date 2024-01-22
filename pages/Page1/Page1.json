@@ -40,9 +40,7 @@
                 "() => {\n  if (!appsmith.store.access_token) {\n    navigateTo('Login');\n  }\n}"
               ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
               "id": "Page1_get_user",
               "name": "get_user",

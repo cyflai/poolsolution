@@ -2,7 +2,7 @@
     "resetFormOnClick": false,
     "boxShadow": "none",
     "widgetName": "btn_signUp",
-    "onClick": "{{functions.register();}}",
+    "onClick": "{{sign_up.run().then(() => {\n  showAlert('Verificatione email sent, please check email to complete the sign-up.', 'success');\n}).catch(() => {\n  showAlert('Please check your email and password or try again later.', 'error');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
