@@ -35,7 +35,9 @@
               "collectionId": "Home_functions",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "async () => {\n  const token = appsmith.store.token;\n  const user = jsonwebtoken.decode(token, 'secret');\n  functions.setActiveUser(user);\n}"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
