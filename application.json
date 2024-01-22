@@ -1,15 +1,15 @@
 {
   "pages": [
     {
-      "id": "Home",
-      "isDefault": false
-    },
-    {
-      "id": "Login",
+      "id": "Pool Overview",
       "isDefault": true
     },
     {
-      "id": "Page1",
+      "id": "Login",
+      "isDefault": false
+    },
+    {
+      "id": "Profile",
       "isDefault": false
     }
   ],

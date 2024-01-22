@@ -1,62 +1,73 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Pool Overview",
+    "slug": "pool-overview",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
+          "mobileBottomRow": 540,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 1292,
+          "bottomRow": 380,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "minHeight": 1292,
+          "minHeight": 540,
           "useAutoLayout": true,
-          "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "positioning": "vertical",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 52,
           "version": 87,
+          "mobileTopRow": 0,
           "responsiveBehavior": "fill",
           "flexLayers": [
             {
               "children": [
                 {
-                  "id": "kh359dihog",
+                  "id": "vmyqk6l6bn",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "twxe2yfzhd",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "c4m3849tlq",
+                  "align": "center"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "1is52mu9gv",
                   "align": "center"
                 }
               ]
             }
           ]
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Page1_functions.checkToken",
-              "name": "functions.checkToken",
-              "collectionId": "Page1_functions",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "() => {\n  if (!appsmith.store.access_token) {\n    navigateTo('Login');\n  } else {\n    return appsmith.store.access_token;\n  }\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Pool Overview",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -67,5 +78,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "65ad1067cfb4567a2201e161_65ad1067cfb4567a2201e163"
+  "gitSyncId": "65ae1519b4b1fd3505406a5e_65ae652e410d613b430c8732"
 }

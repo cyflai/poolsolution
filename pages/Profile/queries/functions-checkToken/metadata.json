@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
-    "collectionId": "Page1_functions",
+    "pageId": "Profile",
+    "collectionId": "Profile_functions",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -37,7 +37,7 @@
     "userPermissions": [],
     "createdAt": "2024-01-22T08:34:27Z"
   },
-  "id": "Page1_functions.checkToken",
+  "id": "Profile_functions.checkToken",
   "deleted": false,
   "gitSyncId": "65ae1519b4b1fd3505406a5e_65ae289377daa66efb535136"
 }

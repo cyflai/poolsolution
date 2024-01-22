@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 10.8,
+    "mobileBottomRow": 9.8,
     "widgetName": "Container2",
     "borderColor": "#E0DEDE",
     "isCanvas": true,
@@ -12,7 +12,7 @@
         "group"
     ],
     "topRow": 5.2,
-    "bottomRow": 11.2,
+    "bottomRow": 10.2,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -25,11 +25,11 @@
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-        "mobileBottomRow": 60,
+        "mobileBottomRow": 50,
         "widgetName": "Canvas4",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 60,
+        "bottomRow": 50,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -38,6 +38,7 @@
         "mobileRightColumn": 283.125,
         "useAutoLayout": true,
         "parentColumnSpace": 1,
+        "dynamicTriggerPathList": [],
         "leftColumn": 0,
         "dynamicBindingPathList": [
             {"key": "borderRadius"},
@@ -63,10 +64,7 @@
         "mobileLeftColumn": 0,
         "maxDynamicHeight": 9000,
         "minDynamicHeight": 4,
-        "flexLayers": [{"children": [{
-            "id": "vzvs6747za",
-            "align": "center"
-        }]}]
+        "flexLayers": []
     }],
     "borderWidth": "0",
     "flexVerticalAlignment": "stretch",

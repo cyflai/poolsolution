@@ -1,7 +1,7 @@
 {
   "unpublishedCollection": {
     "name": "functions",
-    "pageId": "Page1",
+    "pageId": "Profile",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -9,7 +9,7 @@
     "variables": [],
     "userPermissions": []
   },
-  "id": "Page1_functions",
+  "id": "Profile_functions",
   "deleted": false,
   "gitSyncId": "65ae1519b4b1fd3505406a5e_65ae25d7344e1d59150113e3"
 }

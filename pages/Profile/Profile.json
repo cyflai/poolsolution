@@ -1,73 +1,62 @@
 {
   "unpublishedPage": {
-    "name": "Home",
-    "slug": "home",
+    "name": "Profile",
+    "slug": "profile",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
-          "mobileBottomRow": 540,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 1292,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "minHeight": 540,
+          "minHeight": 1292,
           "useAutoLayout": true,
+          "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "positioning": "vertical",
           "backgroundColor": "none",
-          "rightColumn": 1224,
+          "rightColumn": 4896,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "containerStyle": "none",
-          "snapRows": 52,
+          "snapRows": 124,
           "version": 87,
-          "mobileTopRow": 0,
           "responsiveBehavior": "fill",
           "flexLayers": [
             {
               "children": [
                 {
-                  "id": "vmyqk6l6bn",
-                  "align": "start"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "twxe2yfzhd",
-                  "align": "start"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "c4m3849tlq",
-                  "align": "center"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "1is52mu9gv",
+                  "id": "kh359dihog",
                   "align": "center"
                 }
               ]
             }
           ]
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Profile_functions.checkToken",
+              "name": "functions.checkToken",
+              "collectionId": "Profile_functions",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  if (!appsmith.store.access_token) {\n    navigateTo('Login');\n  } else {\n    return appsmith.store.access_token;\n  }\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Home",
+        "id": "Profile",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -78,5 +67,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "65ae1519b4b1fd3505406a5e_65ae652e410d613b430c8732"
+  "gitSyncId": "65ad1067cfb4567a2201e161_65ad1067cfb4567a2201e163"
 }

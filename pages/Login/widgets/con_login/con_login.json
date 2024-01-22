@@ -1,5 +1,5 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "boxShadow": "none",
     "widgetName": "con_login",
     "borderColor": "#E0DEDE",
     "isCanvas": true,
@@ -20,10 +20,7 @@
     "parentColumnSpace": 23.8125,
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"}
-    ],
+    "dynamicBindingPathList": [],
     "children": [{
         "widgetName": "Canvas1",
         "displayName": "Canvas",
@@ -79,7 +76,7 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "responsiveBehavior": "fill",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "0px",
     "maxDynamicHeight": 9000,
     "alignment": "start",
     "minDynamicHeight": 10
