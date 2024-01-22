@@ -1,15 +1,15 @@
 {
   "pages": [
     {
+      "id": "Home",
+      "isDefault": false
+    },
+    {
       "id": "Login",
       "isDefault": true
     },
     {
       "id": "Page1",
-      "isDefault": false
-    },
-    {
-      "id": "Home",
       "isDefault": false
     }
   ],
