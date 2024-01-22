@@ -7,6 +7,10 @@
     {
       "id": "Page1",
       "isDefault": false
+    },
+    {
+      "id": "Home",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -31,7 +35,7 @@
   "color": "#D6D1F2",
   "icon": "alien",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "publishedAppLayout": {
     "type": "DESKTOP"
