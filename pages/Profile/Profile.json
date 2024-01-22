@@ -1,15 +1,14 @@
 {
   "unpublishedPage": {
-    "name": "Login",
-    "slug": "login",
-    "customSlug": "",
+    "name": "Profile",
+    "slug": "profile",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 630,
+          "bottomRow": 1292,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -33,17 +32,31 @@
             {
               "children": [
                 {
-                  "id": "s1b0qjafgz",
-                  "align": "start"
+                  "id": "kh359dihog",
+                  "align": "center"
                 }
               ]
             }
           ]
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Profile_functions.checkToken",
+              "name": "functions.checkToken",
+              "collectionId": "Profile_functions",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  if (!appsmith.store.access_token) {\n    navigateTo('Login');\n  } else {\n    return appsmith.store.access_token;\n  }\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Login",
+        "id": "Profile",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -51,8 +64,8 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": true
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "65ae1519b4b1fd3505406a5e_65ae2338344e1d59150113c1"
+  "gitSyncId": "65ad1067cfb4567a2201e161_65ad1067cfb4567a2201e163"
 }

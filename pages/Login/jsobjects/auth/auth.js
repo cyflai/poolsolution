@@ -2,6 +2,7 @@ export default {
 	signIn: () => {
 		return sign_in.run().then(data =>{
 		
+			storeValue("email",data.user.email)
 			delete data.user;
 			
 			Object.keys(data).forEach(i => {
