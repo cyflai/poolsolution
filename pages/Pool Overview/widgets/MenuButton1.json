@@ -25,7 +25,7 @@
     "animateLoading": true,
     "parentColumnSpace": 8.90380859375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 53.620098039215684,
+    "leftColumn": 53.359296482412056,
     "dynamicBindingPathList": [
         {"key": "menuColor"},
         {"key": "label"}
