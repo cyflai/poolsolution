@@ -7,8 +7,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 15,
-    "bottomRow": 19,
+    "topRow": 25,
+    "bottomRow": 29,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -17,7 +17,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 19.296875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 2,
+    "leftColumn": 11,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -29,7 +29,7 @@
     "text": "hello {{appsmith.store.email}}",
     "key": "2cxtayg6n6",
     "isDeprecated": false,
-    "rightColumn": 29,
+    "rightColumn": 38,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "kh359dihog",
