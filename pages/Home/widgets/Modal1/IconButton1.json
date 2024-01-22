@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 4,
+    "mobileBottomRow": 8.8,
     "widgetName": "IconButton1",
     "onClick": "{{closeModal('Modal1')}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -24,6 +24,7 @@
     "iconSize": 24,
     "isDisabled": false,
     "key": "o7e9asckcz",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
     "rightColumn": 64,
     "iconName": "cross",
@@ -35,9 +36,10 @@
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 0,
+    "mobileTopRow": 4.8,
     "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 58,
-    "buttonVariant": "TERTIARY"
+    "mobileLeftColumn": 55.943351691581434,
+    "buttonVariant": "TERTIARY",
+    "alignment": "end"
 }
