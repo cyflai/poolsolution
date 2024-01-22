@@ -31,6 +31,19 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Page1_functions.checkToken",
+              "name": "functions.checkToken",
+              "collectionId": "Page1_functions",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  if (!appsmith.store.access_token) {\n    navigateTo('Login');\n  }\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Page1_get_user",
               "name": "get_user",
               "confirmBeforeExecute": false,

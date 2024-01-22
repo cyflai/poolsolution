@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "checkUser",
-    "fullyQualifiedName": "JSObject1.checkUser",
+    "name": "checkToken",
+    "fullyQualifiedName": "functions.checkToken",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,15 +14,15 @@
       "userPermissions": []
     },
     "pageId": "Page1",
-    "collectionId": "Page1_JSObject1",
+    "collectionId": "Page1_functions",
     "actionConfiguration": {
-      "timeoutInMillisecond": 0,
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
       "jsArguments": []
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -31,13 +31,13 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "userSetOnLoad": false,
+    "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-01-22T08:23:55Z"
+    "createdAt": "2024-01-22T08:34:27Z"
   },
-  "id": "Page1_JSObject1.checkUser",
+  "id": "Page1_functions.checkToken",
   "deleted": false,
-  "gitSyncId": "65ae1519b4b1fd3505406a5e_65ae261b6e6ba36f5ec223a3"
+  "gitSyncId": "65ae1519b4b1fd3505406a5e_65ae289377daa66efb535136"
 }
