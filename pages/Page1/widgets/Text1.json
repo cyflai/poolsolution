@@ -26,7 +26,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "hello {{get_user.data.email}}",
+    "text": "hello {{get}}",
     "key": "2cxtayg6n6",
     "isDeprecated": false,
     "rightColumn": 28,
