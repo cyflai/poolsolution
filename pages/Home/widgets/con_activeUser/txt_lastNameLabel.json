@@ -1,5 +1,4 @@
 {
-    "mobileBottomRow": 10,
     "widgetName": "txt_lastNameLabel",
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -13,7 +12,6 @@
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 17,
     "animateLoading": true,
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
@@ -29,7 +27,6 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "Last Name",
     "key": "2xljnd2o17",
-    "flexVerticalAlignment": "end",
     "isDeprecated": false,
     "rightColumn": 32,
     "textAlign": "LEFT",
@@ -47,14 +44,10 @@
     ],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 6,
-    "responsiveBehavior": "fill",
     "originalTopRow": 6,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 11,
     "fontSize": "1rem",
-    "alignment": "start",
     "minDynamicHeight": 4
 }

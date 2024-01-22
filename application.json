@@ -1,12 +1,8 @@
 {
   "pages": [
     {
-      "id": "Home2",
-      "isDefault": false
-    },
-    {
-      "id": "Authentication",
-      "isDefault": false
+      "id": "Authentication2",
+      "isDefault": true
     },
     {
       "id": "Home",
@@ -14,7 +10,7 @@
     },
     {
       "id": "Page1",
-      "isDefault": true
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -22,7 +18,7 @@
   "unreadCommentThreads": 0,
   "unpublishedApplicationDetail": {
     "appPositioning": {
-      "type": "AUTO"
+      "type": "FIXED"
     },
     "navigationSetting": {
       "showNavbar": false,
@@ -38,6 +34,9 @@
   },
   "color": "#D6D1F2",
   "icon": "alien",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
