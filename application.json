@@ -21,12 +21,12 @@
       "type": "AUTO"
     },
     "navigationSetting": {
-      "showNavbar": false,
-      "orientation": "top",
-      "navStyle": "stacked",
+      "showNavbar": true,
+      "orientation": "side",
+      "navStyle": "sidebar",
       "position": "static",
       "itemStyle": "text",
-      "colorStyle": "light",
+      "colorStyle": "theme",
       "logoAssetId": "",
       "logoConfiguration": "logoAndApplicationTitle",
       "showSignIn": false

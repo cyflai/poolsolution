@@ -9,7 +9,7 @@
         "submit"
     ],
     "topRow": 0,
-    "bottomRow": 5,
+    "bottomRow": 4,
     "parentRowSpace": 10,
     "type": "ICON_BUTTON_WIDGET",
     "hideCard": false,
@@ -22,7 +22,7 @@
     "key": "au5rdsrbxv",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 8,
+    "rightColumn": 7.265631929046563,
     "iconName": "lock",
     "widgetId": "6zuo29nk37",
     "minWidth": 50,

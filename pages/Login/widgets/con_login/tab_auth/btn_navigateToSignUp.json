@@ -12,8 +12,8 @@
         "click",
         "submit"
     ],
-    "topRow": 40.2,
-    "bottomRow": 44.2,
+    "topRow": 36.8,
+    "bottomRow": 40.8,
     "parentRowSpace": 10,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 19.8125,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 14,
+    "leftColumn": 11.42634146341463,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -31,7 +31,7 @@
     "key": "w5le6pkfax",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 50,
+    "rightColumn": 52.57365853658537,
     "isDefaultClickDisabled": true,
     "widgetId": "6mx5oq7on0",
     "minWidth": 120,
