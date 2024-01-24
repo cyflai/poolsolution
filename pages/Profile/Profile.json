@@ -47,9 +47,7 @@
               "collectionId": "Profile_functions",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
-              "jsonPathKeys": [
-                "() => {\n  if (!appsmith.store.access_token) {\n    navigateTo('Login');\n  } else {\n    return appsmith.store.access_token;\n  }\n}"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]

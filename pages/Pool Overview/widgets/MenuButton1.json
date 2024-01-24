@@ -25,18 +25,15 @@
     "animateLoading": true,
     "parentColumnSpace": 8.90380859375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 53.359296482412056,
-    "dynamicBindingPathList": [
-        {"key": "menuColor"},
-        {"key": "label"}
-    ],
+    "leftColumn": 57.98119122257053,
+    "dynamicBindingPathList": [{"key": "menuColor"}],
     "isDisabled": false,
     "sourceData": [],
     "key": "h384sgzoah",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,
     "rightColumn": 64,
-    "menuVariant": "SECONDARY",
+    "menuVariant": "PRIMARY",
     "widgetId": "vmyqk6l6bn",
     "menuItems": {"menuItem3k1rcmnx5f": {
         "iconName": "log-out",
@@ -48,7 +45,7 @@
         "isVisible": true
     }},
     "isVisible": true,
-    "label": "{{appsmith.store.email}}",
+    "label": "email",
     "version": 1,
     "parentId": "0",
     "tags": ["Buttons"],
