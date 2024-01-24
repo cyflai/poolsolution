@@ -20,7 +20,7 @@
     "animateLoading": true,
     "parentColumnSpace": 18.1875,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 24.618845622229635,
+    "leftColumn": 25.577705434714993,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -30,7 +30,7 @@
     "key": "d80868s2dr",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 39.381154377770365,
+    "rightColumn": 38.42229456528501,
     "isDefaultClickDisabled": true,
     "widgetId": "mwnderxhs9",
     "minWidth": 120,
@@ -45,7 +45,7 @@
     "responsiveBehavior": "hug",
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 17.55373134328358,
+    "mobileLeftColumn": 17.553731343283587,
     "originalBottomRow": 50,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER",
