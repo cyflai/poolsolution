@@ -27,7 +27,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n  \"email\": {{inp_registerUsername.text + \"@poolsolution.local\"}},\n  \"password\": {{inp_registerPassword.text}}\n}",
+      "body": "{\n  \"email\": {{inp_registerUsername.text + \"@obr.com.hk\"}},\n  \"password\": {{inp_registerPassword.text}}\n}",
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "formData": {
@@ -45,7 +45,7 @@
     "messages": [],
     "jsonPathKeys": [
       "inp_registerPassword.text",
-      "inp_registerUsername.text + \"@poolsolution.local\""
+      "inp_registerUsername.text + \"@obr.com.hk\""
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

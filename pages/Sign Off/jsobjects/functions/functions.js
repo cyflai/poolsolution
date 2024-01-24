@@ -8,7 +8,7 @@ export default {
      	}catch(error){
 				
 			}finally{			
-				
+			
 				// setInterval(navigateTo("Login"),100000,'logoutTmr')
 			}
 

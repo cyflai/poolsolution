@@ -1,4 +1,4 @@
 {
-  "email": {{inp_registerUsername.text + "@poolsolution.local"}},
+  "email": {{inp_registerUsername.text + "@obr.com.hk"}},
   "password": {{inp_registerPassword.text}}
 }
