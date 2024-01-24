@@ -9,7 +9,7 @@
         "submit"
     ],
     "topRow": 0,
-    "bottomRow": 5,
+    "bottomRow": 4,
     "parentRowSpace": 10,
     "type": "ICON_BUTTON_WIDGET",
     "hideCard": false,
@@ -22,7 +22,7 @@
     "key": "au5rdsrbxv",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 8,
+    "rightColumn": 4.434100135317998,
     "iconName": "user",
     "widgetId": "72km60ephp",
     "minWidth": 50,

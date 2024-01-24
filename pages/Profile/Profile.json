@@ -6,6 +6,7 @@
       {
         "viewMode": false,
         "dsl": {
+          "mobileBottomRow": 1292,
           "widgetName": "MainContainer",
           "topRow": 0,
           "bottomRow": 380,
@@ -27,12 +28,13 @@
           "containerStyle": "none",
           "snapRows": 124,
           "version": 87,
+          "mobileTopRow": 0,
           "responsiveBehavior": "fill",
           "flexLayers": [
             {
               "children": [
                 {
-                  "id": "kh359dihog",
+                  "id": "9n518dkbr4",
                   "align": "start"
                 }
               ]

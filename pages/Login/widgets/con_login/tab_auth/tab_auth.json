@@ -104,7 +104,7 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas3",
             "displayName": "Canvas",
-            "bottomRow": 626.0000000000001,
+            "bottomRow": 506.0000000000001,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -160,12 +160,8 @@
                     "align": "center"
                 }]},
                 {"children": [{
-                    "id": "hw2dr8ukop",
-                    "align": "center"
-                }]},
-                {"children": [{
                     "id": "l7hf8perg8",
-                    "align": "center"
+                    "align": "start"
                 }]},
                 {"children": [{
                     "id": "00zeoarj4d",

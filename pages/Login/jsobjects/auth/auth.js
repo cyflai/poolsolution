@@ -10,6 +10,15 @@ export default {
 			});
 		}).then(()=> navigateTo('Profile'))
 	},
+	signUp: () => {
+		return sign_up.run(
+			{"email": inp_registerEmail.text,
+			 "password": inp_registerPassword.text
+			}).then(() => showAlert('Account created sucessfully!','success')).then(()=> {
+			
+			functions.setDefaultTab('Sign In')
+		})
+	},
 	continue: async () =>{
 		
 		if(!appsmith.URL.fullPath.includes('#access_token=')) return;
