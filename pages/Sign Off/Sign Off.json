@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 690,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 68,
           "parentRowSpace": 1,
@@ -30,6 +30,7 @@
           "flexLayers": []
         },
         "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Sign Off",
         "deleted": false,
