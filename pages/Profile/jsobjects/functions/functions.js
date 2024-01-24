@@ -8,4 +8,8 @@ export default {
 			}
 		
 	},	
+	getUserProfile:()=>{
+		
+		
+	}
 }

@@ -1,6 +1,6 @@
 {
     "mobileBottomRow": 4,
-    "widgetName": "Text1",
+    "widgetName": "Text2",
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -23,17 +23,18 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Qubic wallet address for rReceving $Qubic reward",
-    "key": "z71q1nrfzd",
+    "text": "Username: {{appsmith.user.name || appsmith.user.email}}",
+    "key": "rrod0s80r0",
     "isDeprecated": false,
     "rightColumn": 64,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "s95jeu40rz",
+    "widgetId": "9ol0lytivy",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
