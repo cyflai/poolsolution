@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "functions",
+    "pageId": "Sign Off",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Sign Off_functions",
+  "deleted": false,
+  "gitSyncId": "65b05840165cc466aa8cd8cc_65b0bcb0cd5e0a05dd05a357"
+}
