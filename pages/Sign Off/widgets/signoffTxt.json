@@ -1,5 +1,5 @@
 {
-    "mobileBottomRow": 35,
+    "mobileBottomRow": 15.600000000000001,
     "widgetName": "signoffTxt",
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -46,12 +46,12 @@
     ],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 31,
+    "mobileTopRow": 11.600000000000001,
     "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "fontSize": "1rem",
+    "fontSize": "1.25rem",
     "alignment": "start",
     "minDynamicHeight": 4
 }

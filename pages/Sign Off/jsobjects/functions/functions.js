@@ -5,10 +5,12 @@ export default {
 			sign_off.run().catch();
       clearStore(); // removing all the stored values
 			signoffTxt.setText("Signed Off");
-     }catch(error){
-
-     }
-			
+     	}catch(error){
+				
+			}finally{			
+				
+				// setInterval(navigateTo("Login"),100000,'logoutTmr')
+			}
 
 	}
 }

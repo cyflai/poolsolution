@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 700,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 68,
           "parentRowSpace": 1,
@@ -72,7 +72,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "async function () {\n  try {\n    console.log(appsmith.store.access_token);\n    sign_off.run().catch();\n    clearStore();\n    signoffTxt.setText(\"Signed Off\");\n  } catch (error) {}\n}"
+                "async function () {\n  try {\n    console.log(appsmith.store.access_token);\n    sign_off.run().catch();\n    clearStore();\n    signoffTxt.setText(\"Signed Off\");\n  } catch (error) {} finally {}\n}"
               ],
               "timeoutInMillisecond": 10000
             }

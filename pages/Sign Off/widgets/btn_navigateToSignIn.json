@@ -1,7 +1,7 @@
 {
     "resetFormOnClick": false,
     "boxShadow": "none",
-    "mobileBottomRow": 39.0390625,
+    "mobileBottomRow": 20.400000000000002,
     "widgetName": "btn_navigateToSignIn",
     "onClick": "{{navigateTo(\"Login\")}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 19.8125,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 26.103840125391848,
+    "leftColumn": 26.103840125391855,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -31,7 +31,7 @@
     "key": "w5le6pkfax",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 37.89615987460815,
+    "rightColumn": 37.896159874608145,
     "isDefaultClickDisabled": true,
     "widgetId": "5ihbhk6uey",
     "minWidth": 120,
@@ -42,7 +42,7 @@
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 35.0390625,
+    "mobileTopRow": 16.400000000000002,
     "responsiveBehavior": "hug",
     "originalTopRow": 28,
     "disabledWhenInvalid": false,
