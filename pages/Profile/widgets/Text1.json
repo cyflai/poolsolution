@@ -52,6 +52,6 @@
     "maxDynamicHeight": 9000,
     "originalBottomRow": 37,
     "fontSize": "1rem",
-    "alignment": "center",
+    "alignment": "start",
     "minDynamicHeight": 4
 }
