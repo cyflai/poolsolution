@@ -1,4 +1,4 @@
 {
-  "email": {{inp_registerEmail.text}},
+  "email": {{inp_registerUsername.text + "@poolsolution.local"}},
   "password": {{inp_registerPassword.text}}
 }

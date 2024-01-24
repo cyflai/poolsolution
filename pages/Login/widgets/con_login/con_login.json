@@ -1,5 +1,6 @@
 {
     "boxShadow": "none",
+    "mobileBottomRow": 65.8390625,
     "widgetName": "con_login",
     "borderColor": "#E0DEDE",
     "isCanvas": true,
@@ -11,21 +12,23 @@
         "group"
     ],
     "topRow": 0,
-    "bottomRow": 63,
+    "bottomRow": 46,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
     "shouldScrollContents": true,
+    "mobileRightColumn": 64,
     "animateLoading": true,
     "parentColumnSpace": 23.8125,
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
     "dynamicBindingPathList": [],
     "children": [{
+        "mobileBottomRow": 658.390625,
         "widgetName": "Canvas1",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 630,
+        "bottomRow": 460,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -48,6 +51,7 @@
         "parentId": "s1b0qjafgz",
         "renderMode": "CANVAS",
         "isLoading": false,
+        "mobileTopRow": 0,
         "responsiveBehavior": "fill",
         "flexLayers": [{"children": [
             {
@@ -75,8 +79,10 @@
     "parentId": "0",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "mobileTopRow": 0,
     "responsiveBehavior": "fill",
     "borderRadius": "0px",
+    "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "alignment": "start",
     "minDynamicHeight": 10

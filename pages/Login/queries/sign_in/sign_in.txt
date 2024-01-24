@@ -1,4 +1,4 @@
 {
-"email":"{{inp_email.text}}",
+"email":"{{inp_Username.text + '@poolsolution.local'}}",
 "password":"{{inp_password.text}}"	
 }
