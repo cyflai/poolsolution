@@ -8,7 +8,7 @@ export default {
 			Object.keys(data).forEach(i => {
 				storeValue(i, data[i]);
 			});
-		}).then(()=> navigateTo('Page1'))
+		}).then(()=> navigateTo('Profile'))
 	},
 	continue: async () =>{
 		
