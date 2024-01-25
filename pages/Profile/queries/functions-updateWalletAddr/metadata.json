@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "getUserProfile",
-    "fullyQualifiedName": "functions.getUserProfile",
+    "name": "updateWalletAddr",
+    "fullyQualifiedName": "functions.updateWalletAddr",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-01-24T10:04:38Z"
+    "createdAt": "2024-01-25T03:19:55Z"
   },
-  "id": "Profile_functions.getUserProfile",
+  "id": "Profile_functions.updateWalletAddr",
   "deleted": false,
-  "gitSyncId": "65b05840165cc466aa8cd8cc_65b0e0b68787c275a9f3dec0"
+  "gitSyncId": "65b05840165cc466aa8cd8cc_65b1d35b65d9e418ce89b059"
 }

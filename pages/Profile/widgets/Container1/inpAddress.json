@@ -10,7 +10,8 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "defaultText"}
     ],
     "labelStyle": "BOLD",
     "inputType": "MULTI_LINE_TEXT",
@@ -45,15 +46,16 @@
     "hideCard": false,
     "mobileRightColumn": 64,
     "parentColumnSpace": 19.578125,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onTextChanged"}],
     "labelPosition": "Top",
     "key": "kzi6gc03qm",
     "labelTextSize": "0.875rem",
+    "onTextChanged": "{{functions.enableUpdateBtn();}}",
     "isDeprecated": false,
-    "rightColumn": 57.8707102952913,
+    "rightColumn": 54.91124260355029,
     "widgetId": "1mbrqjsb7i",
     "minWidth": 450,
-    "label": "Qubic wallet address for rReceving $Qubic reward",
+    "label": "Qubic wallet address for receving $Qubic reward",
     "parentId": "w8soobe0qk",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
@@ -63,6 +65,6 @@
     "maxDynamicHeight": 9000,
     "shouldAllowAutofill": false,
     "iconAlign": "left",
-    "defaultText": "",
+    "defaultText": "{{getWalletAddress.data[0].wallet_address}}",
     "minDynamicHeight": 4
 }

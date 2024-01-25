@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Username: {{appsmith.user.name || appsmith.user.email}}",
+    "text": "Username: {{appsmith.store.username}}",
     "key": "rrod0s80r0",
     "isDeprecated": false,
     "rightColumn": 64,
