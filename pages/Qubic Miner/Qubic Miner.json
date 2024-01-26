@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 866.0000000000001,
+          "bottomRow": 661.9999999999999,
           "containerStyle": "none",
           "snapRows": 68,
           "parentRowSpace": 1,
@@ -28,22 +28,6 @@
           "leftColumn": 0,
           "positioning": "vertical",
           "flexLayers": [
-            {
-              "children": [
-                {
-                  "id": "pccolkbsoi",
-                  "align": "start"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "2wqwdn59lw",
-                  "align": "start"
-                }
-              ]
-            },
             {
               "children": [
                 {
