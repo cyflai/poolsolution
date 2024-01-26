@@ -17,16 +17,12 @@ export default {
 						});
 					
 						storeValue('minerId',await functions.getMinerId(inp_Username.text))
-						
-					}).then(
-					navigateTo('Profile')	
-				)
-			appsmith.store
-     } catch(e) {
-				showAlert(sign_in.data.error_description,'error')
-     }
+						navigateTo('Profile')	
+					})
+	     } catch(e) {
+						showAlert(sign_in.data.error_description,'error')
+     	}
 	},
-
 	signUp: async () => {
 		try{
 			await sign_up.run();
@@ -50,7 +46,6 @@ export default {
 				
 		},
 		continue: async () =>{
-		
 		if(!appsmith.URL.fullPath.includes('#access_token=')) return;
 		
 		appsmith.URL.fullPath.split('#')[1].split('&').forEach(i => {
