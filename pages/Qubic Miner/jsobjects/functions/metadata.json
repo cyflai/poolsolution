@@ -1,7 +1,7 @@
 {
   "unpublishedCollection": {
     "name": "functions",
-    "pageId": "Account",
+    "pageId": "Qubic Miner",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -9,7 +9,7 @@
     "variables": [],
     "userPermissions": []
   },
-  "id": "Account_functions",
+  "id": "Qubic Miner_functions",
   "deleted": false,
   "gitSyncId": "65b05840165cc466aa8cd8cc_65b0cb76165cc466aa8ce462"
 }

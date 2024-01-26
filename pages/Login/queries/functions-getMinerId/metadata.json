@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "checkToken",
-    "fullyQualifiedName": "functions.checkToken",
+    "name": "getMinerId",
+    "fullyQualifiedName": "functions.getMinerId",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,16 +13,20 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Account",
-    "collectionId": "Account_functions",
+    "pageId": "Login",
+    "collectionId": "Login_functions",
     "actionConfiguration": {
-      "timeoutInMillisecond": 0,
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": []
+      "jsArguments": [
+        {
+          "name": "username"
+        }
+      ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -31,13 +35,13 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "userSetOnLoad": true,
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-01-24T08:35:17Z"
+    "createdAt": "2024-01-25T07:47:29Z"
   },
-  "id": "Account_functions.checkToken",
+  "id": "Login_functions.getMinerId",
   "deleted": false,
-  "gitSyncId": "65b05840165cc466aa8cd8cc_65b0cbc5165cc466aa8ce464"
+  "gitSyncId": "65b05840165cc466aa8cd8cc_65b21211a85eef212ac1b8d0"
 }

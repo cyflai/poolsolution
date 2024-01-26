@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Account",
-    "slug": "account",
+    "name": "Qubic Miner",
+    "slug": "qubic-miner",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 866.0000000000001,
           "containerStyle": "none",
           "snapRows": 68,
           "parentRowSpace": 1,
@@ -27,18 +27,62 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "positioning": "vertical",
-          "flexLayers": []
+          "flexLayers": [
+            {
+              "children": [
+                {
+                  "id": "pccolkbsoi",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "2wqwdn59lw",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "vbysea4esc",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "yv1yj4w479",
+                  "align": "start"
+                }
+              ]
+            }
+          ]
         },
         "layoutOnLoadActions": [
           [
             {
-              "id": "Account_functions.checkToken",
+              "id": "Qubic Miner_functions.checkToken",
               "name": "functions.checkToken",
-              "collectionId": "Account_functions",
+              "collectionId": "Qubic Miner_functions",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
                 "() => {\n  if (!appsmith.store.access_token) {\n    navigateTo('Login');\n  } else {\n    return appsmith.store.access_token;\n  }\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Qubic Miner_getSolutions",
+              "name": "getSolutions",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.access_token",
+                "appsmith.store.minerId"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -46,7 +90,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Account",
+        "id": "Qubic Miner",
         "deleted": false,
         "policies": [],
         "userPermissions": []
