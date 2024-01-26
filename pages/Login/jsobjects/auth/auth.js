@@ -19,7 +19,7 @@ export default {
 						storeValue('minerId',await functions.getMinerId(inp_Username.text))
 						
 					}).then(
-					// navigateTo('Profile')	
+					navigateTo('Profile')	
 				)
 			appsmith.store
      } catch(e) {
