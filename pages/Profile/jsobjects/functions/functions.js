@@ -18,11 +18,12 @@ export default {
 				return
 			} 
 			await this.sb
-			.from('userprofiles')
-			.update({ wallet_address: inpAddress.text })
-			.eq('username', appsmith.store.username)
-			await btnAdd.setDisabled(true)
-		  showAlert("Wallet Address successfully updated",'success')
+				.from('userprofiles')
+				.update({ wallet_address: inpAddress.text })
+				.eq('email', appsmith.store.email)
+			
+				await btnAdd.setDisabled(true)
+		  	showAlert("Wallet Address successfully updated",'success')
      }catch(error){
 			showAlert("Failed to update Wallet Address, Please try again later",'error')
 			console.log(error.message)

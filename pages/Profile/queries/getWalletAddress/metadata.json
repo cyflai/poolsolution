@@ -30,6 +30,10 @@
         {
           "key": "select",
           "value": "wallet_address"
+        },
+        {
+          "key": "email",
+          "value": "eq.{{appsmith.store.email}}"
         }
       ],
       "body": "",
@@ -50,13 +54,17 @@
     "dynamicBindingPathList": [
       {
         "key": "headers[0].value"
+      },
+      {
+        "key": "queryParameters[1].value"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.store.access_token"
+      "appsmith.store.access_token",
+      "appsmith.store.email"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
