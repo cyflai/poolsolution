@@ -34,6 +34,10 @@ export default {
 		disableUpdateBtn: async ()=>{
 		await btnAdd.setDisabled(true)
 	},
+		copyRunCmd: async () => {
+		copyToClipboard(txtRunCmd.text)
+			showAlert("Run command copied!","success")
+	}
 	// startup: async () => {
 		// if ( inpAddress.text == "") {
 			// btnAdd.setLabel("Add")
