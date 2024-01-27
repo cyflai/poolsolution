@@ -8,6 +8,14 @@
     "archivedActions": [],
     "variables": [
       {
+        "name": "qubicScript",
+        "value": "'https://github.com/poolsolution/qubic/blob/main/run.sh'"
+      },
+      {
+        "name": "runCmd",
+        "value": "'curl -fsSl curl -fsSl '"
+      },
+      {
         "name": "supabaseUrl",
         "value": "'https://afhvocspeeserasytprs.supabase.co'"
       },

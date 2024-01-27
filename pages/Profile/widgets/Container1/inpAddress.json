@@ -50,7 +50,7 @@
     "labelTextSize": "0.875rem",
     "onTextChanged": "{{functions.enableUpdateBtn();}}",
     "isDeprecated": false,
-    "rightColumn": 52.52017937219731,
+    "rightColumn": 54.07751937984496,
     "widgetId": "1mbrqjsb7i",
     "minWidth": 450,
     "label": "Qubic wallet address for receving $Qubic reward",
