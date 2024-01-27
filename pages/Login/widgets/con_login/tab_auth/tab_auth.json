@@ -1,22 +1,20 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 63.8390625,
     "borderColor": "#E0DEDE",
     "widgetName": "tab_auth",
     "isCanvas": true,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.9e3d67c0af9c0bd092dc56240314e18a.svg",
     "displayName": "Tabs",
     "topRow": 0,
-    "bottomRow": 42.8,
+    "bottomRow": 42.80000000000146,
     "parentRowSpace": 10,
     "type": "TABS_WIDGET",
     "hideCard": false,
     "shouldScrollContents": true,
-    "mobileRightColumn": 64,
     "animateLoading": true,
     "parentColumnSpace": 19.8125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 25,
+    "leftColumn": 23.152454780361758,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -29,14 +27,14 @@
             "mobileBottomRow": 404,
             "widgetName": "Canvas2",
             "displayName": "Canvas",
-            "bottomRow": 428,
+            "bottomRow": 428.0000000000146,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": true,
             "hideCard": true,
             "shouldScrollContents": false,
-            "minHeight": 400,
+            "minHeight": 362.0000000000073,
             "mobileRightColumn": 475.5,
             "useAutoLayout": true,
             "parentColumnSpace": 1,
@@ -74,19 +72,19 @@
                 }]},
                 {"children": [{
                     "id": "18wnv63ezo",
-                    "align": "center"
+                    "align": "start"
                 }]},
                 {"children": [{
                     "id": "63lky3oent",
-                    "align": "center"
+                    "align": "start"
                 }]},
                 {"children": [{
                     "id": "nckbq8kovr",
-                    "align": "center"
+                    "align": "start"
                 }]},
                 {"children": [{
                     "id": "o5u6xu5jl7",
-                    "align": "center"
+                    "align": "start"
                 }]},
                 {"children": [{
                     "id": "voz3dh2wjt",
@@ -104,14 +102,14 @@
             "mobileBottomRow": 410.390625,
             "widgetName": "Canvas3",
             "displayName": "Canvas",
-            "bottomRow": 428,
+            "bottomRow": 489.9999999999855,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": true,
             "hideCard": true,
             "shouldScrollContents": false,
-            "minHeight": 540,
+            "minHeight": 435.9999999999855,
             "mobileRightColumn": 475.5,
             "useAutoLayout": true,
             "parentColumnSpace": 1,
@@ -153,7 +151,7 @@
                 }]},
                 {"children": [{
                     "id": "0o4rn8nvlc",
-                    "align": "center"
+                    "align": "start"
                 }]},
                 {"children": [{
                     "id": "l7hf8perg8",
@@ -161,7 +159,11 @@
                 }]},
                 {"children": [{
                     "id": "00zeoarj4d",
-                    "align": "center"
+                    "align": "start"
+                }]},
+                {"children": [{
+                    "id": "j5yovh0h58",
+                    "align": "start"
                 }]},
                 {"children": [{
                     "id": "mwnderxhs9",
@@ -175,8 +177,8 @@
         }
     ],
     "borderWidth": "",
-    "flexVerticalAlignment": "stretch",
     "key": "fjxlfcckvr",
+    "flexVerticalAlignment": "stretch",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
     "rightColumn": 64,
@@ -210,13 +212,11 @@
     "tags": ["Layout"],
     "isLoading": false,
     "renderMode": "CANVAS",
-    "mobileTopRow": 22.8,
+    "originalTopRow": 0,
     "responsiveBehavior": "fill",
-    "originalTopRow": 7,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 60,
+    "originalBottomRow": 57,
     "alignment": "start",
     "minDynamicHeight": 15
 }

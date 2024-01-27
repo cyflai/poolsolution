@@ -1,6 +1,5 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 4,
     "widgetName": "icn_register",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon Button",
@@ -14,7 +13,6 @@
     "parentRowSpace": 10,
     "type": "ICON_BUTTON_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 7.641791044776119,
     "animateLoading": true,
     "parentColumnSpace": 18.1875,
     "dynamicTriggerPathList": [],
@@ -24,7 +22,7 @@
     "key": "au5rdsrbxv",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 5.545251472280512,
+    "rightColumn": 5.289256198347108,
     "iconName": "user",
     "widgetId": "72km60ephp",
     "minWidth": 50,
@@ -33,10 +31,8 @@
     "parentId": "f5yn1hxqze",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 0,
     "responsiveBehavior": "hug",
     "borderRadius": "1.5rem",
-    "mobileLeftColumn": 0,
     "buttonVariant": "PRIMARY",
     "alignment": "start"
 }

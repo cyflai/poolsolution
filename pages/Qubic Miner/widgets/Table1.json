@@ -1,7 +1,6 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
-    "widthInPercentage": 0.9937451133698202,
     "isVisibleDownload": true,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
     "topRow": 6.2,
@@ -67,7 +66,6 @@
     "columnUpdatedAt": 1706273311610,
     "defaultSelectedRowIndices": [0],
     "alignment": "start",
-    "mobileBottomRow": 59,
     "widgetName": "Table1",
     "defaultPageSize": 0,
     "columnOrder": [
@@ -92,7 +90,6 @@
     },
     "parentRowSpace": 10,
     "hideCard": false,
-    "mobileRightColumn": 64,
     "parentColumnSpace": 19.9375,
     "dynamicTriggerPathList": [],
     "borderWidth": "1",
@@ -405,11 +402,9 @@
     "searchKey": "",
     "parentId": "0",
     "renderMode": "CANVAS",
-    "mobileTopRow": 31,
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "mobileLeftColumn": 0,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
 }

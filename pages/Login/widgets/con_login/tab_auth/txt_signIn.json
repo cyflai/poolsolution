@@ -1,5 +1,4 @@
 {
-    "mobileBottomRow": 9.200000000000001,
     "widgetName": "txt_signIn",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
@@ -13,7 +12,6 @@
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 64,
     "animateLoading": true,
     "overflow": "NONE",
     "fontFamily": "Open Sans",
@@ -39,12 +37,12 @@
     "parentId": "8rq3ao3yqz",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 4.8,
+    "originalTopRow": 5.2,
     "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
+    "originalBottomRow": 9.599999999998545,
     "fontSize": "1.875rem",
-    "alignment": "center",
+    "alignment": "start",
     "minDynamicHeight": 4
 }

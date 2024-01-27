@@ -25,6 +25,11 @@ export default {
 	},
 	signUp: async () => {
 		try{
+			
+			if (inp_registerPassword.text != inp_registerPasswordConfirm.text) {
+				showAlert("Password and confirmation password are not match",'error')
+			}
+			
 			await sign_up.run();
 			
 			showAlert("Account created successfully",'success')
