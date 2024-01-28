@@ -51,15 +51,16 @@ export default {
 	},
 	generateRunCmd: () =>  {
 		//curl -fsSl https://raw.githubusercontent.com/poolsolution/qubic/main/run2.sh | bash -s --  1 2 user1
-		if (!inpAddress.text) {
-			
-			txtRunCmd.setText("Please update your Wallet Address to see your run command")
-			txtRunCmd.setTextColor("#b91c1c")
-			
-		} else {
+		
+		// if (!inpAddress.text) {
+			// 
+			// txtRunCmd.setText("Please update your Wallet Address to see your run command")
+			// txtRunCmd.setTextColor("#b91c1c")
+			// 
+		// } else {
 			txtRunCmd.setText(this.runCmd +  this.qubicScript + ' | bash -s -- 1 2 ' + appsmith.store.minerId + ' qli-Client-1.8.5-Linux-x64.tar.gz')
 
-		}
+		// }
 		
 
 	},
