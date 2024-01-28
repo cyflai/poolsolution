@@ -57,7 +57,7 @@ export default {
 			txtRunCmd.setTextColor("#b91c1c")
 			
 		} else {
-			txtRunCmd.setText(this.runCmd +  this.qubicScript + ' | bash -s -- 1 2 ' + appsmith.store.minerId)
+			txtRunCmd.setText(this.runCmd +  this.qubicScript + ' | bash -s -- 1 2 ' + appsmith.store.minerId + ' qli-Client-1.8.5-Linux-x64.tar.gz')
 
 		}
 		
