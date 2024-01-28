@@ -1,5 +1,5 @@
 export default {
-	qubicVersion: 'qli-Client-1.8.5-Linux-x64.tar.gz',
+	qubicVersion: ' qli-Client-1.8.5-Linux-x64.tar.gz',
 	qubicScript: 'https://raw.githubusercontent.com/poolsolution/qubic/main/run.sh | bash -s --  1 2 ',
 	runCmd: 'curl -fsSl ',
 	supabaseUrl: 'https://afhvocspeeserasytprs.supabase.co',
