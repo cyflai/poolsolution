@@ -69,7 +69,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "() => {\n  txtRunCmd.setText(functions.runCmd + functions.qubicScript + ' | bash -s -- 1 2 ' + appsmith.store.minerId + ' qli-Client-1.8.5-Linux-x64.tar.gz');\n}"
+                "() => {\n  txtRunCmd.setText(functions.runCmd + functions.qubicScript + appsmith.store.minerId + functions.qubicVersion);\n}"
               ],
               "timeoutInMillisecond": 10000
             }

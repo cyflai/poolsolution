@@ -8,12 +8,16 @@
     "archivedActions": [],
     "variables": [
       {
+        "name": "qubicVersion",
+        "value": "'qli-Client-1.8.5-Linux-x64.tar.gz'"
+      },
+      {
         "name": "qubicScript",
-        "value": "'https://github.com/poolsolution/qubic/blob/main/run.sh'"
+        "value": "'https://raw.githubusercontent.com/poolsolution/qubic/main/run.sh | bash -s --  1 2 '"
       },
       {
         "name": "runCmd",
-        "value": "'curl -fsSl curl -fsSl '"
+        "value": "'curl -fsSl '"
       },
       {
         "name": "supabaseUrl",
