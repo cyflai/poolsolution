@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 0,
-    "bottomRow": 10.396875,
+    "bottomRow": 16.15625,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -27,7 +27,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "What is a Collaborative Mining Pool?\nA collaborative mining pool is a specialized group where large-scale miners join forces to combine their substantial computational power. This synergy allows them to efficiently mine cryptocurrency by collectively solving complex mathematical problems required for blockchain transactions.",
+    "text": "Resource Pooling: Large miners contribute their significant hashing power to the collaborative pool.\nTask Allocation: The pool operator distributes computational tasks to individual miners within the business network.\nSolution Validation: When a miner successfully finds a solution, it is submitted to the pool for validation.\nRewards Distribution: Profits generated from successfully mined blocks are distributed proportionally among the contributing large miners.\n",
     "key": "zk5je77rhw",
     "isDeprecated": false,
     "rightColumn": 64,
@@ -39,7 +39,7 @@
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "46ie3sy543",
+    "parentId": "fpe1hr2l8n",
     "tags": [
         "Suggested",
         "Content"

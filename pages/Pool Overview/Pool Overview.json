@@ -6,10 +6,10 @@
       {
         "viewMode": false,
         "dsl": {
-          "mobileBottomRow": 540,
+          "mobileBottomRow": 548,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 827.4843750000001,
+          "bottomRow": 748.6562500000001,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -53,14 +53,6 @@
             {
               "children": [
                 {
-                  "id": "0x485ojwd0",
-                  "align": "start"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
                   "id": "5g5xpjti52",
                   "align": "start"
                 }
@@ -69,11 +61,11 @@
             {
               "children": [
                 {
-                  "id": "wl19pnt84i",
+                  "id": "rqcegq6auq",
                   "align": "start"
                 },
                 {
-                  "id": "dcxh6h0clc",
+                  "id": "lnplukc944",
                   "align": "start"
                 }
               ]
@@ -82,14 +74,6 @@
               "children": [
                 {
                   "id": "8wwq775nkg",
-                  "align": "start"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "w4n0hg5bll",
                   "align": "start"
                 }
               ]
