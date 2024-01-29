@@ -6,10 +6,10 @@
       {
         "viewMode": false,
         "dsl": {
-          "mobileBottomRow": 548,
+          "mobileBottomRow": 608,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 788.6562500000001,
+          "bottomRow": 867.84375,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -55,7 +55,11 @@
                 {
                   "id": "rqcegq6auq",
                   "align": "start"
-                },
+                }
+              ]
+            },
+            {
+              "children": [
                 {
                   "id": "lnplukc944",
                   "align": "start"
@@ -65,7 +69,7 @@
             {
               "children": [
                 {
-                  "id": "8wwq775nkg",
+                  "id": "upyc7eqfzz",
                   "align": "start"
                 }
               ]
