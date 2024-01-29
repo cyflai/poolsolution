@@ -11,7 +11,7 @@
         "group"
     ],
     "topRow": 0,
-    "bottomRow": 44.80000000000146,
+    "bottomRow": 68.59999999999856,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -26,7 +26,7 @@
         "widgetName": "Canvas1",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 448.0000000000146,
+        "bottomRow": 685.9999999999856,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -51,16 +51,16 @@
         "isLoading": false,
         "mobileTopRow": 0,
         "responsiveBehavior": "fill",
-        "flexLayers": [{"children": [
-            {
-                "id": "fgeb4auquw",
+        "flexLayers": [
+            {"children": [{
+                "id": "sz4kqgekr3",
                 "align": "start"
-            },
-            {
+            }]},
+            {"children": [{
                 "id": "8voawvc8hu",
                 "align": "start"
-            }
-        ]}]
+            }]}
+        ]
     }],
     "borderWidth": "1",
     "key": "wa7a1coj08",

@@ -7,8 +7,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 10.8,
-    "bottomRow": 14.8,
+    "topRow": 5.600000000000001,
+    "bottomRow": 9.600000000000001,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,

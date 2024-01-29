@@ -5,8 +5,8 @@
     "isCanvas": true,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.9e3d67c0af9c0bd092dc56240314e18a.svg",
     "displayName": "Tabs",
-    "topRow": 0,
-    "bottomRow": 42.80000000000146,
+    "topRow": 21.2,
+    "bottomRow": 66.59999999999856,
     "parentRowSpace": 10,
     "type": "TABS_WIDGET",
     "hideCard": false,
@@ -14,7 +14,7 @@
     "animateLoading": true,
     "parentColumnSpace": 19.8125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 31,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -27,7 +27,7 @@
             "mobileBottomRow": 404,
             "widgetName": "Canvas2",
             "displayName": "Canvas",
-            "bottomRow": 428.0000000000146,
+            "bottomRow": 453.99999999998556,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -66,14 +66,16 @@
             "maxDynamicHeight": 9000,
             "minDynamicHeight": 4,
             "flexLayers": [
-                {"children": [{
-                    "id": "6zuo29nk37",
-                    "align": "start"
-                }]},
-                {"children": [{
-                    "id": "18wnv63ezo",
-                    "align": "start"
-                }]},
+                {"children": [
+                    {
+                        "id": "6zuo29nk37",
+                        "align": "start"
+                    },
+                    {
+                        "id": "18wnv63ezo",
+                        "align": "start"
+                    }
+                ]},
                 {"children": [{
                     "id": "63lky3oent",
                     "align": "start"
@@ -102,7 +104,7 @@
             "mobileBottomRow": 410.390625,
             "widgetName": "Canvas3",
             "displayName": "Canvas",
-            "bottomRow": 505.99999999998556,
+            "bottomRow": 453.99999999998556,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -141,14 +143,16 @@
             "maxDynamicHeight": 9000,
             "minDynamicHeight": 4,
             "flexLayers": [
-                {"children": [{
-                    "id": "72km60ephp",
-                    "align": "start"
-                }]},
-                {"children": [{
-                    "id": "sar3p8uzae",
-                    "align": "start"
-                }]},
+                {"children": [
+                    {
+                        "id": "72km60ephp",
+                        "align": "start"
+                    },
+                    {
+                        "id": "sar3p8uzae",
+                        "align": "start"
+                    }
+                ]},
                 {"children": [{
                     "id": "0o4rn8nvlc",
                     "align": "start"
