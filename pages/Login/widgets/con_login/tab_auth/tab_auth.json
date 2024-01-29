@@ -14,7 +14,7 @@
     "animateLoading": true,
     "parentColumnSpace": 19.8125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 23.18240620957309,
+    "leftColumn": 33,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
