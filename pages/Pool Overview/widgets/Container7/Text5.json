@@ -1,5 +1,5 @@
 {
-    "mobileBottomRow": 4,
+    "mobileBottomRow": 59.3859375,
     "widgetName": "Text5",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 0,
-    "bottomRow": 14.2359375,
+    "bottomRow": 44.0296875,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -26,8 +26,9 @@
         {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
+    "borderWidth": "5",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Resource Pooling: Large miners contribute their significant hashing power to the collaborative pool.\nTask Allocation: The pool operator distributes computational tasks to individual miners within the business network.\nSolution Validation: When a miner successfully finds a solution, it is submitted to the pool for validation.\nRewards Distribution: Profits generated from successfully mined blocks are distributed proportionally among the contributing large miners.\n",
+    "text": "Resource Pooling: \nLarge miners contribute their significant hashing power to the collaborative pool.\nTask Allocation: The pool operator distributes computational tasks to individual miners within the business network. \n\nSolution Validation: \nWhen a miner successfully finds a solution, it is submitted to the pool for validation.\nRewards Distribution: Profits generated from successfully mined blocks are distributed proportionally among the contributing large miners.\n\nConsiderations for Large Miners in Collaborative Pools\n\nEconomies of Scale: \nLarge miners achieve cost efficiencies by combining resources, reducing operational expenses.\n\nEnhanced Profitability: \nCollaborative efforts increase the chances of regularly solving blocks, leading to a more stable and lucrative income stream.\n\nTailored Services: \nPools catering to large miners can offer customized services, addressing the unique needs and preferences of businesses involved.",
     "key": "zk5je77rhw",
     "isDeprecated": false,
     "rightColumn": 64,

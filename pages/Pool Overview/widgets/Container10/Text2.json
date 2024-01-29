@@ -1,5 +1,5 @@
 {
-    "mobileBottomRow": 4,
+    "mobileBottomRow": 26.753125,
     "widgetName": "Text2",
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 0,
-    "bottomRow": 21.9140625,
+    "bottomRow": 22.9140625,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -26,6 +26,7 @@
         {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
+    "borderWidth": "5",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "In the realm of cryptocurrency mining, large-scale miners often seek collaborative solutions to optimize their operations and enhance profitability. This overview explores the dynamics of business-to-business collaboration within crypto mining pools tailored for large miners.\n\nA collaborative mining pool is a specialized group where large-scale miners join forces to combine their substantial computational power. This synergy allows them to efficiently mine cryptocurrency by collectively solving complex mathematical problems required for blockchain transactions.",
     "key": "nff0lwbivu",

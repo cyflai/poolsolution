@@ -2,6 +2,7 @@
   "unpublishedPage": {
     "name": "Sign Off",
     "slug": "sign-off",
+    "customSlug": "signoff",
     "layouts": [
       {
         "viewMode": false,

@@ -1,5 +1,5 @@
 {
-    "mobileBottomRow": 4,
+    "mobileBottomRow": 53.6265625,
     "widgetName": "Text3",
     "borderColor": "",
     "displayName": "Text",
@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 0,
-    "bottomRow": 35.3515625,
+    "bottomRow": 36.3515625,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -27,6 +27,7 @@
         {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
+    "borderWidth": "5",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "In the operation of a mining pool, the introduction of fees is a standard practice aimed at sustaining the pool's infrastructure, covering operational costs, and ensuring its long-term viability. These fees are typically deducted from the rewards earned by miners and contribute to the maintenance, development, and improvement of the mining pool.\n\nID Allocation Fee:  An ID when qualified will reward the miner 1.47b $Qubic. The fee deducted by the pool for maintaining the infrastructure will be 150m. The remaining Amount will be paid directly to the miner upon successful qualification. \n\nMiners should be aware that they will need to have the right amount of stated compute power prior to joining the pool. \n\nAn additional ID will be allocated to smaller miners to share, however the successful qualification of that ID is not the responsiblity of the hosting providers.\n\nmanagement@poolsolution.io\n\nAll payments are made on Wednesday after the Epoch transitions.",
     "key": "zk5je77rhw",

@@ -2,7 +2,7 @@
   "unpublishedPage": {
     "name": "Login",
     "slug": "login",
-    "customSlug": "",
+    "customSlug": "login",
     "layouts": [
       {
         "viewMode": false,

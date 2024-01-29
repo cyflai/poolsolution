@@ -2,14 +2,15 @@
   "unpublishedPage": {
     "name": "Pool Overview",
     "slug": "pool-overview",
+    "customSlug": "home",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
-          "mobileBottomRow": 608,
+          "mobileBottomRow": 1817.6562499999995,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 1216.578125,
+          "bottomRow": 1260.9531250000002,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -54,14 +55,6 @@
               "children": [
                 {
                   "id": "rqcegq6auq",
-                  "align": "start"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "lnplukc944",
                   "align": "start"
                 }
               ]
