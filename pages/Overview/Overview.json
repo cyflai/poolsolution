@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Pool Overview",
-    "slug": "pool-overview",
+    "name": "Overview",
+    "slug": "overview",
     "customSlug": "",
     "layouts": [
       {
@@ -80,7 +80,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Pool Overview",
+        "id": "Overview",
         "deleted": false,
         "policies": [],
         "userPermissions": []
