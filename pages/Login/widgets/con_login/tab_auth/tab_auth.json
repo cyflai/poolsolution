@@ -14,7 +14,7 @@
     "animateLoading": true,
     "parentColumnSpace": 19.8125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 33,
+    "leftColumn": 30,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -102,7 +102,7 @@
             "mobileBottomRow": 410.390625,
             "widgetName": "Canvas3",
             "displayName": "Canvas",
-            "bottomRow": 505.99999999998556,
+            "bottomRow": 485.99999999998556,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
