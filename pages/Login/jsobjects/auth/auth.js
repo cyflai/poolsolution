@@ -46,7 +46,8 @@ export default {
 			functions.setDefaultTab('Sign In')
 	
      }catch(e){
-			 showAlert(sign_up.data.msg,'error')
+			 // showAlert(sign_up.data.msg,'error')
+			 showAlert("Sign-up failed, please check your username, it can only contains letters",'error')
 		 }
 				
 		},
