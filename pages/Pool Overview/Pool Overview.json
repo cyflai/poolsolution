@@ -2,7 +2,7 @@
   "unpublishedPage": {
     "name": "Pool Overview",
     "slug": "pool-overview",
-    "customSlug": "home",
+    "customSlug": "",
     "layouts": [
       {
         "viewMode": false,

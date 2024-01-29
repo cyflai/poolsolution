@@ -2,7 +2,7 @@
   "unpublishedPage": {
     "name": "Profile",
     "slug": "profile",
-    "customSlug": "profile",
+    "customSlug": "",
     "layouts": [
       {
         "viewMode": false,

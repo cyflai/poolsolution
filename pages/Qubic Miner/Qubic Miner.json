@@ -2,7 +2,7 @@
   "unpublishedPage": {
     "name": "Qubic Miner",
     "slug": "qubic-miner",
-    "customSlug": "miner",
+    "customSlug": "",
     "layouts": [
       {
         "viewMode": false,
