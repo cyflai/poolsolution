@@ -8,7 +8,7 @@
         "label"
     ],
     "topRow": 0,
-    "bottomRow": 4,
+    "bottomRow": 8.478125,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -25,7 +25,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Qubic run commmand (fresh installation)",
+    "text": "For the fresh installation : \n\n*Launch Hive SSH Script\n*Copy the run command, when prompted to continue, choose Y",
     "key": "lwdv34401p",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,
