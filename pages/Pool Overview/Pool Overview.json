@@ -9,7 +9,7 @@
           "mobileBottomRow": 540,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 662.6875,
+          "bottomRow": 827.4843750000001,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -33,13 +33,17 @@
             {
               "children": [
                 {
-                  "id": "twxe2yfzhd",
+                  "id": "2lu6i4usak",
                   "align": "start"
                 }
               ]
             },
             {
               "children": [
+                {
+                  "id": "sg61nizqua",
+                  "align": "start"
+                },
                 {
                   "id": "k81vqztjrj",
                   "align": "start"
@@ -49,7 +53,43 @@
             {
               "children": [
                 {
-                  "id": "pr7r1y3c6p",
+                  "id": "0x485ojwd0",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "5g5xpjti52",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "wl19pnt84i",
+                  "align": "start"
+                },
+                {
+                  "id": "dcxh6h0clc",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "8wwq775nkg",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "w4n0hg5bll",
                   "align": "start"
                 }
               ]
