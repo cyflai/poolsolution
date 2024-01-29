@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 6.2,
+    "topRow": 7.2,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -81,7 +81,7 @@
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
-    "bottomRow": 66.19999999999999,
+    "bottomRow": 67.19999999999999,
     "columnWidthMap": {
         "solution": 168,
         "last": 211,
