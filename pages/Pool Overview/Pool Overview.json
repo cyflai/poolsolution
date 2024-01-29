@@ -9,7 +9,7 @@
           "mobileBottomRow": 548,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 748.6562500000001,
+          "bottomRow": 820.6562500000001,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -77,24 +77,18 @@
                   "align": "start"
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "id": "ha432p7pph",
+                  "align": "start"
+                }
+              ]
             }
           ]
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Pool Overview_functions.checkToken",
-              "name": "functions.checkToken",
-              "collectionId": "Pool Overview_functions",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "() => {\n  if (!appsmith.store.access_token) {\n    navigateTo('Login');\n  } else {\n    return appsmith.store.access_token;\n  }\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Pool Overview",

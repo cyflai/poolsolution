@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 5.2,
-    "bottomRow": 10.0390625,
+    "bottomRow": 9.4,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -31,7 +31,7 @@
     "key": "lwdv34401p",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 54.07751937984496,
+    "rightColumn": 57.8707102952913,
     "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
     "disableLink": true,
     "textAlign": "LEFT",
