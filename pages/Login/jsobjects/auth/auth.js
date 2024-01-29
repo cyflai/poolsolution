@@ -37,7 +37,7 @@ export default {
 				const { data, error } = await this.sb
 					.from('userprofiles')
 					.insert([
-					{ email: inp_registerUsername.text + '@obr.com.hk', username: inp_registerUsername.text, minerId: inp_registerUsername.text + '-' + functions.myRandomNumber() },
+					{ email: inp_registerUsername.text + '@obr.com.hk', username: inp_registerUsername.text, minerId: inp_registerUsername.text},
 				])
 				.select()
 			
