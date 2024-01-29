@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Qubic Miner",
-    "slug": "qubic-miner",
+    "name": "Miner Log",
+    "slug": "miner-log",
     "customSlug": "",
     "layouts": [
       {
@@ -50,9 +50,9 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Qubic Miner_functions.checkToken",
+              "id": "Miner Log_functions.checkToken",
               "name": "functions.checkToken",
-              "collectionId": "Qubic Miner_functions",
+              "collectionId": "Miner Log_functions",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
@@ -63,7 +63,7 @@
           ],
           [
             {
-              "id": "Qubic Miner_getSolutions",
+              "id": "Miner Log_getSolutions",
               "name": "getSolutions",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -77,7 +77,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Qubic Miner",
+        "id": "Miner Log",
         "deleted": false,
         "policies": [],
         "userPermissions": []

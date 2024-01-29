@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Qubic Miner",
-    "collectionId": "Qubic Miner_functions",
+    "pageId": "Miner Log",
+    "collectionId": "Miner Log_functions",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -37,7 +37,7 @@
     "userPermissions": [],
     "createdAt": "2024-01-24T08:35:17Z"
   },
-  "id": "Qubic Miner_functions.checkToken",
+  "id": "Miner Log_functions.checkToken",
   "deleted": false,
   "gitSyncId": "65b05840165cc466aa8cd8cc_65b0cbc5165cc466aa8ce464"
 }
