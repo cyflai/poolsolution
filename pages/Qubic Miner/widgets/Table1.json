@@ -63,7 +63,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1706273311610,
+    "columnUpdatedAt": 1706537211088,
     "defaultSelectedRowIndices": [0],
     "alignment": "start",
     "widgetName": "Table1",
@@ -207,7 +207,7 @@
             "allowCellWrapping": false,
             "index": 7,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "lastActive",
             "fontStyle": "",
             "textColor": "",
