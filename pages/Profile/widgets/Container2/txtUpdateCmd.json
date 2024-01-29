@@ -1,5 +1,5 @@
 {
-    "widgetName": "txtRunCmd",
+    "widgetName": "txtUpdateCmd",
     "borderColor": "#71717a",
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 5.2,
-    "bottomRow": 10.0390625,
+    "topRow": 21.639062499999998,
+    "bottomRow": 26.478125,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -36,7 +36,7 @@
     "disableLink": true,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "3r3ahucagt",
+    "widgetId": "hlfj0nvz11",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",

@@ -9,7 +9,7 @@
           "mobileBottomRow": 1292,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 458.78125,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -69,7 +69,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "() => {\n  txtRunCmd.setText(functions.runCmd + functions.qubicScript + appsmith.store.minerId + functions.qubicVersion);\n}"
+                "() => {\n  txtRunCmd.setText(functions.runCmd + functions.qubicScript + appsmith.store.minerId + functions.qubicVersion);\n  txtUpdateCmd.setText(functions.runCmd + functions.qubicScriptUpdate + appsmith.store.minerId + functions.qubicVersion);\n}"
               ],
               "timeoutInMillisecond": 10000
             }

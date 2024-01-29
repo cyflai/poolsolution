@@ -1,6 +1,7 @@
 export default {
 	qubicVersion: ' qli-Client-1.8.5-Linux-x64.tar.gz',
 	qubicScript: 'https://raw.githubusercontent.com/poolsolution/qubic/main/run.sh | bash -s --  1 2 ',
+	qubicScriptUpdate: 'https://raw.githubusercontent.com/poolsolution/qubic/main/update.sh | bash -s --  1 2 ',
 	runCmd: 'curl -fsSl ',
 	supabaseUrl: 'https://afhvocspeeserasytprs.supabase.co',
 	supabaseKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFmaHZvY3NwZWVzZXJhc3l0cHJzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDU4MjI0OTEsImV4cCI6MjAyMTM5ODQ5MX0.s0FtT89QeWCxTf8szuAtAyu8us0AZ5dhk6i13fMyvp8',
@@ -48,7 +49,14 @@ export default {
 				copyToClipboard(txtRunCmd.text)
 				showAlert("Run command copied!","success")
 			}
-
+	},
+		copyUpdateCmd: async () => {
+			if (!inpAddress.text) {
+				showAlert("Please update your wallet address first","error")
+			} else {
+				copyToClipboard(txtUpdateCmd.text)
+				showAlert("Run command copied!","success")
+			}
 	},
 	generateRunCmd: () =>  {
 		//curl -fsSl https://raw.githubusercontent.com/poolsolution/qubic/main/run2.sh | bash -s --  1 2 user1
@@ -60,6 +68,7 @@ export default {
 			// 
 		// } else {
 			txtRunCmd.setText(this.runCmd +  this.qubicScript + appsmith.store.minerId + this.qubicVersion)
+			txtUpdateCmd.setText(this.runCmd +  this.qubicScriptUpdate + appsmith.store.minerId + this.qubicVersion)
 
 		// }
 		

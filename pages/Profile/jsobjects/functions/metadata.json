@@ -16,6 +16,10 @@
         "value": "'https://raw.githubusercontent.com/poolsolution/qubic/main/run.sh | bash -s --  1 2 '"
       },
       {
+        "name": "qubicScriptUpdate",
+        "value": "'https://raw.githubusercontent.com/poolsolution/qubic/main/update.sh | bash -s --  1 2 '"
+      },
+      {
         "name": "runCmd",
         "value": "'curl -fsSl '"
       },
