@@ -83,10 +83,13 @@
     "displayName": "Table",
     "bottomRow": 67.19999999999999,
     "columnWidthMap": {
-        "solution": 168,
-        "last": 211,
-        "created_at": 595,
-        "miner": 230
+        "solution": 124,
+        "last": 198,
+        "lastActive": 119,
+        "created_at": 237,
+        "its": 112,
+        "version": 113,
+        "miner": 201
     },
     "parentRowSpace": 10,
     "hideCard": false,
