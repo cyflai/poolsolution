@@ -12,7 +12,7 @@
         "group"
     ],
     "topRow": 80.54375,
-    "bottomRow": 118.8953125,
+    "bottomRow": 119.8140625,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -33,7 +33,7 @@
         "widgetName": "Canvas13",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 383.515625,
+        "bottomRow": 392.703125,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -66,7 +66,7 @@
         "maxDynamicHeight": 9000,
         "minDynamicHeight": 4,
         "flexLayers": [{"children": [{
-            "id": "8wwq775nkg",
+            "id": "mgd6j98icn",
             "align": "start"
         }]}]
     }],
