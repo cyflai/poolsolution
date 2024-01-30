@@ -6,7 +6,20 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "variables": [],
+    "variables": [
+      {
+        "name": "supabaseUrl",
+        "value": "'https://afhvocspeeserasytprs.supabase.co'"
+      },
+      {
+        "name": "supabaseKey",
+        "value": "'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFmaHZvY3NwZWVzZXJhc3l0cHJzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDU4MjI0OTEsImV4cCI6MjAyMTM5ODQ5MX0.s0FtT89QeWCxTf8szuAtAyu8us0AZ5dhk6i13fMyvp8'"
+      },
+      {
+        "name": "sb",
+        "value": "supabase.createClient(functions.supabaseUrl, functions.supabaseKey)"
+      }
+    ],
     "userPermissions": []
   },
   "id": "Miner Log_functions",

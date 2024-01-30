@@ -9,8 +9,8 @@ export default {
 					
 						storeValue("email",data.user.email)
 						storeValue('username',inp_Username.text)
-					
-						delete data.user;
+						// console.log(data.user)
+						storeValue("password",inp_password.text)
 				
 						Object.keys(data).forEach(i => {
 							storeValue(i, data[i]);

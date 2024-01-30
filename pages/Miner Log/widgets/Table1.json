@@ -64,6 +64,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1706537211088,
+    "primaryColumnId": "miner",
     "defaultSelectedRowIndices": [0],
     "alignment": "start",
     "widgetName": "Table1",

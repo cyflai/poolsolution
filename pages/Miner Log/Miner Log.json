@@ -14,7 +14,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 671.9999999999999,
+          "bottomRow": 751.9999999999999,
           "containerStyle": "none",
           "snapRows": 68,
           "parentRowSpace": 1,
@@ -62,6 +62,17 @@
             }
           ],
           [
+            {
+              "id": "Miner Log_functions.autoRefresh",
+              "name": "functions.autoRefresh",
+              "collectionId": "Miner Log_functions",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  setInterval(() => getSolutions.run(), 300000, \"autoupdate\");\n  setInterval(() => functions.refreshToke(), 30000, \"refreshToken\");\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "Miner Log_getSolutions",
               "name": "getSolutions",

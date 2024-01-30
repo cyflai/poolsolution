@@ -1,0 +1,4 @@
+{
+"email":{{appsmith.store.email}},
+"password":"{{appsmith.store.password}}"	
+}
