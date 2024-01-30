@@ -69,18 +69,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "async () => {\n  setInterval(async () => await getSolutions.run(), 300000, \"autoupdate\");\n  setInterval(async () => await functions.refreshToke(), 30000, \"refreshToken\");\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Miner Log_getSolutions",
-              "name": "getSolutions",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.access_token",
-                "appsmith.store.minerId"
+                "async () => {\n  setInterval(async () => await getSolutions.run(), 300000, \"autoupdate\");\n  setInterval(async () => await functions.refreshToke(), 30000, \"refreshToken\");\n  setInterval(async () => await functions.refreshSolution(), 30000, \"refreshSolution\");\n}"
               ],
               "timeoutInMillisecond": 10000
             }

@@ -14,6 +14,7 @@ export default {
 	autoRefresh: async () => {
 	setInterval(async () => await getSolutions.run(), 300000, "autoupdate");
 	setInterval(async ()=> await functions.refreshToke(),30000,"refreshToken")
+	setInterval(async ()=> await functions.refreshSolution(),30000,"refreshSolution")
 	},
 	refreshToke: async () => {
 		await sign_in.run().then( data =>{
@@ -22,6 +23,12 @@ export default {
 					storeValue(i, data[i]);
 			});
 			// console.log(appsmith.store.access_token)
+		})
+	},
+	refreshSolution: async () => {
+		await getSolutions.run().then(data => {
+			storeValue("solutions",data)
+			
 		})
 	}
 }

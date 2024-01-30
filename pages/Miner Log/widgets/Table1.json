@@ -80,7 +80,7 @@
         "lastActive",
         "identity"
     ],
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
     "bottomRow": 67.19999999999999,
     "columnWidthMap": {
@@ -401,7 +401,7 @@
     "widgetId": "yv1yj4w479",
     "allowAddNewRow": false,
     "minWidth": 450,
-    "tableData": "{{getSolutions.data}}",
+    "tableData": "{{appsmith.store.solutions}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",
