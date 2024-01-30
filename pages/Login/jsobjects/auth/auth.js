@@ -15,7 +15,13 @@ export default {
 						Object.keys(data).forEach(i => {
 							storeValue(i, data[i]);
 						});
+
+					let { data: wallet_address, error } = await this.sb
+  						.from('userprofiles')
+  						.select('wallet_address').eq('username',inp_Username.text)
 					
+						storeValue('wallet_address',wallet_address[0].wallet_address)
+										
 						storeValue('minerId',await functions.getMinerId(inp_Username.text))
 						navigateTo('Profile')	
 					})

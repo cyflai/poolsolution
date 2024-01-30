@@ -59,7 +59,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "() => {\n  if (!appsmith.store.access_token) {\n    navigateTo('Login');\n  } else {\n    return appsmith.store.access_token;\n  }\n}"
+                "async () => {\n  if (!appsmith.store.access_token) {\n    navigateTo('Login');\n  } else {\n    return appsmith.store.access_token;\n  }\n}"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -71,19 +71,6 @@
               "pluginType": "JS",
               "jsonPathKeys": [
                 "() => {\n  txtRunCmd.setText(functions.runCmd + functions.qubicScript + appsmith.store.minerId + functions.qubicVersion);\n  txtUpdateCmd.setText(functions.runCmd + functions.qubicScriptUpdate + appsmith.store.minerId + functions.qubicVersion);\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Profile_getWalletAddress",
-              "name": "getWalletAddress",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.access_token",
-                "appsmith.store.email"
               ],
               "timeoutInMillisecond": 10000
             }
