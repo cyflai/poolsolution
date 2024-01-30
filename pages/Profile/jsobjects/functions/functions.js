@@ -8,9 +8,11 @@ export default {
 	sb: supabase.createClient(this.supabaseUrl,this.supabaseKey),
 	checkToken: async () => {
 		
+		
 			if (!appsmith.store.access_token) {
 				navigateTo('Login')
 			} else {
+			console.log(appsmith.store.expires_at)
 			return appsmith.store.access_token		
 			}
 		

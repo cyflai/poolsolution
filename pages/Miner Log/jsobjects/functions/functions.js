@@ -11,17 +11,17 @@ export default {
 			}
 		
 	},	
-	autoRefresh:() => {
-	setInterval(() => getSolutions.run(), 300000, "autoupdate");
-	setInterval(()=> functions.refreshToke(),30000,"refreshToken")
+	autoRefresh: async () => {
+	setInterval(async () => await getSolutions.run(), 300000, "autoupdate");
+	setInterval(async ()=> await functions.refreshToke(),30000,"refreshToken")
 	},
 	refreshToke: async () => {
-		await sign_in.run().then( async (data) =>{
+		await sign_in.run().then( data =>{
 			
 			Object.keys(data).forEach(i => {
 					storeValue(i, data[i]);
 			});
-			console.log(data)
+			// console.log(appsmith.store.access_token)
 		})
 	}
 }
