@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 0,
-    "bottomRow": 44.0296875,
+    "bottomRow": 36.3515625,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -28,7 +28,7 @@
     "shouldTruncate": false,
     "borderWidth": "5",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Resource Pooling: \nLarge miners contribute their significant hashing power to the collaborative pool.\nTask Allocation: The pool operator distributes computational tasks to individual miners within the business network. \n\nSolution Validation: \nWhen a miner successfully finds a solution, it is submitted to the pool for validation.\nRewards Distribution: Profits generated from successfully mined blocks are distributed proportionally among the contributing large miners.\n\nConsiderations for Large Miners in Collaborative Pools\n\nEconomies of Scale: \nLarge miners achieve cost efficiencies by combining resources, reducing operational expenses.\n\nEnhanced Profitability: \nCollaborative efforts increase the chances of regularly solving blocks, leading to a more stable and lucrative income stream.\n\nTailored Services: \nPools catering to large miners can offer customized services, addressing the unique needs and preferences of businesses involved.",
+    "text": "<p>Resource Pooling: <br />Large miners contribute their significant hashing power to the collaborative pool.<br />Task Allocation: The pool operator distributes computational tasks to individual miners within the business network.<\/p>\n<p>Solution Validation: <br />When a miner successfully finds a solution, it is submitted to the pool for validation.<br />Rewards Distribution: Profits generated from successfully mined blocks are distributed proportionally among the contributing large miners.<\/p>\n<p>Considerations for Large Miners in Collaborative Pools<\/p>\n<p>Economies of Scale: <br />Large miners achieve cost efficiencies by combining resources and reducing operational expenses.<\/p>\n<p>Enhanced Profitability: <br />Collaborative efforts increase the chances of regularly solving blocks, leading to a more stable and lucrative income stream.<\/p>\n<p>Tailored Services: <br />Pools catering to large miners can offer customized services, addressing the unique needs and preferences of the businesses involved.<\/p>",
     "key": "zk5je77rhw",
     "isDeprecated": false,
     "rightColumn": 64,

@@ -25,7 +25,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "For the fresh installation : \n\n*Launch Hive SSH Script\n*Copy the run command, when prompted to continue, choose Y",
+    "text": "For fresh installation : \n\n*Launching Hive SSH Script\n*Copy the run command, when prompted to continue, choose Y",
     "key": "lwdv34401p",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,
