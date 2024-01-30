@@ -10,7 +10,7 @@
           "mobileBottomRow": 1292,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 497.171875,
+          "bottomRow": 1292,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -71,6 +71,19 @@
               "pluginType": "JS",
               "jsonPathKeys": [
                 "() => {\n  txtRunCmd.setText(functions.runCmd + functions.qubicScript + appsmith.store.minerId + functions.qubicVersion);\n  txtUpdateCmd.setText(functions.runCmd + functions.qubicScriptUpdate + appsmith.store.minerId + functions.qubicVersion);\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Profile_functions.autoRefresh",
+              "name": "functions.autoRefresh",
+              "collectionId": "Profile_functions",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  setInterval(async () => await functions.refreshToken(), 30000, \"refreshToken\");\n}"
               ],
               "timeoutInMillisecond": 10000
             }

@@ -62,20 +62,23 @@ export default {
 			}
 	},
 	generateRunCmd: () =>  {
-		//curl -fsSl https://raw.githubusercontent.com/poolsolution/qubic/main/run2.sh | bash -s --  1 2 user1
 		
-		// if (!inpAddress.text) {
-			// 
-			// txtRunCmd.setText("Please update your Wallet Address to see your run command")
-			// txtRunCmd.setTextColor("#b91c1c")
-			// 
-		// } else {
 			txtRunCmd.setText(this.runCmd +  this.qubicScript + appsmith.store.minerId + this.qubicVersion)
 			txtUpdateCmd.setText(this.runCmd +  this.qubicScriptUpdate + appsmith.store.minerId + this.qubicVersion)
 
-		// }
-		
+	},
+	autoRefresh: async () => {
+			setInterval(async ()=> await functions.refreshToken(),30000,"refreshToken")
 
+	},
+	refreshToken: async () => {
+			await sign_in.run().then( data =>{
+			
+			Object.keys(data).forEach(i => {
+					storeValue(i, data[i]);
+			});
+			console.log(appsmith.store.access_token)
+		})
 	},
 	// startup: async () => {
 		// if ( inpAddress.text == "") {
