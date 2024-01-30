@@ -2,7 +2,6 @@ export default {
 	supabaseUrl: 'https://afhvocspeeserasytprs.supabase.co',
 	supabaseKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFmaHZvY3NwZWVzZXJhc3l0cHJzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDU4MjI0OTEsImV4cCI6MjAyMTM5ODQ5MX0.s0FtT89QeWCxTf8szuAtAyu8us0AZ5dhk6i13fMyvp8',
 	sb: supabase.createClient(this.supabaseUrl,this.supabaseKey),
-	
 	signIn: async () => {
 		try{
 				await sign_in.run().then(async data =>{
@@ -21,8 +20,10 @@ export default {
   						.select('wallet_address').eq('username',inp_Username.text)
 					
 						storeValue('wallet_address',wallet_address[0].wallet_address)
-										
 						storeValue('minerId',await functions.getMinerId(inp_Username.text))
+					
+						await auth.refreshSolution()
+					
 						navigateTo('Profile')	
 					})
 	     } catch(e) {
@@ -65,6 +66,11 @@ export default {
 			storeValue(key,value);
 		});
 		navigateTo('Page1');
-		
+	},
+	refreshSolution: async () => {
+		await getSolutions.run().then(data => {
+			storeValue("solutions",data)
+			
+		})
 	}
 }
