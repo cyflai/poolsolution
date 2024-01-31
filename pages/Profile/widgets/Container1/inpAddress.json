@@ -46,6 +46,7 @@
     "parentColumnSpace": 19.578125,
     "dynamicTriggerPathList": [{"key": "onTextChanged"}],
     "labelPosition": "Top",
+    "labelTextColor": "#231f20",
     "key": "kzi6gc03qm",
     "labelTextSize": "0.875rem",
     "onTextChanged": "{{functions.enableUpdateBtn();}}",

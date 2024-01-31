@@ -1,5 +1,5 @@
 {
-    "widgetName": "Text2",
+    "widgetName": "Text4",
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -15,7 +15,7 @@
     "animateLoading": true,
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "parentColumnSpace": 19.578125,
+    "parentColumnSpace": 19.875,
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
     "dynamicBindingPathList": [
@@ -24,21 +24,22 @@
         {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
+    "borderWidth": "0",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "1. Update Wallet Address",
-    "key": "rrod0s80r0",
+    "text": "For fresh installation :",
+    "key": "lwdv34401p",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,
     "rightColumn": 64,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "9ol0lytivy",
+    "widgetId": "zzrvwesvpq",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "w8soobe0qk",
+    "parentId": "0ukouibijh",
     "tags": [
         "Suggested",
         "Content"
