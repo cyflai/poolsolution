@@ -23,7 +23,7 @@ export default {
 						storeValue('idType',profileData[0].idType)
 						storeValue('minerId',await functions.getMinerId(inp_Username.text))						
 						await auth.refreshSolution()
-						// navigateTo('Profile')	
+						navigateTo('Profile')	
 					})
 	     } catch(e) {
 						showAlert(sign_in.data.error_description,'error')
