@@ -78,7 +78,7 @@ export default {
 			Object.keys(data).forEach(i => {
 					storeValue(i, data[i]);
 			});
-			console.log(appsmith.store.access_token)
+			// console.log(appsmith.store.access_token)
 		})
 	},
 	updateIDtype: async () => {
@@ -97,6 +97,23 @@ export default {
 			.select()
 		storeValue("idType",selIdType.selectedOptionValue)
 		showAlert("Mining Type Updated successfully","success")
+	},
+	getSoloId: async () =>  {
+				// if (selIdType.selectedOptionValue == "solo")
+					// {
+								// let { data, error } = await this.sb
+										// .rpc('get_mining_id', { uname: appsmith.store.username, })
+									// if (error) {
+										// showAlert("Sorry, No more Solo ID, please select POOL ID or contact administrator", "error")
+										// console.error(error)
+									// }
+										// else {
+										// showAlert("Solo Id Selected", "success")
+									// }
+					// }
+		// 
+
+										
 	}
 }
 	
