@@ -84,7 +84,10 @@ export default {
 	updateIDtype: async () => {
 		
 		if (!selIdType.selectedOptionValue) {
-			showAlert("Please select a ID type for mining!","error")
+			showAlert("Mining type can not be empty","error")
+			 if (appsmith.store.idType) {
+				 selIdType.setSelectedOption(appsmith.store.idType)
+			 }
 			return
 		}
 		const { data, error } = await this.sb
