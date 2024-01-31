@@ -1,6 +1,7 @@
 {
     "resetFormOnClick": false,
     "boxShadow": "none",
+    "mobileBottomRow": 19.2390625,
     "widgetName": "btnAdd",
     "onClick": "{{functions.updateWalletAddr();}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -15,10 +16,11 @@
     "parentRowSpace": 10,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
+    "mobileRightColumn": 24.07523510971787,
     "animateLoading": true,
     "parentColumnSpace": 19.578125,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 57.8707102952913,
+    "leftColumn": 56.53644314868805,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -39,9 +41,11 @@
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
+    "mobileTopRow": 15.2390625,
     "responsiveBehavior": "hug",
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "mobileLeftColumn": 0,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER",
     "alignment": "start"

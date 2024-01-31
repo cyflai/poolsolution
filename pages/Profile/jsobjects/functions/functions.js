@@ -8,12 +8,13 @@ export default {
 	sb: supabase.createClient(this.supabaseUrl,this.supabaseKey),
 	checkToken: async () => {
 		
-		
 			if (!appsmith.store.access_token) {
 				navigateTo('Login')
 			} else {
 			console.log(appsmith.store.expires_at)
+			selIdType.setSelectedOption(appsmith.store.idType)
 			return appsmith.store.access_token		
+				
 			}
 		
 	},
@@ -80,11 +81,19 @@ export default {
 			console.log(appsmith.store.access_token)
 		})
 	},
-	// startup: async () => {
-		// if ( inpAddress.text == "") {
-			// btnAdd.setLabel("Add")
-		// } else {
-			// btnAdd.setLabel("Edit")
-		// }
-	// }
+	updateIDtype: async () => {
+		
+		if (!selIdType.selectedOptionValue) {
+			showAlert("Please select a ID type for mining!","error")
+			return
+		}
+		const { data, error } = await this.sb
+							.from('userprofiles')
+							.update({ idType: selIdType.selectedOptionValue })
+							.eq('username', appsmith.store.username)
+			.select()
+		storeValue("idType",selIdType.selectedOptionValue)
+		showAlert("Mining Type Updated successfully","success")
+	}
 }
+	

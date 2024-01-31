@@ -1,5 +1,5 @@
 {
-    "mobileBottomRow": 14,
+    "mobileBottomRow": 16.359375,
     "widgetName": "Text10",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -46,7 +46,7 @@
     ],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 10,
+    "mobileTopRow": 12.2,
     "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,

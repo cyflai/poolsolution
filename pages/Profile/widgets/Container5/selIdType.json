@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
-    "labelText": "Mine with Solo or Pool (list of avaiable ID)",
+    "labelText": "Please select Mine with Solo or Pool",
     "topRow": 5.2,
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
@@ -27,9 +27,10 @@
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "alignment": "start",
-    "mobileBottomRow": 8.6,
-    "widgetName": "Select1",
+    "mobileBottomRow": 11.399999999999999,
+    "widgetName": "selIdType",
     "isFilterable": true,
+    "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "Select",
     "searchTags": ["dropdown"],
     "bottomRow": 11.8,
@@ -37,22 +38,9 @@
     "hideCard": false,
     "mobileRightColumn": 64,
     "parentColumnSpace": 19.578125,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Top",
-    "sourceData": [
-        {
-            "code": "BLUE",
-            "name": "Blue"
-        },
-        {
-            "code": "GREEN",
-            "name": "Green"
-        },
-        {
-            "code": "RED",
-            "name": "Red"
-        }
-    ],
+    "sourceData": "[\n  {\n    \"name\": \"Pool\",\n    \"code\": \"pool\"\n  },\n  {\n    \"name\": \"Solo\",\n    \"code\": \"solo\"\n  }\n]",
     "key": "by29jauwfh",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
@@ -63,10 +51,11 @@
     "parentId": "hzpv8vajfb",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
-    "mobileTopRow": 2,
+    "mobileTopRow": 4.8,
     "optionLabel": "name",
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
+    "onOptionChange": "{{functions.updateIDtype();}}",
     "minDynamicHeight": 4
 }

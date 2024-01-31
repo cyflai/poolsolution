@@ -15,16 +15,15 @@ export default {
 							storeValue(i, data[i]);
 						});
 
-					let { data: wallet_address, error } = await this.sb
+					let { data: profileData, error } = await this.sb
   						.from('userprofiles')
-  						.select('wallet_address').eq('username',inp_Username.text)
+  						.select('*').eq('username',inp_Username.text)
 					
-						storeValue('wallet_address',wallet_address[0].wallet_address)
-						storeValue('minerId',await functions.getMinerId(inp_Username.text))
-					
+						storeValue('wallet_address',profileData[0].wallet_address)
+						storeValue('idType',profileData[0].idType)
+						storeValue('minerId',await functions.getMinerId(inp_Username.text))						
 						await auth.refreshSolution()
-					
-						navigateTo('Profile')	
+						// navigateTo('Profile')	
 					})
 	     } catch(e) {
 						showAlert(sign_in.data.error_description,'error')
