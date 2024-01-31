@@ -27,7 +27,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "For Solo mining, as for now the recommended it/s is 150,000 it/s\n",
+    "text": "<p>For Solo mining, as for now, the recommended it/s is <span style=\"color: #ff0000;\"><strong>150,000 it/s<\/strong><\/span><\/p>",
     "key": "iumfysob3n",
     "isDeprecated": false,
     "rightColumn": 64,
