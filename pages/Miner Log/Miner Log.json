@@ -7,32 +7,42 @@
       {
         "viewMode": false,
         "dsl": {
+          "mobileBottomRow": 700,
           "widgetName": "MainContainer",
+          "topRow": 0,
+          "bottomRow": 600.390625,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "minHeight": 700,
+          "useAutoLayout": true,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "positioning": "vertical",
           "backgroundColor": "none",
           "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
-          "topRow": 0,
-          "bottomRow": 751.9999999999999,
           "containerStyle": "none",
           "snapRows": 68,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
           "version": 87,
-          "minHeight": 700,
-          "useAutoLayout": true,
-          "parentColumnSpace": 1,
+          "mobileTopRow": 0,
           "responsiveBehavior": "fill",
-          "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "flexLayers": [
             {
               "children": [
                 {
                   "id": "vbysea4esc",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "z3vgcwspb8",
                   "align": "start"
                 }
               ]

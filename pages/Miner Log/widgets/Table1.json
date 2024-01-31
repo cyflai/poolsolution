@@ -1,9 +1,10 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
+    "widthInPercentage": 0.9900497512437811,
     "isVisibleDownload": true,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 7.2,
+    "topRow": 13.0390625,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -63,10 +64,11 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1706537211088,
+    "columnUpdatedAt": 1706716081514,
     "primaryColumnId": "miner",
     "defaultSelectedRowIndices": [0],
     "alignment": "start",
+    "mobileBottomRow": 58.6,
     "widgetName": "Table1",
     "defaultPageSize": 0,
     "columnOrder": [
@@ -82,7 +84,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 67.19999999999999,
+    "bottomRow": 60.0390625,
     "columnWidthMap": {
         "solution": 174,
         "last": 231,
@@ -94,6 +96,7 @@
     },
     "parentRowSpace": 10,
     "hideCard": false,
+    "mobileRightColumn": 64,
     "parentColumnSpace": 19.9375,
     "dynamicTriggerPathList": [],
     "borderWidth": "1",
@@ -406,9 +409,11 @@
     "searchKey": "",
     "parentId": "0",
     "renderMode": "CANVAS",
+    "mobileTopRow": 11.6,
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
+    "mobileLeftColumn": 0,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
 }
