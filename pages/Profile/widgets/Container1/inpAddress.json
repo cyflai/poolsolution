@@ -14,7 +14,7 @@
     ],
     "labelStyle": "BOLD",
     "inputType": "MULTI_LINE_TEXT",
-    "maxChars": "55",
+    "maxChars": "100",
     "isDisabled": false,
     "flexVerticalAlignment": "end",
     "isRequired": false,
