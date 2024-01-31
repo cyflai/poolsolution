@@ -23,11 +23,12 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Your Assigned ID",
+    "text": "Your Assigned ID: {{appsmith.store.miningId}}",
     "key": "xqkfl7fqah",
     "isDeprecated": false,
     "rightColumn": 64,
@@ -37,7 +38,7 @@
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
-    "textColor": "#231F20",
+    "textColor": "#71717a",
     "version": 1,
     "parentId": "hzpv8vajfb",
     "tags": [
@@ -51,7 +52,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "fontSize": "1rem",
+    "fontSize": "0.875rem",
     "alignment": "start",
     "minDynamicHeight": 4
 }

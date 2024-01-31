@@ -21,7 +21,8 @@ export default {
 					
 						storeValue('wallet_address',profileData[0].wallet_address)
 						storeValue('idType',profileData[0].idType)
-						storeValue('minerId',await functions.getMinerId(inp_Username.text))						
+						storeValue('minerId',await functions.getMinerId(inp_Username.text))
+						storeValue('miningId',profileData[0].miningId)
 						await auth.refreshSolution()
 						navigateTo('Profile')	
 					})

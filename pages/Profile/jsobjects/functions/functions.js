@@ -70,7 +70,7 @@ export default {
 	},
 	autoRefresh: async () => {
 			setInterval(async ()=> await functions.refreshToken(),30000,"refreshToken")
-
+			setInterval(async ()=> await functions.getProfile(),30000,"refreshToken")
 	},
 	refreshToken: async () => {
 			await sign_in.run().then( data =>{
@@ -78,8 +78,14 @@ export default {
 			Object.keys(data).forEach(i => {
 					storeValue(i, data[i]);
 			});
-			// console.log(appsmith.store.access_token)
 		})
+
+	},
+	getProfile: async () => {
+		let { data: profileData, error } = await this.sb
+		.from('userprofiles')
+		.select('*').eq('username',appsmith.store.username)
+		storeValue('miningId',profileData[0].miningId)
 	},
 	updateIDtype: async () => {
 		
