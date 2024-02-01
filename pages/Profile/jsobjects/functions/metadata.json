@@ -9,7 +9,7 @@
     "variables": [
       {
         "name": "qubicVersion",
-        "value": "' qli-Client-1.8.5-Linux-x64.tar.gz'"
+        "value": "' qli-Client-1.8.6-Linux-x64.tar.gz'"
       },
       {
         "name": "qubicScript",
