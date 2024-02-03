@@ -1,7 +1,7 @@
 {
   "unpublishedCollection": {
     "name": "functions",
-    "pageId": "Miner Log",
+    "pageId": "Miner Configuration",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -22,7 +22,7 @@
     ],
     "userPermissions": []
   },
-  "id": "Miner Log_functions",
+  "id": "Miner Configuration_functions",
   "deleted": false,
   "gitSyncId": "65b05840165cc466aa8cd8cc_65b0cb76165cc466aa8ce462"
 }

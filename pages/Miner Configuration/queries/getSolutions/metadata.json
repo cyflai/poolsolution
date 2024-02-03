@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Miner Log",
+    "pageId": "Miner Configuration",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -75,7 +75,7 @@
     "userPermissions": [],
     "createdAt": "2024-01-25T06:26:23Z"
   },
-  "id": "Miner Log_getSolutions",
+  "id": "Miner Configuration_getSolutions",
   "deleted": false,
   "gitSyncId": "65b05840165cc466aa8cd8cc_65b1ff0f55d8135dd8f8470f"
 }

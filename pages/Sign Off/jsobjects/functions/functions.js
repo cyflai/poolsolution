@@ -6,7 +6,7 @@ export default {
       clearStore(); // removing all the stored values
 			signoffTxt.setText("Signed Off");
      	}catch(error){
-				
+
 			}finally{			
 			
 				// setInterval(navigateTo("Login"),100000,'logoutTmr')

@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "checkToken",
-    "fullyQualifiedName": "functions.checkToken",
+    "name": "refreshSolution",
+    "fullyQualifiedName": "functions.refreshSolution",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Miner Log",
-    "collectionId": "Miner Log_functions",
+    "pageId": "Miner Configuration",
+    "collectionId": "Miner Configuration_functions",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-01-24T08:35:17Z"
+    "createdAt": "2024-01-30T06:35:23Z"
   },
-  "id": "Miner Log_functions.checkToken",
+  "id": "Miner Configuration_functions.refreshSolution",
   "deleted": false,
-  "gitSyncId": "65b05840165cc466aa8cd8cc_65b0cbc5165cc466aa8ce464"
+  "gitSyncId": "65b757f4839ff15ac032d275_65b898ab432ff652a41c95fc"
 }

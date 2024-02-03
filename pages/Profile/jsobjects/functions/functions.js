@@ -69,8 +69,10 @@ export default {
 
 	},
 	autoRefresh: async () => {
+		if  (appsmith.store.token_type) {
 			setInterval(async ()=> await functions.refreshToken(),30000,"refreshToken")
 			setInterval(async ()=> await functions.getProfile(),30000,"refreshToken")
+		}
 	},
 	refreshToken: async () => {
 			await sign_in.run().then( data =>{

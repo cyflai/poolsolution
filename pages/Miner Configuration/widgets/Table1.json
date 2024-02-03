@@ -28,6 +28,7 @@
     "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
+    "showInlineEditingOptionDropdown": true,
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": true,
@@ -64,7 +65,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1706716081514,
+    "columnUpdatedAt": 1706929123479,
     "primaryColumnId": "miner",
     "defaultSelectedRowIndices": [0],
     "alignment": "start",
@@ -82,17 +83,20 @@
         "lastActive",
         "identity"
     ],
-    "dynamicPropertyPathList": [{"key": "tableData"}],
+    "dynamicPropertyPathList": [
+        {"key": "tableData"},
+        {"key": "primaryColumns.last.cellBackground"}
+    ],
     "displayName": "Table",
     "bottomRow": 60.0390625,
     "columnWidthMap": {
-        "solution": 174,
-        "last": 231,
+        "solution": 152,
+        "last": 156,
         "lastActive": 119,
         "created_at": 237,
-        "its": 112,
-        "version": 94,
-        "miner": 174
+        "its": 115,
+        "version": 88,
+        "miner": 239
     },
     "parentRowSpace": 10,
     "hideCard": false,
@@ -173,6 +177,7 @@
             "id": "last",
             "isDisabled": false,
             "allowSameOptionsInNewRow": true,
+            "outputFormat": "YYYY-MM-DD HH:mm",
             "validation": {},
             "isCellVisible": true,
             "isDerived": false,
@@ -184,7 +189,7 @@
             "label": "Last Active",
             "fontStyle": "",
             "textColor": "",
-            "columnType": "text",
+            "columnType": "date",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
             "isCellEditable": false,
@@ -408,6 +413,7 @@
     "label": "Data",
     "searchKey": "",
     "parentId": "0",
+    "serverSidePaginationEnabled": false,
     "renderMode": "CANVAS",
     "mobileTopRow": 11.6,
     "horizontalAlignment": "LEFT",
