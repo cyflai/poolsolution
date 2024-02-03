@@ -13,7 +13,7 @@ export default {
 		
 	},	
 	autoRefresh: async () => {
-	setInterval(async () => await getSolutions.run(), 300000, "autoupdate");
+	setInterval(async () => await functions.getScore(),300000,"getScore")
 	setInterval(async ()=> await functions.refreshToke(),30000,"refreshToken")
 	setInterval(async ()=> await functions.refreshSolution(),30000,"refreshSolution")
 	},
@@ -30,6 +30,13 @@ export default {
 		await getSolutions.run().then(data => {
 			storeValue("solutions",data)
 			
+		})
+	},
+	getScore: async () => {
+		await getScore.run().then(data => {
+			if (data) {
+				storeValue('score',data[0].score)
+			} 
 		})
 	}
 }

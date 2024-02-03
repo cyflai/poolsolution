@@ -16,13 +16,14 @@ export default {
 						});
 
 					let { data: profileData, error } = await this.sb
-  						.from('userprofiles')
+  						.from('score_view')
   						.select('*').eq('username',inp_Username.text)
-					
+						
 						storeValue('wallet_address',profileData[0].wallet_address)
 						storeValue('idType',profileData[0].idType)
 						storeValue('minerId',await functions.getMinerId(inp_Username.text))
 						storeValue('miningId',profileData[0].miningId)
+						storeValue('score',profileData[0].score)
 						await auth.refreshSolution()
 						navigateTo('Profile')	
 					})

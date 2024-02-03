@@ -29,7 +29,6 @@ export default {
 				.from('userprofiles')
 				.update({ wallet_address: inpAddress.text })
 				.eq('email', appsmith.store.email)
-			
 				storeValue("wallet_address",inpAddress.text)
 				await btnAdd.setDisabled(true)
 				this.generateRunCmd()
@@ -63,20 +62,21 @@ export default {
 			}
 	},
 	generateRunCmd: () =>  {
-		
 			txtRunCmd.setText(this.runCmd +  this.qubicScript + appsmith.store.minerId + this.qubicVersion)
 			txtUpdateCmd.setText(this.runCmd +  this.qubicScriptUpdate + appsmith.store.minerId + this.qubicVersion)
 
 	},
 	autoRefresh: async () => {
-		if  (appsmith.store.token_type) {
+		if  (appsmith.store.access_token) {
 			setInterval(async ()=> await functions.refreshToken(),30000,"refreshToken")
 			setInterval(async ()=> await functions.getProfile(),30000,"refreshToken")
+			return 'success'
+		} else {
+			return 'skipped'
 		}
 	},
 	refreshToken: async () => {
 			await sign_in.run().then( data =>{
-			
 			Object.keys(data).forEach(i => {
 					storeValue(i, data[i]);
 			});

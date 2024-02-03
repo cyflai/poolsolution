@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Total Solutions: {{_.sumBy(Table1.tableData, (row) => row.soluiton) }}, \nTotal It/s: {{_.sumBy(Table1.tableData, (row) => row.its) }}\nAverage: {{getScore.data[0].score}}",
+    "text": "Total Solutions: {{_.sumBy(Table1.tableData, (row) => row.soluiton) }}, \nTotal It/s: {{_.sumBy(Table1.tableData, (row) => row.its) }}\nAverage Score: {{ appsmith.store.score}}",
     "key": "g79dsj0q7j",
     "isDeprecated": false,
     "rightColumn": 64,

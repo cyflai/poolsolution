@@ -24,7 +24,7 @@
       "queryParameters": [
         {
           "key": "select",
-          "value": "score"
+          "value": "*"
         },
         {
           "key": "identity",
@@ -45,7 +45,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "path"

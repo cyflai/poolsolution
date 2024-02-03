@@ -63,7 +63,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1706936567347,
+    "columnUpdatedAt": 1706949043562,
     "primaryColumnId": "miner",
     "defaultSelectedRowIndices": [0],
     "alignment": "start",
@@ -73,10 +73,10 @@
     "columnOrder": [
         "miner",
         "version",
-        "soluiton",
         "its",
         "lastActive",
         "identity",
+        "soluiton",
         "isActive"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
@@ -254,7 +254,7 @@
             "allowCellWrapping": false,
             "index": 6,
             "isDiscardVisible": true,
-            "isVisible": false,
+            "isVisible": true,
             "label": "isActive",
             "fontStyle": "",
             "textColor": "",
