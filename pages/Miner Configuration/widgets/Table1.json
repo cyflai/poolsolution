@@ -20,7 +20,12 @@
         {"key": "primaryColumns.lastActive.computedValue"},
         {"key": "primaryColumns.identity.computedValue"},
         {"key": "primaryColumns.soluiton.computedValue"},
-        {"key": "primaryColumns.isActive.computedValue"}
+        {"key": "primaryColumns.isActive.computedValue"},
+        {"key": "primaryColumns.lastActive.cellBackground"},
+        {"key": "primaryColumns.miner.cellBackground"},
+        {"key": "primaryColumns.version.cellBackground"},
+        {"key": "primaryColumns.soluiton.cellBackground"},
+        {"key": "primaryColumns.its.cellBackground"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -33,6 +38,7 @@
     "isVisible": true,
     "enableClientSideSearch": true,
     "version": 2,
+    "textColor": "#231f20",
     "totalRecordsCount": 0,
     "tags": [
         "Suggested",
@@ -63,7 +69,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1706953243357,
+    "columnUpdatedAt": 1706954180250,
     "primaryColumnId": "miner",
     "defaultSelectedRowIndices": [0],
     "alignment": "start",
@@ -73,19 +79,28 @@
     "columnOrder": [
         "miner",
         "version",
+        "soluiton",
         "its",
         "lastActive",
         "identity",
-        "soluiton",
         "isActive"
     ],
-    "dynamicPropertyPathList": [{"key": "tableData"}],
+    "dynamicPropertyPathList": [
+        {"key": "tableData"},
+        {"key": "primaryColumns.soluiton.cellBackground"},
+        {"key": "primaryColumns.lastActive.outputFormat"},
+        {"key": "primaryColumns.lastActive.cellBackground"},
+        {"key": "primaryColumns.miner.cellBackground"},
+        {"key": "primaryColumns.version.cellBackground"},
+        {"key": "primaryColumns.its.cellBackground"}
+    ],
+    "compactMode": "DEFAULT",
     "displayName": "Table",
     "bottomRow": 148.9578125,
     "columnWidthMap": {
         "solution": 152,
         "last": 156,
-        "lastActive": 119,
+        "lastActive": 170,
         "soluiton": 127,
         "created_at": 237,
         "its": 115,
@@ -121,7 +136,7 @@
             "isVisible": true,
             "label": "Last Active",
             "fontStyle": "",
-            "textColor": "",
+            "textColor": "#231F20",
             "columnType": "date",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -132,7 +147,7 @@
             "sticky": "",
             "originalId": "lastActive",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "{{Table1.processedTableData.map((currentRow, currentIndex) => (  currentRow.isActive == false ? \"#fef9c3\" : \"\" ))}}",
             "verticalAlignment": "CENTER"
         },
         "identity": {
@@ -155,7 +170,7 @@
             "isVisible": false,
             "label": "identity",
             "fontStyle": "",
-            "textColor": "",
+            "textColor": "#231f20",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -189,7 +204,7 @@
             "isVisible": true,
             "label": "soluiton",
             "fontStyle": "",
-            "textColor": "",
+            "textColor": "#231f20",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -200,7 +215,7 @@
             "sticky": "",
             "originalId": "soluiton",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "{{Table1.processedTableData.map((currentRow, currentIndex) => (  currentRow.isActive == false ? \"#fef9c3\" : \"\" ))}}",
             "verticalAlignment": "CENTER"
         },
         "its": {
@@ -223,7 +238,7 @@
             "isVisible": true,
             "label": "Total it/s",
             "fontStyle": "",
-            "textColor": "",
+            "textColor": "#231f20",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -234,7 +249,7 @@
             "sticky": "",
             "originalId": "its",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "{{Table1.processedTableData.map((currentRow, currentIndex) => (  currentRow.isActive == false ? \"#fef9c3\" : \"\" ))}}",
             "verticalAlignment": "CENTER"
         },
         "isActive": {
@@ -257,7 +272,7 @@
             "isVisible": false,
             "label": "isActive",
             "fontStyle": "",
-            "textColor": "",
+            "textColor": "#231f20",
             "columnType": "checkbox",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -291,7 +306,7 @@
             "isVisible": true,
             "label": "Version",
             "fontStyle": "",
-            "textColor": "",
+            "textColor": "#231f20",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -302,7 +317,7 @@
             "sticky": "",
             "originalId": "version",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "{{Table1.processedTableData.map((currentRow, currentIndex) => (  currentRow.isActive == false ? \"#fef9c3\" : \"\" ))}}",
             "verticalAlignment": "CENTER"
         },
         "miner": {
@@ -324,6 +339,7 @@
             "isDiscardVisible": true,
             "isVisible": true,
             "label": "Miner",
+            "textColor": "#231f20",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -334,6 +350,7 @@
             "sticky": "",
             "originalId": "miner",
             "currencyCode": "USD",
+            "cellBackground": "{{Table1.processedTableData.map((currentRow, currentIndex) => (  currentRow.isActive == false ? \"#fef9c3\" : \"\" ))}}",
             "verticalAlignment": "CENTER"
         }
     },
@@ -357,5 +374,6 @@
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 0,
     "isVisiblePagination": true,
+    "cellBackground": "",
     "verticalAlignment": "CENTER"
 }
