@@ -1,6 +1,6 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "mobileBottomRow": 6,
+    "mobileBottomRow": 6.6390625,
     "widgetName": "Container3",
     "borderColor": "#E0DEDE",
     "isCanvas": true,
@@ -27,7 +27,7 @@
     ],
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-        "mobileBottomRow": 60,
+        "mobileBottomRow": 66.390625,
         "widgetName": "Canvas3",
         "displayName": "Canvas",
         "topRow": 0,
