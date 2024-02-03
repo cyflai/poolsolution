@@ -36,7 +36,9 @@ export default {
 		await getScore.run().then(data => {
 			if (data) {
 				storeValue('score',data[0].score)
-			} 
+			} else {
+				storeValue('score'," ")
+			}
 		})
 	}
 }
