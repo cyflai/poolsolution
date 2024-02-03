@@ -17,7 +17,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/rest/v1/solutions",
+      "path": "/rest/v1/solutions_view",
       "headers": [
         {
           "key": "Authorization",
