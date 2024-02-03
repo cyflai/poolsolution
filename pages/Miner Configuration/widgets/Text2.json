@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 7.2,
-    "bottomRow": 11.8390625,
+    "bottomRow": 13.7578125,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Total Solutions: {{_.sumBy(Table1.tableData, (row) => row.solution) }}, \nTotal It/s: {{_.sumBy(Table1.tableData, (row) => row.its) }}",
+    "text": "Total Solutions: {{_.sumBy(Table1.tableData, (row) => row.soluiton) }}, \nTotal It/s: {{_.sumBy(Table1.tableData, (row) => row.its) }}\nAverage: {{getScore.data[0].score}}",
     "key": "g79dsj0q7j",
     "isDeprecated": false,
     "rightColumn": 64,
