@@ -22,7 +22,8 @@
         {"key": "primaryColumns.version.cellBackground"},
         {"key": "primaryColumns.its.cellBackground"},
         {"key": "primaryColumns.isActive.computedValue"},
-        {"key": "primaryColumns.solution.computedValue"}
+        {"key": "primaryColumns.solution.computedValue"},
+        {"key": "primaryColumns.solution.cellBackground"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -88,7 +89,8 @@
         {"key": "primaryColumns.lastActive.cellBackground"},
         {"key": "primaryColumns.miner.cellBackground"},
         {"key": "primaryColumns.version.cellBackground"},
-        {"key": "primaryColumns.its.cellBackground"}
+        {"key": "primaryColumns.its.cellBackground"},
+        {"key": "primaryColumns.solution.cellBackground"}
     ],
     "compactMode": "DEFAULT",
     "displayName": "Table",
@@ -177,7 +179,7 @@
             "sticky": "",
             "originalId": "solution",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "{{Table1.processedTableData.map((currentRow, currentIndex) => (  currentRow.isActive == false ? \"#fef9c3\" : \"\" ))}}",
             "verticalAlignment": "CENTER"
         },
         "identity": {
