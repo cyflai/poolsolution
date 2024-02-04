@@ -123,7 +123,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "async () => {\n  setInterval(async () => await functions.getScore(), 300000, \"getScore\");\n  setInterval(async () => await functions.refreshToke(), 30000, \"refreshToken\");\n  setInterval(async () => await functions.refreshSolution(), 30000, \"refreshSolution\");\n}"
+                "async () => {\n  setInterval(async () => await functions.getScore(), 300000, \"getScore\");\n  setInterval(async () => await functions.refreshToke(), 30000, \"refreshToken\");\n  setInterval(async () => await functions.refreshSolution(), 30000, \"refreshSolution\");\n  setInterval(async () => await functions.refreshToke(), 30000, \"reloadPage\");\n}"
               ],
               "timeoutInMillisecond": 10000
             }
