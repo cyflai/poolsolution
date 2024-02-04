@@ -42,7 +42,7 @@ export default {
 			}
 		})
 	},
-	reloadPage: ()=>{
-		navigateTo("Miner Configuraiton")
+	reloadPage: async ()=>{
+		await navigateTo("Miner Configuration")
 	}
 }
