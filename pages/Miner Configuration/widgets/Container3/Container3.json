@@ -1,6 +1,6 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "mobileBottomRow": 6.6390625,
+    "mobileBottomRow": 18.15625,
     "widgetName": "Container3",
     "borderColor": "#E0DEDE",
     "isCanvas": true,
@@ -29,7 +29,7 @@
     ],
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-        "mobileBottomRow": 66.390625,
+        "mobileBottomRow": 181.5625,
         "widgetName": "Canvas3",
         "displayName": "Canvas",
         "topRow": 0,
@@ -82,7 +82,7 @@
     "widgetId": "vbysea4esc",
     "containerStyle": "card",
     "minWidth": 450,
-    "isVisible": false,
+    "isVisible": true,
     "version": 1,
     "parentId": "0",
     "tags": ["Layout"],

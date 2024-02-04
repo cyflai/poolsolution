@@ -1,5 +1,5 @@
 {
-    "mobileBottomRow": 4,
+    "mobileBottomRow": 8.478125,
     "widgetName": "Text3Copy1",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -23,11 +23,12 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Pool Details\nSupply: \nPrice: \nCapitalization:",
+    "text": "<p id=\"isPasted\"><u>Pool Details<br><\/u><span style=\"color: rgb(40, 50, 78);\">Supply: {{appsmith.store.tickOverview[0].supply.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}}<br>Price: ${{appsmith.store.tickOverview[0].price.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}}<br>Capitalization: {{appsmith.store.tickOverview[0].marketCapitalization.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}}<\/span><\/p>",
     "key": "dqmvu1zwxb",
     "isDeprecated": false,
     "rightColumn": 64,

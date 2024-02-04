@@ -1,5 +1,5 @@
 {
-    "mobileBottomRow": 16.2390625,
+    "mobileBottomRow": 49.990625,
     "widgetName": "Text2",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 23.35625,
-    "bottomRow": 29.914062499999996,
+    "bottomRow": 29.9140625,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -27,8 +27,9 @@
         {"key": "text"}
     ],
     "shouldTruncate": false,
+    "borderWidth": "0",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "<p><span style=\"color: rgb(41, 105, 176);\"><strong><u>Miners Information<\/u><\/strong><\/span><\/p>\n<p><span style=\"color: rgb(44, 130, 201);\">Total Solutions<\/span>: <u>{{_.sumBy(Table1.tableData, (row) => row.soluiton) }}<\/u> <span style=\"color: rgb(44, 130, 201);\">Total It/s<\/span>: <u>{{_.sumBy(Table1.tableData, (row) => row.its) }}<\/u> <span style=\"color: rgb(44, 130, 201);\">Score<\/span>: <u>{{ appsmith.store.score}}<\/u><\/p>",
+    "text": "<p><span style=\"color: rgb(41, 105, 176);\"><strong><u>Miners Information<\/u><\/strong><\/span><\/p>\n<p><span style=\"color: rgb(44, 130, 201);\">Total Solutions<\/span>: {{_.sumBy(Table1.tableData, (row) => row.soluiton).toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\") }} <span style=\"color: rgb(44, 130, 201);\">Total It/s<\/span>: {{_.sumBy(Table1.tableData, (row) => row.its).toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\") }} <span style=\"color: rgb(44, 130, 201);\">Score<\/span>: {{ appsmith.store.score.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}}<\/p>",
     "key": "g79dsj0q7j",
     "isDeprecated": false,
     "rightColumn": 64,
@@ -47,7 +48,7 @@
     ],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 12.2390625,
+    "mobileTopRow": 41.5125,
     "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,

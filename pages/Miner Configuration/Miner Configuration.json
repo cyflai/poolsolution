@@ -7,10 +7,10 @@
       {
         "viewMode": false,
         "dsl": {
-          "mobileBottomRow": 816.3906250000001,
+          "mobileBottomRow": 1445.84375,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 1893.1406249999998,
+          "bottomRow": 2206.7031249999995,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -74,6 +74,26 @@
                   "align": "start"
                 }
               ]
+            },
+            {
+              "children": [
+                {
+                  "id": "iliby9tfqq",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "umh60xowab",
+                  "align": "start"
+                },
+                {
+                  "id": "4diwoztbgp",
+                  "align": "start"
+                }
+              ]
             }
           ]
         },
@@ -104,6 +124,19 @@
           ],
           [
             {
+              "id": "Miner Configuration_functions.autoRefresh",
+              "name": "functions.autoRefresh",
+              "collectionId": "Miner Configuration_functions",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  setInterval(async () => await functions.getScore(), 300000, \"getScore\");\n  setInterval(async () => await functions.refreshToke(), 30000, \"refreshToken\");\n  setInterval(async () => await functions.refreshSolution(), 30000, \"refreshSolution\");\n  setInterval(async () => await functions.getTickOverview(), 30000, \"getTickOverview\");\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Miner Configuration_functions.checkToken",
               "name": "functions.checkToken",
               "collectionId": "Miner Configuration_functions",
@@ -111,19 +144,6 @@
               "pluginType": "JS",
               "jsonPathKeys": [
                 "() => {\n  if (!appsmith.store.access_token) {\n    navigateTo('Login');\n  } else {\n    return appsmith.store.access_token;\n    appsmith.store;\n  }\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Miner Configuration_functions.autoRefresh",
-              "name": "functions.autoRefresh",
-              "collectionId": "Miner Configuration_functions",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  setInterval(async () => await functions.getScore(), 300000, \"getScore\");\n  setInterval(async () => await functions.refreshToke(), 30000, \"refreshToken\");\n  setInterval(async () => await functions.refreshSolution(), 30000, \"refreshSolution\");\n  setInterval(async () => await functions.refreshToke(), 30000, \"reloadPage\");\n}"
               ],
               "timeoutInMillisecond": 10000
             }

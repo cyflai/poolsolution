@@ -1,5 +1,5 @@
 {
-    "mobileBottomRow": 4,
+    "mobileBottomRow": 8.478125,
     "widgetName": "Text3Copy",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -23,11 +23,12 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Score Analysis\nMin Score:\nMax Score:\nAverage Score:",
+    "text": "<p id=\"isPasted\"><span style=\"color: rgb(40, 50, 78);\"><u>Score Analysis<\/u><br>Min Score: {{appsmith.store.tickOverview[0].minScore.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}}<br>Max Score: {{appsmith.store.tickOverview[0].maxScore.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}}<br>Average Score: {{Math.round(appsmith.store.tickOverview[0].averageScore).toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}}<\/span><\/p>",
     "key": "dqmvu1zwxb",
     "isDeprecated": false,
     "rightColumn": 64,

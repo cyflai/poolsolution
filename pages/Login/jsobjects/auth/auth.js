@@ -25,6 +25,11 @@ export default {
 						storeValue('miningId',profileData[0].miningId)
 						storeValue('score',profileData[0].score)
 						await auth.refreshSolution()
+					
+						await getTickOverview.run().then( data => {
+							storeValue('tickOverview',data)
+						})
+						
 						navigateTo('Profile')	
 					})
 	     } catch(e) {

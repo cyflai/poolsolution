@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "reloadPage",
-    "fullyQualifiedName": "functions.reloadPage",
+    "name": "getTickOverview",
+    "fullyQualifiedName": "functions.getTickOverview",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-02-04T01:31:20Z"
+    "createdAt": "2024-02-04T09:06:22Z"
   },
-  "id": "Miner Configuration_functions.reloadPage",
+  "id": "Miner Configuration_functions.getTickOverview",
   "deleted": false,
-  "gitSyncId": "65b757f4839ff15ac032d275_65bee8e8432ff652a41c987f"
+  "gitSyncId": "65b757f4839ff15ac032d275_65bf538e432ff652a41c98c2"
 }
