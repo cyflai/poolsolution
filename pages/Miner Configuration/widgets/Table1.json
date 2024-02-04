@@ -96,15 +96,15 @@
     "displayName": "Table",
     "bottomRow": 184.1140625,
     "columnWidthMap": {
-        "solution": 152,
+        "solution": 101,
         "last": 156,
         "lastActive": 159,
         "soluiton": 145,
         "created_at": 237,
-        "its": 107,
+        "its": 96,
         "isActive": 100,
         "version": 136,
-        "miner": 186
+        "miner": 174
     },
     "parentRowSpace": 10,
     "hideCard": false,
