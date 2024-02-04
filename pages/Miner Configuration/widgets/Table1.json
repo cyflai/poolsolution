@@ -21,8 +21,8 @@
         {"key": "primaryColumns.miner.cellBackground"},
         {"key": "primaryColumns.version.cellBackground"},
         {"key": "primaryColumns.its.cellBackground"},
-        {"key": "primaryColumns.isActive.computedValue"},
         {"key": "primaryColumns.solution.computedValue"},
+        {"key": "primaryColumns.isActive.computedValue"},
         {"key": "primaryColumns.solution.cellBackground"}
     ],
     "needsHeightForContent": true,
@@ -67,7 +67,7 @@
         }
     },
     "borderRadius": "0.375rem",
-    "columnUpdatedAt": 1707054923045,
+    "columnUpdatedAt": 1707055152188,
     "primaryColumnId": "miner",
     "defaultSelectedRowIndices": [0],
     "alignment": "start",
@@ -76,8 +76,8 @@
     "defaultPageSize": 0,
     "columnOrder": [
         "miner",
-        "its",
         "solution",
+        "its",
         "version",
         "lastActive",
         "identity",
@@ -99,7 +99,7 @@
         "solution": 152,
         "last": 156,
         "lastActive": 159,
-        "soluiton": 94,
+        "soluiton": 145,
         "created_at": 237,
         "its": 107,
         "isActive": 100,
