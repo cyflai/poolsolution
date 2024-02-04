@@ -1,6 +1,6 @@
 {
-    "mobileBottomRow": 4.6390625,
-    "widgetName": "Text1",
+    "mobileBottomRow": 4,
+    "widgetName": "Text3Copy1",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 166.31406249999998,
-    "bottomRow": 170.31406249999998,
+    "topRow": 0,
+    "bottomRow": 8.478125,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -17,7 +17,7 @@
     "animateLoading": true,
     "overflow": "NONE",
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "parentColumnSpace": 12.078125,
+    "parentColumnSpace": 13.296875,
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
     "dynamicBindingPathList": [
@@ -26,21 +26,20 @@
         {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
-    "borderWidth": "0",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Initial mining data may take up to 60 minutes to show.",
-    "key": "d57yq8ooq9",
+    "text": "Pool Details\nSupply: \nPrice: \nCapitalization:",
+    "key": "dqmvu1zwxb",
     "isDeprecated": false,
     "rightColumn": 64,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "d5elj9c060",
+    "widgetId": "r0yzt2igit",
     "minWidth": 450,
     "isVisible": true,
-    "fontStyle": "BOLD,ITALIC",
-    "textColor": "#858282",
+    "fontStyle": "BOLD",
+    "textColor": "#231F20",
     "version": 1,
-    "parentId": "0",
+    "parentId": "7nc1oz087b",
     "tags": [
         "Suggested",
         "Content"
@@ -52,7 +51,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "fontSize": "0.875rem",
+    "fontSize": "1rem",
     "alignment": "start",
     "minDynamicHeight": 4
 }
