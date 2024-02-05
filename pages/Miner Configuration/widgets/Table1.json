@@ -23,7 +23,8 @@
         {"key": "primaryColumns.its.cellBackground"},
         {"key": "primaryColumns.solution.computedValue"},
         {"key": "primaryColumns.isActive.computedValue"},
-        {"key": "primaryColumns.solution.cellBackground"}
+        {"key": "primaryColumns.solution.cellBackground"},
+        {"key": "primaryColumns.id.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -67,7 +68,7 @@
         }
     },
     "borderRadius": "0.375rem",
-    "columnUpdatedAt": 1707055152188,
+    "columnUpdatedAt": 1707106446786,
     "primaryColumnId": "miner",
     "defaultSelectedRowIndices": [0],
     "alignment": "start",
@@ -81,7 +82,8 @@
         "version",
         "lastActive",
         "identity",
-        "isActive"
+        "isActive",
+        "id"
     ],
     "dynamicPropertyPathList": [
         {"key": "tableData"},
@@ -104,7 +106,7 @@
         "its": 96,
         "isActive": 100,
         "version": 136,
-        "miner": 174
+        "miner": 264
     },
     "parentRowSpace": 10,
     "hideCard": false,
@@ -248,6 +250,40 @@
             "originalId": "its",
             "currencyCode": "USD",
             "cellBackground": "{{Table1.processedTableData.map((currentRow, currentIndex) => (  currentRow.isActive == false ? \"#fef9c3\" : \"\" ))}}",
+            "verticalAlignment": "CENTER"
+        },
+        "id": {
+            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
+            "isEditable": false,
+            "notation": "standard",
+            "alias": "id",
+            "enableSort": true,
+            "isSaveVisible": true,
+            "id": "id",
+            "isDisabled": false,
+            "allowSameOptionsInNewRow": true,
+            "validation": {},
+            "isCellVisible": true,
+            "isDerived": false,
+            "textSize": "0.875rem",
+            "allowCellWrapping": false,
+            "index": 0,
+            "isDiscardVisible": true,
+            "isVisible": false,
+            "label": "id",
+            "fontStyle": "",
+            "textColor": "#231f20",
+            "columnType": "text",
+            "thousandSeparator": true,
+            "horizontalAlignment": "LEFT",
+            "isCellEditable": false,
+            "decimals": 0,
+            "width": 150,
+            "enableFilter": true,
+            "sticky": "",
+            "originalId": "id",
+            "currencyCode": "USD",
+            "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
         "isActive": {

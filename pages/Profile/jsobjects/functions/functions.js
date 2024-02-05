@@ -1,4 +1,6 @@
 export default {
+  // 'https://qubic-asia.s3.ap-east-1.amazonaws.com'
+	// '/zgirt-update.sh'
 	qubicVersion: ' qli-Client-1.8.6-Linux-x64.tar.gz',
 	qubicScript: 'https://raw.githubusercontent.com/poolsolution/qubic/main/run.sh | bash -s --  1 2 ',
 	qubicScriptUpdate: 'https://raw.githubusercontent.com/poolsolution/qubic/main/update.sh | bash -s --  1 2 ',
