@@ -78,7 +78,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "() => {\n  txtRunCmd.setText(functions.runCmd + functions.qubicScript + appsmith.store.minerId + functions.qubicVersion);\n  txtUpdateCmd.setText(functions.runCmd + functions.qubicScriptUpdate + appsmith.store.minerId + functions.qubicVersion);\n}"
+                "() => {\n  txtRunCmd.setText(functions.runCmd + functions.qubicScript + String(appsmith.store.minerId).toUpperCase() + functions.qubicVersion);\n  txtUpdateCmd.setText(functions.runCmd + functions.qubicScriptUpdate + String(appsmith.store.minerId).toUpperCase() + functions.qubicVersion);\n}"
               ],
               "timeoutInMillisecond": 10000
             }

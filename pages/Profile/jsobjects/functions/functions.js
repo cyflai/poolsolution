@@ -68,8 +68,8 @@ export default {
 			showAlert("Token copied!","success")
 	},	
 	generateRunCmd: () =>  {
-			txtRunCmd.setText(this.runCmd +  this.qubicScript + appsmith.store.minerId + this.qubicVersion)
-			txtUpdateCmd.setText(this.runCmd +  this.qubicScriptUpdate + appsmith.store.minerId + this.qubicVersion)
+			txtRunCmd.setText(this.runCmd +  this.qubicScript + String(appsmith.store.minerId).toUpperCase()  + this.qubicVersion)
+			txtUpdateCmd.setText(this.runCmd +  this.qubicScriptUpdate + String(appsmith.store.minerId).toUpperCase() + this.qubicVersion)
 
 	},
 	autoRefresh: async () => {
