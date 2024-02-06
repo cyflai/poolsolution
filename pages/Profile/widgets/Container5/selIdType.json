@@ -13,6 +13,7 @@
         {"key": "accentColor"},
         {"key": "borderRadius"}
     ],
+    "labelStyle": "BOLD",
     "placeholderText": "Select option",
     "isDisabled": false,
     "isRequired": false,
@@ -40,6 +41,7 @@
     "parentColumnSpace": 19.578125,
     "dynamicTriggerPathList": [{"key": "onOptionChange"}],
     "labelPosition": "Top",
+    "labelTextColor": "#231f20",
     "sourceData": "[\n  {\n    \"name\": \"Pool\",\n    \"code\": \"pool\"\n  },\n  {\n    \"name\": \"Solo\",\n    \"code\": \"solo\"\n  }\n]",
     "key": "by29jauwfh",
     "labelTextSize": "0.875rem",
