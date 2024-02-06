@@ -63,6 +63,10 @@ export default {
 				showAlert("Run command copied!","success")
 			}
 	},
+	cpToken: async () => {
+			copyToClipboard('eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImQzNzMyODc2LTY5ZDctNGI1OC1hNmUzLWM2MzZkMGQ4ZDE0NiIsIk1pbmluZyI6IiIsIm5iZiI6MTcwNjU0MzYzMiwiZXhwIjoxNzM4MDc5NjMyLCJpYXQiOjE3MDY1NDM2MzIsImlzcyI6Imh0dHBzOi8vcXViaWMubGkvIiwiYXVkIjoiaHR0cHM6Ly9xdWJpYy5saS8ifQ.Cw0nebjb4ofEpJc8-KiWfHvOZfneO3NMtekO4qoB3wR-5_nIJlI1fARHXvFO4gxSt--s77tHwMAGI4KYHY4DHA')
+			showAlert("Token copied!","success")
+	},	
 	generateRunCmd: () =>  {
 			txtRunCmd.setText(this.runCmd +  this.qubicScript + appsmith.store.minerId + this.qubicVersion)
 			txtUpdateCmd.setText(this.runCmd +  this.qubicScriptUpdate + appsmith.store.minerId + this.qubicVersion)

@@ -37,7 +37,7 @@
         "paragraph",
         "label"
     ],
-    "bottomRow": 9.9390625,
+    "bottomRow": 9.3,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 64,
@@ -48,7 +48,7 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "key": "lwdv34401p",
     "isDeprecated": false,
-    "rightColumn": 54.26615969581749,
+    "rightColumn": 57.44150298889838,
     "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
     "widgetId": "3r3ahucagt",
     "minWidth": 450,

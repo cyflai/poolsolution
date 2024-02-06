@@ -4,7 +4,7 @@
     "widthInPercentage": 0.9908151549942594,
     "isVisibleDownload": true,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 34.953125,
+    "topRow": 31.1140625,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -96,7 +96,7 @@
     ],
     "compactMode": "DEFAULT",
     "displayName": "Table",
-    "bottomRow": 187.953125,
+    "bottomRow": 184.1140625,
     "columnWidthMap": {
         "solution": 115,
         "last": 156,

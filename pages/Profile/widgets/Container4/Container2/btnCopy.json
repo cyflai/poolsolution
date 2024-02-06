@@ -16,11 +16,11 @@
     "parentRowSpace": 10,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 25.514950166112957,
+    "mobileRightColumn": 22.521994134897362,
     "animateLoading": true,
     "parentColumnSpace": 19.59375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 54.26615969581749,
+    "leftColumn": 57.44150298889838,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
