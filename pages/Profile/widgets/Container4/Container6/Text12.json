@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 0,
-    "bottomRow": 8.478125,
+    "bottomRow": 6.5578125,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -28,7 +28,7 @@
     "shouldTruncate": false,
     "borderWidth": "0",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "For HiveOS Eloword Miner:\n\n*If you are using the HiveOS Eloword miner, please add your account name before the worker name followed with a \"-\" for accurate reflection of the miners on the logs.  The worker template will read \"YOUR_ACCOUNT_NAME-%WORKER_NAME%\" ",
+    "text": "<p id=\"isPasted\">For HiveOS Eloword Miner:<\/p><p>*If you are using the HiveOS Eloword miner, please add your account name before the worker name followed with a \"-\" for accurate reflection of the miners on the logs. &nbsp;The worker template will read \"<span style=\"background-color: rgb(251, 160, 38); color: rgb(41, 105, 176);\">YOUR_ACCOUNT_USERNAME<\/span>-%WORKER_NAME%\"&nbsp;<\/p>",
     "key": "1hqrmeayu6",
     "isDeprecated": false,
     "rightColumn": 64,

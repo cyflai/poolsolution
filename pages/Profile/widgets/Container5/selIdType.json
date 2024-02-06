@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
-    "labelText": "Please select Mine with Solo or Pool",
+    "labelText": "Please select mine as Solo or Pool",
     "topRow": 5.2,
     "labelWidth": 5,
     "type": "SELECT_WIDGET",

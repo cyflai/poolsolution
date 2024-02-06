@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "1. Update Wallet Address (username: {{appsmith.store.username}})",
+    "text": "1. Update Wallet Address (YOUR_ACCOUNT_USERNAME: <span style=\"color: rgb(41, 105, 176); background-color: rgb(251, 160, 38);\">{{appsmith.store.username}}<\/span>)",
     "key": "rrod0s80r0",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,
