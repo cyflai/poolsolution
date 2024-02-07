@@ -13,11 +13,11 @@ export default {
 		
 	},	
 	autoRefresh: async () => {
-	setInterval(async () => await functions.getScore(),300000,"getScore")
-	setInterval(async ()=> await functions.refreshToke(),30000,"refreshToken")
-	setInterval(async ()=> await functions.refreshSolution(),30000,"refreshSolution")
-	// setInterval(async ()=> await functions.refreshToke(),30000, "reloadPage")
-	setInterval(async ()=> await functions.getTickOverview(),30000,"getTickOverview")
+	setInterval(async () => await functions.getScore(),60000,"getScore")
+	setInterval(async ()=> await functions.refreshToke(),60000,"refreshToken")
+	setInterval(async ()=> await functions.refreshSolution(),60000,"refreshSolution")
+	// setInterval(async ()=> await functions.refreshToke(),60000, "reloadPage")
+	setInterval(async ()=> await functions.getTickOverview(),60000,"getTickOverview")
 	},
 	refreshToke: async () => {
 		await sign_in.run().then( data =>{
