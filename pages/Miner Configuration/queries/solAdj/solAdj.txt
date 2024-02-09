@@ -1,0 +1,1 @@
+select "solAdj" from public.userprofiles where "username" = "{{appsmith.store.username}}"

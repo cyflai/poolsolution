@@ -4,7 +4,7 @@
     "widthInPercentage": 0.9676616915422885,
     "isVisibleDownload": true,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
-    "topRow": 31.1140625,
+    "topRow": 34.953125,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -96,9 +96,9 @@
     ],
     "compactMode": "DEFAULT",
     "displayName": "Table",
-    "bottomRow": 191.1140625,
+    "bottomRow": 194.953125,
     "columnWidthMap": {
-        "solution": 143,
+        "solution": 149,
         "last": 156,
         "lastActive": 159,
         "soluiton": 145,
@@ -106,7 +106,7 @@
         "its": 186,
         "isActive": 100,
         "version": 146,
-        "miner": 229
+        "miner": 194
     },
     "parentRowSpace": 10,
     "hideCard": false,
