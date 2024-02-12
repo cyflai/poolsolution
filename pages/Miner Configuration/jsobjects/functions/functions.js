@@ -38,6 +38,7 @@ export default {
 	get_total_sol: async () => {
 		let tss = await getTotalSol.data[0].sum
 		storeValue('TotalSolSum',tss )
+		
 		return tss
 		
 	},

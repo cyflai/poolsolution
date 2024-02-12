@@ -1,4 +1,4 @@
 {
-"email":"{{inp_Username.text + '@obr.com.hk'}}",
+"email":"{{inp_Username.text.toLocaleLowerCase() + '@obr.com.hk'}}",
 "password":"{{inp_password.text}}"	
 }

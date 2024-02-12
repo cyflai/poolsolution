@@ -7,7 +7,7 @@ export default {
 				await sign_in.run().then(async data =>{
 					
 						storeValue("email",data.user.email)
-						storeValue('username',inp_Username.text)
+						storeValue('username',inp_Username.text.toLocaleLowerCase())
 						// console.log(data.user)
 						storeValue("password",inp_password.text)
 				
