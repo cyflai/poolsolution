@@ -127,7 +127,14 @@ export default {
 			}
 
 	},
-	
+	get_RecommmandedIts: async () => {
+		
+		await getRecommandedIts.run().then(data => {
+		
+			storeValue('recommandedIts',data[0].recommandedIts)
+			
+		});
+	},
 	getSoloId: async () =>  {
 				// if (selIdType.selectedOptionValue == "solo")
 					// {

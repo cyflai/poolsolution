@@ -10,7 +10,7 @@
           "mobileBottomRow": 1658.6406250000002,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 1467.9531250000002,
+          "bottomRow": 1524.125,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -98,6 +98,17 @@
               "pluginType": "JS",
               "jsonPathKeys": [
                 "() => {\n  txtRunCmd.setText(functions.runCmd + functions.qubicScript + String(appsmith.store.minerId).toUpperCase() + functions.qubicVersion);\n  txtUpdateCmd.setText(functions.runCmd + functions.qubicScriptUpdate + String(appsmith.store.minerId).toUpperCase() + functions.qubicVersion);\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Profile_functions.get_RecommmandedIts",
+              "name": "functions.get_RecommmandedIts",
+              "collectionId": "Profile_functions",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  await getRecommandedIts.run().then(data => {\n    storeValue('recommandedIts', data[0].recommandedIts);\n  });\n}"
               ],
               "timeoutInMillisecond": 10000
             }
