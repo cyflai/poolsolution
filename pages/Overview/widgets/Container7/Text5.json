@@ -1,5 +1,5 @@
 {
-    "mobileBottomRow": 59.3859375,
+    "mobileBottomRow": 65.14375,
     "widgetName": "Text5",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 0,
-    "bottomRow": 47.86875,
+    "bottomRow": 49.7875,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,

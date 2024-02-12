@@ -7,10 +7,10 @@
       {
         "viewMode": false,
         "dsl": {
-          "mobileBottomRow": 1817.6562499999995,
+          "mobileBottomRow": 1884.4374999999995,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 1231.7656250000002,
+          "bottomRow": 1366.125,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
