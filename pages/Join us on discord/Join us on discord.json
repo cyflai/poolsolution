@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Sign Off",
-    "slug": "sign-off",
+    "name": "Join us on discord",
+    "slug": "join-us-on-discord",
     "customSlug": "",
     "layouts": [
       {
@@ -14,14 +14,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 700,
+          "bottomRow": 380,
           "containerStyle": "none",
-          "snapRows": 68,
+          "snapRows": 58,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 700,
+          "minHeight": 600,
           "useAutoLayout": true,
           "parentColumnSpace": 1,
           "responsiveBehavior": "fill",
@@ -32,32 +32,8 @@
             {
               "children": [
                 {
-                  "id": "n7o13kwyyv",
+                  "id": "6j4a34t6pz",
                   "align": "start"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "yowaw3ot9n",
-                  "align": "start"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "qodoctvc4p",
-                  "align": "start"
-                }
-              ]
-            },
-            {
-              "children": [
-                {
-                  "id": "5ihbhk6uey",
-                  "align": "center"
                 }
               ]
             }
@@ -66,14 +42,14 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Sign Off_functions.signOff",
-              "name": "functions.signOff",
-              "collectionId": "Sign Off_functions",
+              "id": "Join us on discord_functions.discord",
+              "name": "functions.discord",
+              "collectionId": "Join us on discord_functions",
               "clientSideExecution": true,
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "async function () {\n  try {\n    console.log(appsmith.store.access_token);\n    sign_off.run().catch();\n    clearStore();\n    signoffTxt.setText(\"Signed Off\");\n  } catch (error) {} finally {}\n}"
+                "async function () {\n  navigateTo('https://discord.gg/x28ChkYy', {}, 'NEW_WINDOW');\n}"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -81,16 +57,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Sign Off",
+        "id": "Join us on discord",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": [],
-    "isHidden": true
+    "policies": []
   },
   "deleted": false,
-  "gitSyncId": "65b05840165cc466aa8cd8cc_65b05cd96329157f93b864b8"
+  "gitSyncId": "65b757f4839ff15ac032d275_65c96f1c8ad8496b0ae7d000"
 }

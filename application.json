@@ -17,6 +17,10 @@
       "isDefault": false
     },
     {
+      "id": "Join us on discord",
+      "isDefault": false
+    },
+    {
       "id": "Sign Off",
       "isDefault": false
     }

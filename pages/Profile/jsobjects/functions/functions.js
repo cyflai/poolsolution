@@ -112,6 +112,22 @@ export default {
 		storeValue("idType",selIdType.selectedOptionValue)
 		showAlert("Mining Type Updated successfully","success")
 	},
+	
+	async signOff () {
+		try{
+			console.log(appsmith.store.access_token);
+			sign_off.run().catch();
+      clearStore(); // removing all the stored values
+			navigateTo("Sign Off")
+			// signoffTxt.setText("Signed Off");
+     	}catch(error){
+
+			}finally{			
+				// setInterval(navigateTo("Login"),100000,'logoutTmr')
+			}
+
+	},
+	
 	getSoloId: async () =>  {
 				// if (selIdType.selectedOptionValue == "solo")
 					// {

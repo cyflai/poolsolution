@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "functions",
+    "pageId": "Join us on discord",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Join us on discord_functions",
+  "deleted": false,
+  "gitSyncId": "65b757f4839ff15ac032d275_65c970408ad8496b0ae7d009"
+}
