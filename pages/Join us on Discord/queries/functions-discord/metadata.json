@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Join us on discord",
-    "collectionId": "Join us on discord_functions",
+    "pageId": "Join us on Discord",
+    "collectionId": "Join us on Discord_functions",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -38,7 +38,7 @@
     "userPermissions": [],
     "createdAt": "2024-02-12T01:11:28Z"
   },
-  "id": "Join us on discord_functions.discord",
+  "id": "Join us on Discord_functions.discord",
   "deleted": false,
   "gitSyncId": "65b757f4839ff15ac032d275_65c970408ad8496b0ae7d006"
 }

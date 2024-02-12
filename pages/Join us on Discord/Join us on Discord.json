@@ -1,6 +1,6 @@
 {
   "unpublishedPage": {
-    "name": "Join us on discord",
+    "name": "Join us on Discord",
     "slug": "join-us-on-discord",
     "customSlug": "",
     "layouts": [
@@ -42,9 +42,9 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Join us on discord_functions.discord",
+              "id": "Join us on Discord_functions.discord",
               "name": "functions.discord",
-              "collectionId": "Join us on discord_functions",
+              "collectionId": "Join us on Discord_functions",
               "clientSideExecution": true,
               "confirmBeforeExecute": false,
               "pluginType": "JS",
@@ -57,14 +57,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Join us on discord",
+        "id": "Join us on Discord",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "65b757f4839ff15ac032d275_65c96f1c8ad8496b0ae7d000"
