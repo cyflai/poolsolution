@@ -80,28 +80,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Miner Configuration_functions.autoRefresh",
-              "name": "functions.autoRefresh",
-              "collectionId": "Miner Configuration_functions",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  setInterval(async () => await functions.getScore(), 60000, \"getScore\");\n  setInterval(async () => await functions.refreshToke(), 60000, \"refreshToken\");\n  setInterval(async () => await functions.refreshSolution(), 60000, \"refreshSolution\");\n  setInterval(async () => await functions.getTickOverview(), 60000, \"getTickOverview\");\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Miner Configuration_functions.checkToken",
-              "name": "functions.checkToken",
-              "collectionId": "Miner Configuration_functions",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "() => {\n  if (!appsmith.store.access_token) {\n    navigateTo('Login');\n  } else {\n    return appsmith.store.access_token;\n    appsmith.store;\n  }\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Miner Configuration_functions.getScore",
               "name": "functions.getScore",
               "collectionId": "Miner Configuration_functions",
@@ -148,12 +126,36 @@
           ],
           [
             {
-              "id": "Miner Configuration_solAdj",
-              "name": "solAdj",
+              "id": "Miner Configuration_functions.autoRefresh",
+              "name": "functions.autoRefresh",
+              "collectionId": "Miner Configuration_functions",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  setInterval(async () => await functions.getScore(), 60000, \"getScore\");\n  setInterval(async () => await functions.refreshToke(), 60000, \"refreshToken\");\n  setInterval(async () => await functions.refreshSolution(), 60000, \"refreshSolution\");\n  setInterval(async () => await functions.getTickOverview(), 60000, \"getTickOverview\");\n  setInterval(async () => await functions.get_total_sol(), 60000, \"get_total_sol\");\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Miner Configuration_getTotalSol",
+              "name": "getTotalSol",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
                 "appsmith.store.username"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Miner Configuration_functions.checkToken",
+              "name": "functions.checkToken",
+              "collectionId": "Miner Configuration_functions",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  if (!appsmith.store.access_token) {\n    navigateTo('Login');\n  } else {\n    return appsmith.store.access_token;\n    appsmith.store;\n  }\n}"
               ],
               "timeoutInMillisecond": 10000
             }

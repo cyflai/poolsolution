@@ -19,6 +19,7 @@ export default {
 	setInterval(async ()=> await functions.refreshSolution(),60000,"refreshSolution")
 	// setInterval(async ()=> await functions.refreshToke(),60000, "reloadPage")
 	setInterval(async ()=> await functions.getTickOverview(),60000,"getTickOverview")
+	setInterval(async ()=> await functions.get_total_sol(),60000, "get_total_sol")
 	},
 	refreshToke: async () => {
 		await sign_in.run().then( data =>{
@@ -32,8 +33,13 @@ export default {
 	refreshSolution: async () => {
 		await getSolutions.run().then(data => {
 			storeValue("solutions",data)
-			
 		})
+	},
+	get_total_sol: async () => {
+		let tss = await getTotalSol.data[0].sum
+		storeValue('TotalSolSum',tss )
+		return tss
+		
 	},
 	getScore: async () => {
 		await getScore.run().then(data => {

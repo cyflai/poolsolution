@@ -1,1 +1,0 @@
-select * from solutions_view where public.solutions_view.id LIKE '{{appsmith.store.minerId}}%'

@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "solAdj",
+    "name": "getTotalSol",
     "datasource": {
       "name": "qubic",
       "pluginId": "postgres-plugin",
@@ -18,15 +18,15 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "select \"solAdj\" from public.userprofiles where \"username\" = \"{{appsmith.store.username}}\"",
+      "body": "\nselect sum(sol)\nfrom (\nselect sum(\"solutionsFound\") as sol from \"minerControl\" \n     where public.\"minerControl\".alias ILIKE '{{appsmith.store.username}}%'\nunion\nselect sum(\"solAdj\") as sol from userprofiles where username ILIKE '{{appsmith.store.username}}%'\n\t) as totalSol",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ]
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -42,9 +42,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-02-09T15:07:33Z"
+    "createdAt": "2024-02-08T15:43:51Z"
   },
-  "id": "Miner Configuration_solAdj",
+  "id": "Miner Configuration_getTotalSol",
   "deleted": false,
-  "gitSyncId": "65b757f4839ff15ac032d275_65c63fb55c03066a0482008a"
+  "gitSyncId": "65b757f4839ff15ac032d275_65c4f6b7fceb9f67df2d217e"
 }

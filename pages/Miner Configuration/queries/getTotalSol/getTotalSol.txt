@@ -1,0 +1,8 @@
+
+select sum(sol)
+from (
+select sum("solutionsFound") as sol from "minerControl" 
+     where public."minerControl".alias ILIKE '{{appsmith.store.username}}%'
+union
+select sum("solAdj") as sol from userprofiles where username ILIKE '{{appsmith.store.username}}%'
+	) as totalSol
