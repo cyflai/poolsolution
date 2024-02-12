@@ -20,6 +20,9 @@ export default {
 	// setInterval(async ()=> await functions.refreshToke(),60000, "reloadPage")
 	setInterval(async ()=> await functions.getTickOverview(),60000,"getTickOverview")
 	setInterval(async ()=> await functions.get_total_sol(),60000, "get_total_sol")
+	setInterval(async ()=> await inActiveMiner.run(),60000,"get_inactive_miner")
+	setInterval(async ()=> await activeMiner.run().run(),60000,"get_inactive_miner")
+	
 	},
 	refreshToke: async () => {
 		await sign_in.run().then( data =>{

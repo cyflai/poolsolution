@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "active",
+    "name": "inActiveMiner",
     "datasource": {
       "name": "qubic",
       "pluginId": "postgres-plugin",
@@ -18,27 +18,33 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "select * from public.solutions_view",
+      "body": "SELECT count(*) from solutions_view where lower(miner) \nilike '{{appsmith.store.username.substring(0,3)}}%'\nand public.solutions_view.\"isActive\" = FALSE",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ]
     },
-    "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "executeOnLoad": true,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "appsmith.store.username.substring(0,3)"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-02-08T15:41:17Z"
+    "createdAt": "2024-02-12T16:30:12Z"
   },
-  "id": "Miner Configuration_active",
+  "id": "Miner Configuration_inActiveMiner",
   "deleted": false,
-  "gitSyncId": "65b757f4839ff15ac032d275_65c4f61dfceb9f67df2d217a"
+  "gitSyncId": "65b757f4839ff15ac032d275_65ca479467fa00479b41a6c3"
 }
