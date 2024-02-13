@@ -39,10 +39,11 @@ export default {
 		})
 	},
 	get_total_sol: async () => {
-		let tss = await getTotalSol.data[0].sum
-		storeValue('TotalSolSum',tss )
-		
-		return tss
+		return await getTSOL.run().then(data => {
+			storeValue('TotalSolSum',data )
+			console.log('d', data)
+			return data
+		})
 		
 	},
 	getScore: async () => {
