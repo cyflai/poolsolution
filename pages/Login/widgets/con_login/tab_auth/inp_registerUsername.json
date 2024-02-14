@@ -16,7 +16,7 @@
     "placeholderText": "Enter your Username",
     "isDisabled": false,
     "flexVerticalAlignment": "end",
-    "isRequired": false,
+    "isRequired": true,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,

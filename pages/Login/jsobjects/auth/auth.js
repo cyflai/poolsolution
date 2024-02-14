@@ -6,8 +6,8 @@ export default {
 		try{
 				await sign_in.run().then(async data =>{
 					
-						storeValue("email",data.user.email)
-						storeValue('username',inp_Username.text.toLocaleLowerCase())
+						storeValue("email",data.user.email.toLowerCase())
+						storeValue('username',inp_Username.text.toLowerCase())
 						// console.log(data.user)
 						storeValue("password",inp_password.text)
 				
@@ -17,11 +17,11 @@ export default {
 
 					let { data: profileData, error } = await this.sb
   						.from('score_view')
-  						.select('*').eq('username',inp_Username.text)
+  						.select('*').eq('username',inp_Username.text.toLowerCase())
 						
 						storeValue('wallet_address',profileData[0].wallet_address)
 						storeValue('idType',profileData[0].idType)
-						storeValue('minerId',await functions.getMinerId(inp_Username.text))
+						storeValue('minerId',await functions.getMinerId(inp_Username.text.toLowerCase()))
 						storeValue('miningId',profileData[0].miningId)
 						storeValue('score',profileData[0].score)
 						await auth.refreshSolution()
@@ -50,7 +50,7 @@ export default {
 				const { data, error } = await this.sb
 					.from('userprofiles')
 					.insert([
-					{ email: inp_registerUsername.text + '@obr.com.hk', username: inp_registerUsername.text, minerId: inp_registerUsername.text},
+					{ email: inp_registerUsername.text.toLowerCase() + '@obr.com.hk', username: inp_registerUsername.text.toLowerCase(), minerId: inp_registerUsername.text.toLowerCase()},
 				])
 				.select()
 			

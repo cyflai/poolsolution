@@ -1,4 +1,4 @@
 {
-"email":{{appsmith.store.email}},
+"email":{{appsmith.store.email.toLocaleLowerCase()}},
 "password":"{{appsmith.store.password}}"	
 }

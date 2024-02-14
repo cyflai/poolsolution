@@ -32,7 +32,7 @@
           "value": "password"
         }
       ],
-      "body": "{\n\"email\":{{appsmith.store.email}},\n\"password\":\"{{appsmith.store.password}}\"\t\n}",
+      "body": "{\n\"email\":{{appsmith.store.email.toLocaleLowerCase()}},\n\"password\":\"{{appsmith.store.password}}\"\t\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
@@ -56,7 +56,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.store.email",
+      "appsmith.store.email.toLocaleLowerCase()",
       "appsmith.store.password"
     ],
     "userSetOnLoad": false,
