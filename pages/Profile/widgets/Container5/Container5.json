@@ -1,6 +1,6 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "mobileBottomRow": 157.86406250000002,
+    "mobileBottomRow": 53.837500000000006,
     "widgetName": "Container5",
     "borderColor": "#E0DEDE",
     "isCanvas": true,
@@ -98,7 +98,7 @@
     "tags": ["Layout"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 132.86562500000002,
+    "mobileTopRow": 28.8390625,
     "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,

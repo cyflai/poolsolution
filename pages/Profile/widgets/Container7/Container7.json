@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 12,
+    "mobileBottomRow": 6,
     "widgetName": "Container7",
     "borderColor": "#E0DEDE",
     "isCanvas": true,
@@ -28,7 +28,7 @@
     ],
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-        "mobileBottomRow": 100,
+        "mobileBottomRow": 60,
         "widgetName": "Canvas7",
         "displayName": "Canvas",
         "topRow": 0,
@@ -85,7 +85,7 @@
     "tags": ["Layout"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 2,
+    "mobileTopRow": 0,
     "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,

@@ -1,7 +1,7 @@
 {
     "resetFormOnClick": false,
     "boxShadow": "none",
-    "mobileBottomRow": 20.096875,
+    "mobileBottomRow": 18.178125,
     "widgetName": "btnCopy",
     "onClick": "{{functions.copyRunCmd();}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -16,11 +16,11 @@
     "parentRowSpace": 10,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 22.521994134897362,
+    "mobileRightColumn": 22.196531791907514,
     "animateLoading": true,
     "parentColumnSpace": 19.59375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 57.75101708706265,
+    "leftColumn": 53.16784203102962,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -42,7 +42,7 @@
     "tags": ["Buttons"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 16.096875,
+    "mobileTopRow": 14.178125000000001,
     "responsiveBehavior": "hug",
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",

@@ -12,15 +12,15 @@
         "submit"
     ],
     "topRow": 5.2,
-    "bottomRow": 9.2,
+    "bottomRow": 9.200000000000001,
     "parentRowSpace": 10,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 21.39275766016713,
+    "mobileRightColumn": 21.0989010989011,
     "animateLoading": true,
     "parentColumnSpace": 19.578125,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 57.84121892542101,
+    "leftColumn": 53.43603851444291,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}

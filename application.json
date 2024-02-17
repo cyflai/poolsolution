@@ -13,6 +13,10 @@
       "isDefault": false
     },
     {
+      "id": "Payout",
+      "isDefault": false
+    },
+    {
       "id": "Miner Configuration",
       "isDefault": false
     },
