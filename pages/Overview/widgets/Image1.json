@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 18.8,
+    "mobileBottomRow": 18,
     "widgetName": "Image1",
     "widthInPercentage": "0.21738174354964818",
     "displayName": "Image",
@@ -31,7 +31,7 @@
     "tags": ["Media"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 6.8,
+    "mobileTopRow": 6,
     "maxZoomLevel": 1,
     "enableDownload": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",

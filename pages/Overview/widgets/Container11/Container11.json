@@ -1,6 +1,6 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "mobileBottomRow": 173.64374999999998,
+    "mobileBottomRow": 170.94375,
     "widgetName": "Container11",
     "borderColor": "#E0DEDE",
     "isCanvas": true,
@@ -29,7 +29,7 @@
     ],
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-        "mobileBottomRow": 546.265625,
+        "mobileBottomRow": 546.34375,
         "widgetName": "Canvas13",
         "displayName": "Canvas",
         "topRow": 0,
@@ -86,7 +86,7 @@
     "tags": ["Layout"],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 119.01718749999999,
+    "mobileTopRow": 116.309375,
     "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
