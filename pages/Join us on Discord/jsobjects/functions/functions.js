@@ -1,5 +1,5 @@
 export default {
 	async discord () {
-		navigateTo('https://discord.gg/x28ChkYy',{},'NEW_WINDOW')
+		navigateTo('https://discord.gg/vnU4G4YUwg',{},'NEW_WINDOW')
 	}
 }
