@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 4,
+    "mobileBottomRow": 4.1,
     "widgetName": "IconButton1",
     "onClick": "{{functions.signOff();}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -20,7 +20,7 @@
     "animateLoading": true,
     "parentColumnSpace": 13.5625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 60.47867950481431,
+    "leftColumn": 59.87096774193549,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -41,7 +41,7 @@
     "mobileTopRow": 0,
     "responsiveBehavior": "hug",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 56.967032967032964,
+    "mobileLeftColumn": 57.81642512077295,
     "buttonVariant": "PRIMARY",
     "alignment": "end"
 }

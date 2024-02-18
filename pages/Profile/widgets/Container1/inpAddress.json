@@ -31,7 +31,7 @@
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "alignment": "start",
-    "mobileBottomRow": 14.439062499999999,
+    "mobileBottomRow": 14.439062500000002,
     "widgetName": "inpAddress",
     "displayName": "Input",
     "searchTags": [
@@ -53,7 +53,7 @@
     "labelTextSize": "0.875rem",
     "onTextChanged": "{{functions.enableUpdateBtn();}}",
     "isDeprecated": false,
-    "rightColumn": 53.43603851444291,
+    "rightColumn": 51.61290322580645,
     "widgetId": "1mbrqjsb7i",
     "minWidth": 450,
     "label": "Qubic wallet address for receiving $Qubic reward",

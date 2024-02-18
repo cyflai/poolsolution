@@ -39,10 +39,11 @@ export default {
 		})
 	},
 	get_total_sol: async () => {
-		return await getTSOL.run().then(data => {
-			storeValue('TotalSolSum',data )
-			console.log('d', data)
-			return data
+		// this is get from our own api
+		return await getMyEpoch_Solution.run().then(data => {
+			storeValue('TotalSolSum',data[0].solutionTotal )
+			console.log('d', data[0].solutionTotal)
+			return data[0].solutionTotal
 		})
 		
 	},
