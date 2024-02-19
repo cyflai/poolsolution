@@ -63,6 +63,9 @@
   "unpublishedCustomJSLibs": [
     {
       "uidString": "supabase_https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.4.0/dist/umd/supabase.min.js"
+    },
+    {
+      "uidString": "dcodeIO_https://cdn.jsdelivr.net/npm/bcryptjs@2.4.3/dist/bcrypt.min.js"
     }
   ],
   "publishedCustomJSLibs": [],

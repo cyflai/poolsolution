@@ -11,7 +11,7 @@
         "submit"
     ],
     "topRow": 0,
-    "bottomRow": 4.1,
+    "bottomRow": 4.05,
     "tooltip": "Signoff",
     "parentRowSpace": 10,
     "type": "ICON_BUTTON_WIDGET",

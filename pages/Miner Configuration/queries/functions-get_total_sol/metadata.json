@@ -16,13 +16,13 @@
     "pageId": "Miner Configuration",
     "collectionId": "Miner Configuration_functions",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
       "jsArguments": []
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -31,13 +31,13 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "userSetOnLoad": true,
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-02-12T15:14:03Z"
+    "createdAt": "2024-02-19T14:31:12Z"
   },
   "id": "Miner Configuration_functions.get_total_sol",
   "deleted": false,
-  "gitSyncId": "65b757f4839ff15ac032d275_65ca35bb67fa00479b41a6a3"
+  "gitSyncId": "65b757f4839ff15ac032d275_65d3663067fa00479b41ae27"
 }

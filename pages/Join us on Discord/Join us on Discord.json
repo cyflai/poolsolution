@@ -49,7 +49,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "async function () {\n  navigateTo('https://discord.gg/vnU4G4YUwg', {}, 'NEW_WINDOW');\n}"
+                "async function () {\n  navigateTo('https://discord.gg/CtT3mtxSpY', {}, 'NEW_WINDOW');\n}"
               ],
               "timeoutInMillisecond": 10000
             }
