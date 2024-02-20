@@ -1,1 +1,1 @@
-select epoch as "Epoch","solutionFound" as "Soluitons Found", amount as "Pay Amount","avgScore" as "AVGScore", created_at as "Paid At" from public.payout where "username" = '{{appsmith.store.username}}'
+select epoch as "Epoch","solutionFound" as "Soluitons Found", "payment" as "Payment", amount as "Pay Amount","avgScore" as "AVGScore", created_at as "Paid At" from public.payout where "username" = '{{appsmith.store.username}}'

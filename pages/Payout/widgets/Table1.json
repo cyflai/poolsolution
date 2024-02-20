@@ -17,7 +17,8 @@
         {"key": "primaryColumns.Soluitons_Found.computedValue"},
         {"key": "primaryColumns.Pay_Amount.computedValue"},
         {"key": "primaryColumns.Paid_At.computedValue"},
-        {"key": "primaryColumns.AVGScore.computedValue"}
+        {"key": "primaryColumns.AVGScore.computedValue"},
+        {"key": "primaryColumns.Payment.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -59,7 +60,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1708179419525,
+    "columnUpdatedAt": 1708435746316,
     "defaultSelectedRowIndices": [0],
     "alignment": "start",
     "mobileBottomRow": 35.6,
@@ -68,6 +69,7 @@
     "columnOrder": [
         "Epoch",
         "Soluitons_Found",
+        "Payment",
         "Pay_Amount",
         "AVGScore",
         "Paid_At"
@@ -117,6 +119,40 @@
             "sticky": "",
             "originalId": "Pay Amount",
             "currencyCode": "USD",
+            "verticalAlignment": "CENTER"
+        },
+        "Payment": {
+            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Payment\"]))}}",
+            "isEditable": false,
+            "notation": "standard",
+            "alias": "Payment",
+            "enableSort": true,
+            "isSaveVisible": true,
+            "id": "Payment",
+            "isDisabled": false,
+            "allowSameOptionsInNewRow": true,
+            "validation": {},
+            "isCellVisible": true,
+            "isDerived": false,
+            "textSize": "0.875rem",
+            "allowCellWrapping": false,
+            "index": 2,
+            "isDiscardVisible": true,
+            "isVisible": true,
+            "label": "Payment",
+            "fontStyle": "",
+            "textColor": "",
+            "columnType": "text",
+            "thousandSeparator": true,
+            "horizontalAlignment": "CENTER",
+            "isCellEditable": false,
+            "decimals": 0,
+            "width": 150,
+            "enableFilter": true,
+            "sticky": "",
+            "originalId": "Payment",
+            "currencyCode": "USD",
+            "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
         "Epoch": {
