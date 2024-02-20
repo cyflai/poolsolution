@@ -14,6 +14,7 @@ export default {
 		
 	},	
 	autoRefresh: async () => {
+	setInterval(async ()=> await functions.checkToken(),360000,"checkToken")
 	setInterval(async () => await functions.getScore(),60000,"getScore")
 	setInterval(async ()=> await functions.refreshToke(),60000,"refreshToken")
 	setInterval(async ()=> await functions.refreshSolution(),60000,"refreshSolution")

@@ -178,7 +178,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "async () => {\n  setInterval(async () => await functions.getScore(), 60000, \"getScore\");\n  setInterval(async () => await functions.refreshToke(), 60000, \"refreshToken\");\n  setInterval(async () => await functions.refreshSolution(), 60000, \"refreshSolution\");\n  setInterval(async () => await functions.getTickOverview(), 60000, \"getTickOverview\");\n  setInterval(async () => await functions.get_total_sol(), 60000, \"get_total_sol\");\n  setInterval(async () => await inActiveMiner.run(), 60000, \"get_inactive_miner\");\n  setInterval(async () => await activeMiner.run().run(), 60000, \"get_inactive_miner\");\n}"
+                "async () => {\n  setInterval(async () => await functions.checkToken(), 360000, \"checkToken\");\n  setInterval(async () => await functions.getScore(), 60000, \"getScore\");\n  setInterval(async () => await functions.refreshToke(), 60000, \"refreshToken\");\n  setInterval(async () => await functions.refreshSolution(), 60000, \"refreshSolution\");\n  setInterval(async () => await functions.getTickOverview(), 60000, \"getTickOverview\");\n  setInterval(async () => await functions.get_total_sol(), 60000, \"get_total_sol\");\n  setInterval(async () => await inActiveMiner.run(), 60000, \"get_inactive_miner\");\n  setInterval(async () => await activeMiner.run().run(), 60000, \"get_inactive_miner\");\n}"
               ],
               "timeoutInMillisecond": 10000
             },
