@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "borderColor": "#E0DEDE",
-    "widthInPercentage": 0.9676616915422885,
+    "widthInPercentage": 0.9907514450867052,
     "isVisibleDownload": true,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
     "topRow": 29.195312499999996,
@@ -96,7 +96,7 @@
     ],
     "compactMode": "DEFAULT",
     "displayName": "Table",
-    "bottomRow": 189.1953125,
+    "bottomRow": 196.1953125,
     "columnWidthMap": {
         "solution": 116,
         "last": 156,
@@ -106,7 +106,7 @@
         "its": 121,
         "isActive": 100,
         "version": 121,
-        "miner": 208
+        "miner": 194
     },
     "parentRowSpace": 10,
     "hideCard": false,
@@ -173,7 +173,7 @@
             "textColor": "#231f20",
             "columnType": "number",
             "thousandSeparator": true,
-            "horizontalAlignment": "LEFT",
+            "horizontalAlignment": "CENTER",
             "isCellEditable": false,
             "decimals": 0,
             "width": 150,
@@ -241,7 +241,7 @@
             "textColor": "#231f20",
             "columnType": "number",
             "thousandSeparator": true,
-            "horizontalAlignment": "LEFT",
+            "horizontalAlignment": "CENTER",
             "isCellEditable": false,
             "decimals": 0,
             "width": 150,
@@ -343,7 +343,7 @@
             "textColor": "#231f20",
             "columnType": "text",
             "thousandSeparator": true,
-            "horizontalAlignment": "LEFT",
+            "horizontalAlignment": "CENTER",
             "isCellEditable": false,
             "decimals": 0,
             "width": 150,
