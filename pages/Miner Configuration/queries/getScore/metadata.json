@@ -28,7 +28,7 @@
         },
         {
           "key": "identity",
-          "value": "eq.{{appsmith.store.miningId}}"
+          "value": "eq.{{appsmith.store.minerId}}"
         }
       ],
       "body": "",
@@ -58,7 +58,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.store.miningId"
+      "appsmith.store.minerId"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

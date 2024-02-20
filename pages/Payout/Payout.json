@@ -51,6 +51,20 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Payout_functions.checkToken",
+              "name": "functions.checkToken",
+              "collectionId": "Payout_functions",
+              "clientSideExecution": true,
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  if (!appsmith.store.access_token) {\n    navigateTo('Login');\n  } else {\n    return appsmith.store.access_token;\n  }\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Payout_getMyPayout",
               "name": "getMyPayout",
               "confirmBeforeExecute": false,

@@ -80,6 +80,72 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Miner Configuration_functions.checkToken",
+              "name": "functions.checkToken",
+              "collectionId": "Miner Configuration_functions",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  if (!appsmith.store.access_token) {\n    navigateTo('Login');\n  } else {\n    return appsmith.store.access_token;\n  }\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Miner Configuration_functions.getScore",
+              "name": "functions.getScore",
+              "collectionId": "Miner Configuration_functions",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  await getScore.run().then(data => {\n    if (data) {\n      storeValue('score', data[0].score);\n    } else {\n      storeValue('score', \" \");\n    }\n  });\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Miner Configuration_functions.getTickOverview",
+              "name": "functions.getTickOverview",
+              "collectionId": "Miner Configuration_functions",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  await getTickOverview.run().then(data => {\n    storeValue('tickOverview', data);\n  });\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Miner Configuration_functions.get_total_sol",
+              "name": "functions.get_total_sol",
+              "collectionId": "Miner Configuration_functions",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  return await getMyEpoch_Solution.run().then(data => {\n    storeValue('TotalSolSum', data[0].solutionTotal);\n    console.log('d', data[0].solutionTotal);\n    return data[0].solutionTotal;\n  });\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Miner Configuration_functions.refreshSolution",
+              "name": "functions.refreshSolution",
+              "collectionId": "Miner Configuration_functions",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  await getSolutions.run().then(data => {\n    storeValue(\"solutions\", data);\n  });\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Miner Configuration_functions.refreshToke",
+              "name": "functions.refreshToke",
+              "collectionId": "Miner Configuration_functions",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  await sign_in.run().then(data => {\n    Object.keys(data).forEach(i => {\n      storeValue(i, data[i]);\n    });\n  });\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Miner Configuration_getMyEpoch_Solution",
               "name": "getMyEpoch_Solution",
               "confirmBeforeExecute": false,
@@ -98,6 +164,17 @@
               "pluginType": "DB",
               "jsonPathKeys": [
                 "appsmith.store.username.substring(0,3)"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Miner Configuration_functions.autoRefresh",
+              "name": "functions.autoRefresh",
+              "collectionId": "Miner Configuration_functions",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async () => {\n  setInterval(async () => await functions.getScore(), 60000, \"getScore\");\n  setInterval(async () => await functions.refreshToke(), 60000, \"refreshToken\");\n  setInterval(async () => await functions.refreshSolution(), 60000, \"refreshSolution\");\n  setInterval(async () => await functions.getTickOverview(), 60000, \"getTickOverview\");\n  setInterval(async () => await functions.get_total_sol(), 60000, \"get_total_sol\");\n  setInterval(async () => await inActiveMiner.run(), 60000, \"get_inactive_miner\");\n  setInterval(async () => await activeMiner.run().run(), 60000, \"get_inactive_miner\");\n}"
               ],
               "timeoutInMillisecond": 10000
             },

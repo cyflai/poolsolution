@@ -75,7 +75,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "async () => {\n  if (!appsmith.store.access_token) {\n    navigateTo('Login');\n  } else {\n    console.log(appsmith.store.expires_at);\n    selIdType.setSelectedOption(appsmith.store.idType);\n    return appsmith.store.access_token;\n  }\n}"
+                "async () => {\n  if (!appsmith.store.access_token) {\n    navigateTo('Login');\n  } else {\n    selIdType.setSelectedOption(appsmith.store.idType);\n    return appsmith.store.access_token;\n  }\n}"
               ],
               "timeoutInMillisecond": 10000
             },

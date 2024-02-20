@@ -13,7 +13,7 @@ export default {
 			if (!appsmith.store.access_token) {
 				navigateTo('Login')
 			} else {
-			console.log(appsmith.store.expires_at)
+			// console.log(appsmith.store.expires_at)
 			selIdType.setSelectedOption(appsmith.store.idType)
 			return appsmith.store.access_token		
 			}
