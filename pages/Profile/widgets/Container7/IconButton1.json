@@ -11,7 +11,7 @@
         "submit"
     ],
     "topRow": 0,
-    "bottomRow": 4.05,
+    "bottomRow": 4.1,
     "tooltip": "Signoff",
     "parentRowSpace": 10,
     "type": "ICON_BUTTON_WIDGET",
@@ -20,7 +20,7 @@
     "animateLoading": true,
     "parentColumnSpace": 13.5625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 59.87096774193549,
+    "leftColumn": 61.94707297514034,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}

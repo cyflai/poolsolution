@@ -8,8 +8,8 @@ export default {
 				navigateTo('Login')
 			} else {
 				
-			return appsmith.store.access_token		
-				appsmith.store
+				return appsmith.store.access_token		
+
 			}
 		
 	},	

@@ -16,7 +16,6 @@ export default {
 			console.log(appsmith.store.expires_at)
 			selIdType.setSelectedOption(appsmith.store.idType)
 			return appsmith.store.access_token		
-				
 			}
 		
 	},
