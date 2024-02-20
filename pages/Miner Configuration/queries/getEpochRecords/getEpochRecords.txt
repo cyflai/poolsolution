@@ -1,0 +1,32 @@
+-- Supabase AI is experimental and may produce incorrect answers
+-- Always verify the output before executing
+
+select
+  *
+from
+  (
+    select
+      t.epoch,
+      alias,
+      "solutionTotal",
+      to_char("insertTime", 'DD Mon YYYY HH24:MI') as "Last Update"
+    from
+      (
+        select
+          *,
+          row_number() over (
+            partition by
+              alias,
+              epoch
+            order by
+              "insertTime" desc
+          ) as rn
+        from
+          public."minerControlSumHistory"
+      ) t
+    where
+      rn = 1
+    order by
+      t.epoch desc,
+      alias asc
+  ) as ttt where alias = '{{appsmith.store.username.substring(0,4)}}';

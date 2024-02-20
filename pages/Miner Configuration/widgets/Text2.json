@@ -32,7 +32,7 @@
     "text": "<p><span style=\"color: rgb(41, 105, 176);\"><strong><u>Miners Information<\/u><\/strong><\/span><\/p><p><span style=\"color: rgb(44, 130, 201);\">Total Solutions<\/span>: {{getMyEpoch_Solution.data[0].solutionTotal.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\") }} <span style=\"color: rgb(44, 130, 201);\">Total It/s<\/span>: {{_.sumBy(Table1.tableData, (row) => row.its).toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\") }} <span style=\"color: rgb(44, 130, 201);\">Score<\/span>: {{ appsmith.store.score.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}} <span style=\"color: rgb(44, 130, 201);\">Active Miner<\/span><span style=\"color: rgb(41, 105, 176);\">:<\/span> {{activeMiner.data[0].count}} <span style=\"color: rgb(44, 130, 201);\">inActive Miner<\/span>: {{inActiveMiner.data[0].count}}<\/p>",
     "key": "g79dsj0q7j",
     "isDeprecated": false,
-    "rightColumn": 60.78391959798995,
+    "rightColumn": 60.86274509803921,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "z3vgcwspb8",
