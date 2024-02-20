@@ -236,7 +236,7 @@
             "index": 6,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "Total it/s",
+            "label": "Total It/s",
             "fontStyle": "",
             "textColor": "#231f20",
             "columnType": "number",
