@@ -68,7 +68,7 @@
         }
     },
     "borderRadius": "0.375rem",
-    "columnUpdatedAt": 1708410563970,
+    "columnUpdatedAt": 1708411474548,
     "primaryColumnId": "miner",
     "defaultSelectedRowIndices": [0],
     "alignment": "start",
@@ -98,15 +98,15 @@
     "displayName": "Table",
     "bottomRow": 189.1953125,
     "columnWidthMap": {
-        "solution": 149,
+        "solution": 116,
         "last": 156,
-        "lastActive": 159,
+        "lastActive": 187,
         "soluiton": 145,
         "created_at": 237,
-        "its": 186,
+        "its": 121,
         "isActive": 100,
-        "version": 146,
-        "miner": 194
+        "version": 121,
+        "miner": 208
     },
     "parentRowSpace": 10,
     "hideCard": false,
