@@ -134,22 +134,18 @@ export default {
 			
 		});
 	},
-	getSoloId: async () =>  {
-				// if (selIdType.selectedOptionValue == "solo")
-					// {
-								// let { data, error } = await this.sb
-										// .rpc('get_mining_id', { uname: appsmith.store.username, })
-									// if (error) {
-										// showAlert("Sorry, No more Solo ID, please select POOL ID or contact administrator", "error")
-										// console.error(error)
-									// }
-										// else {
-										// showAlert("Solo Id Selected", "success")
-									// }
-					// }
-		// 
+		updateTestTable: async () => {
+		try{
 
-										
-	}
+			await this.sb
+				.from('testtable')
+				.update({ addr: 222 }).auth({ token: appsmith.store.access_token })
+				// .eq('email', appsmith.store.email)
+		  	showAlert("testabled updated",'success')
+     }catch(error){
+			showAlert("Failed to update testtabled Please try again later",'error')
+			console.log(error.message)
+     }
+	},
 }
 	

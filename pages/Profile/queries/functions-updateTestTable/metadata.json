@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "getSoloId",
-    "fullyQualifiedName": "functions.getSoloId",
+    "name": "updateTestTable",
+    "fullyQualifiedName": "functions.updateTestTable",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-01-31T06:33:01Z"
+    "createdAt": "2024-02-20T13:00:34Z"
   },
-  "id": "Profile_functions.getSoloId",
+  "id": "Profile_functions.updateTestTable",
   "deleted": false,
-  "gitSyncId": "65b757f4839ff15ac032d275_65b9e99d432ff652a41c96bc"
+  "gitSyncId": "65b757f4839ff15ac032d275_65d4a27267fa00479b41b08c"
 }
