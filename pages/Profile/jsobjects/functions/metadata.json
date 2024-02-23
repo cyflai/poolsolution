@@ -33,7 +33,7 @@
       },
       {
         "name": "sb",
-        "value": "supabase.createClient(functions.supabaseUrl, functions.supabaseKey)"
+        "value": "supabase.createClient(functions.supabaseUrl, functions.supabaseKey, {\n  global: {\n    headers: {\n      Authorization: `Bearer ` + appsmith.store.access_token\n    }\n  }\n})"
       }
     ],
     "userPermissions": []
