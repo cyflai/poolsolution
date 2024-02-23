@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 0,
-    "bottomRow": 34.43125,
+    "bottomRow": 44.0296875,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -28,7 +28,7 @@
     "shouldTruncate": false,
     "borderWidth": "5",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "<p><strong>Resource Pooling<\/strong>:&nbsp;<br>Contribute significant hashing power to the collaborative pool. Ensuring lower risk and more consistent results due to the shared power. You can increase the chances of regularly solving AI models and earning scores through collaborative efforts, leading to a more stable and lucrative income stream.<br><br><strong>Solution Validation<\/strong>:&nbsp;<br>When a miner successfully finds a solution, it is submitted to the pool for validation. Then, the solution is written on the blockchain under one of the pool ID's.<\/p><p><br><\/p><p>How to mine:&nbsp;<\/p><ol><li>1) &nbsp; &nbsp;Create an account on the website<\/li><li>2) &nbsp; &nbsp;If you've not used your workers to mine Qubic before, use the first command.<\/li><li>3) &nbsp; &nbsp;If you are switching from a different pool, use the second command.&nbsp;<\/li><li>4)    If you are using HiveOS, follow the instructions on the profile page.&nbsp;<\/li><\/ol><p><br><\/p><p>Current miner: Cuda and CPU only&nbsp;<br>*OpenCL is currently not supported*<\/p><p><br><\/p><p>For any questions, please join us on Discord; we will assist you there.<\/p><p><\/p>",
+    "text": "<p><strong>Resource Pooling<\/strong>:&nbsp;<br>Contribute significant hashing power to the collaborative pool. Ensuring lower risk and more consistent results due to the shared power. You can increase the chances of regularly solving AI models and earning scores through collaborative efforts, leading to a more stable and lucrative income stream.<br><br><strong>Solution Validation<\/strong>:&nbsp;<br>When a miner successfully finds a solution, it is submitted to the pool for validation. Then, the solution is written on the blockchain under one of the pool ID's.<\/p><p><br><\/p><p>How to mine:&nbsp;<\/p><ol><li> &nbsp; &nbsp;Create an account on the website<\/li><li> &nbsp; &nbsp;If you've not used your workers to mine Qubic before, use the first command.<\/li><li> &nbsp; &nbsp;If you are switching from a different pool, use the second command.&nbsp;<\/li><li>    If you are using HiveOS, follow the instructions on the profile page.&nbsp;<\/li><\/ol><p><br><\/p><p>Current miner: Cuda and CPU only&nbsp;<br>*OpenCL is currently not supported*<\/p><p><br><\/p><p>For any questions, please join us on Discord; we will assist you there.<\/p><p><\/p>",
     "key": "zk5je77rhw",
     "isDeprecated": false,
     "rightColumn": 64,
