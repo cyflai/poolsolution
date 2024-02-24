@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "-- Supabase AI is experimental and may produce incorrect answers\n-- Always verify the output before executing\n\nselect\n  *\nfrom\n  (\n    select\n      t.epoch,\n      alias,\n      \"solutionTotal\",\n      to_char(\"insertTime\", 'DD Mon YYYY HH24:MI') as \"Last Update\"\n    from\n      (\n        select\n          *,\n          row_number() over (\n            partition by\n              alias,\n              epoch\n            order by\n              \"insertTime\" desc\n          ) as rn\n        from\n          public.\"minerControlSumHistory\"\n      ) t\n    where\n      rn = 1\n    order by\n      t.epoch desc,\n      alias asc\n  ) as ttt where alias = '{{appsmith.store.username.substring(0,4)}}';",
+      "body": "-- Supabase AI is experimental and may produce incorrect answers\n-- Always verify the output before executing\n\nselect\n  *\nfrom\n  (\n-- Supabase AI is experimental and may produce incorrect answers\n-- Always verify the output before executing\n\nselect distinct\n  on (epoch, alias) to_char(\"insertTime\", 'DD Mon YYYY HH24:MI') as \"Snapshot\",\n  epoch as \"Epoch\",\n  alias as \"Alias\",\n  \"solutionTotal\" as \"Total Solutions\",\n  \"totalIts\" as \"Total Its\"\nfrom\n  public.\"minerControlSumHistory\"\norder by\n  epoch,\n  alias,\n  \"solutionTotal\" desc\n  ) as ttt where \"Alias\" = '{{appsmith.store.username.substring(0,4)}}';",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
