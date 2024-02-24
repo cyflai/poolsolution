@@ -21,7 +21,7 @@ export default {
 						
 						storeValue('wallet_address',profileData[0].wallet_address)
 						storeValue('idType',profileData[0].idType)
-						storeValue('minerId',await functions.getMinerId(inp_Username.text.toLowerCase()))
+						storeValue('minerId',inp_Username.text.toLowerCase())
 						storeValue('miningId',profileData[0].miningId)
 						storeValue('score',profileData[0].score)
 						await auth.refreshSolution()
