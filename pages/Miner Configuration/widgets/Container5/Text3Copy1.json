@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "<p id=\"isPasted\"><u>Pool Details<br><\/u><span style=\"color: rgb(40, 50, 78);\">Supply: {{appsmith.store.tickOverview[0].supply.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}}<br>Price: ${{appsmith.store.tickOverview[0].price.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}}<br>Capitalization: {{appsmith.store.tickOverview[0].marketCapitalization.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}}<\/span><\/p>",
+    "text": "<p id=\"isPasted\"><u>Network Details<br><\/u><span style=\"color: rgb(40, 50, 78);\">Supply: {{appsmith.store.tickOverview[0].supply.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}}<br>Price: ${{appsmith.store.tickOverview[0].price.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}}<br>Capitalization: {{appsmith.store.tickOverview[0].marketCapitalization.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}}<\/span><\/p>",
     "key": "dqmvu1zwxb",
     "isDeprecated": false,
     "rightColumn": 64,
