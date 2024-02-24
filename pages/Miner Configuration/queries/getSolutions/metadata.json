@@ -33,7 +33,7 @@
         },
         {
           "key": "miner",
-          "value": "ilike.{{appsmith.store.minerId}}%"
+          "value": "ilike.{{appsmith.store.username}}%"
         }
       ],
       "body": "",
@@ -67,7 +67,7 @@
     "messages": [],
     "jsonPathKeys": [
       "appsmith.store.access_token",
-      "appsmith.store.minerId"
+      "appsmith.store.username"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

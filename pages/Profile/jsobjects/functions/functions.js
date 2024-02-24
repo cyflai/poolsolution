@@ -11,7 +11,7 @@ export default {
   Authorization: `Bearer ` + appsmith.store.access_token
 }}}),
 	checkToken: async () => {
-		
+			
 			if (!appsmith.store.access_token) {
 				navigateTo('Login')
 			} else {
