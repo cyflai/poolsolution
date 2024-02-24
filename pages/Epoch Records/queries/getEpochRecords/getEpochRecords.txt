@@ -17,7 +17,7 @@ select distinct
 from
   public."minerControlSumHistory"
 order by
-  epoch,
+  epoch DESC,
   alias,
   "solutionTotal" desc
   ) as ttt where "Alias" = '{{appsmith.store.username.substring(0,4)}}';
