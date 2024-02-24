@@ -78,10 +78,10 @@
     "displayName": "Table",
     "bottomRow": 35.2,
     "columnWidthMap": {
-        "Pay_Amount": 179,
+        "Pay_Amount": 114,
         "Epoch": 91,
-        "Soluitons_Found": 185,
-        "AVGScore": 244
+        "Soluitons_Found": 154,
+        "AVGScore": 151
     },
     "parentRowSpace": 10,
     "hideCard": false,

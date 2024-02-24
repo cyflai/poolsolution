@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "<p>For Solo mining, as for now, the recommended it/s is <span style=\"color: #ff0000;\"><strong> {{appsmith.store.recommandedIts.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}} it/s<\/strong><\/span><\/p>",
+    "text": "<p>For Solo mining, as for now, the recommended it/s is <span style=\"color: #ff0000;\"><strong> {{appsmith.store.recommandedIts.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}} It/s<\/strong><\/span><\/p>",
     "key": "iumfysob3n",
     "isDeprecated": false,
     "rightColumn": 64,
