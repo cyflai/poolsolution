@@ -9,13 +9,15 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "validation"}
     ],
     "labelStyle": "",
     "inputType": "TEXT",
     "placeholderText": "Enter your username",
     "isDisabled": false,
     "flexVerticalAlignment": "end",
+    "validation": "{{ inp_registerUsername.text.length() > 5}}",
     "isRequired": true,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",

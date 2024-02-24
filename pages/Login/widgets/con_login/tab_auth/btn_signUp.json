@@ -20,7 +20,7 @@
     "animateLoading": true,
     "parentColumnSpace": 18.1875,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 26.644351464435147,
+    "leftColumn": 24.21945337620579,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -30,7 +30,7 @@
     "key": "d80868s2dr",
     "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 37.35564853556485,
+    "rightColumn": 39.78054662379421,
     "isDefaultClickDisabled": true,
     "widgetId": "mwnderxhs9",
     "minWidth": 120,

@@ -9,13 +9,15 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "validation"}
     ],
     "labelStyle": "",
     "inputType": "TEXT",
     "placeholderText": "Enter your Username",
     "isDisabled": false,
     "flexVerticalAlignment": "end",
+    "validation": "{{inp_registerUsername.text.length > 4}}",
     "isRequired": true,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -47,6 +49,7 @@
     "isDeprecated": false,
     "rightColumn": 64,
     "widgetId": "l7hf8perg8",
+    "errorMessage": "Username must be atleast 5 chars",
     "minWidth": 450,
     "label": "Username",
     "parentId": "f5yn1hxqze",
