@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "borderColor": "#E0DEDE",
-    "widthInPercentage": 0.9904648390941597,
+    "widthInPercentage": 0.9908675799086758,
     "isVisibleDownload": true,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
     "topRow": 29.195312499999996,
@@ -68,7 +68,7 @@
         }
     },
     "borderRadius": "0.375rem",
-    "columnUpdatedAt": 1708523385165,
+    "columnUpdatedAt": 1708824474512,
     "primaryColumnId": "miner",
     "defaultSelectedRowIndices": [0],
     "alignment": "start",
@@ -96,7 +96,7 @@
     ],
     "compactMode": "DEFAULT",
     "displayName": "Table",
-    "bottomRow": 166.1953125,
+    "bottomRow": 201.1953125,
     "columnWidthMap": {
         "solution": 116,
         "last": 156,
@@ -337,7 +337,7 @@
             "allowCellWrapping": false,
             "index": 4,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "Version",
             "fontStyle": "",
             "textColor": "#231f20",
