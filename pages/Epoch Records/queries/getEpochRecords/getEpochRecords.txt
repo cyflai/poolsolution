@@ -1,23 +1,11 @@
--- Supabase AI is experimental and may produce incorrect answers
--- Always verify the output before executing
-
 select
-  *
+  miner_records_view.epoch,
+  sum(miner_records_view.totalsolutionsfound) as "solutionTotal"
 from
-  (
--- Supabase AI is experimental and may produce incorrect answers
--- Always verify the output before executing
-
-select distinct
-  on (epoch, alias) to_char("insertTime", 'DD Mon YYYY HH24:MI') as "Snapshot",
-  epoch as "Epoch",
-  alias as "Alias",
-  "solutionTotal" as "Total Solutions",
-  "totalIts" as "Total Its"
-from
-  public."minerControlSumHistory"
-order by
-  epoch DESC,
-  alias,
-  "solutionTotal" desc
-  ) as ttt where "Alias" = '{{appsmith.store.username.substring(0,4)}}';
+  miner_records_view
+where
+  lower(miner_records_view.alias) ilike '{{appsmith.store.username.substring(0,4)}}'
+group by
+  lower(miner_records_view.alias),
+  miner_records_view.epoch
+order by epoch DESC

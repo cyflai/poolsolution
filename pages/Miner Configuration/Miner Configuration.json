@@ -10,7 +10,7 @@
           "mobileBottomRow": 1445.84375,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 2063.953125,
+          "bottomRow": 1683.953125,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -66,7 +66,7 @@
             {
               "children": [
                 {
-                  "id": "yv1yj4w479",
+                  "id": "5ydbm4buw1",
                   "align": "start"
                 }
               ]
@@ -152,6 +152,18 @@
             {
               "id": "Miner Configuration_getMyEpoch_Solution",
               "name": "getMyEpoch_Solution",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.username.substring(0,4)"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Miner Configuration_getMinerRecords",
+              "name": "getMinerRecords",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [

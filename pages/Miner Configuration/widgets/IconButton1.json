@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 28,
     "widgetName": "IconButton1",
-    "onClick": "{{getMyEpoch_Solution.run();\ngetSolutions.run();\ngetScore.run();\ninActiveMiner.run();\nactiveMiner.run();}}",
+    "onClick": "{{getMyEpoch_Solution.run();\ngetMinerRecords.run()\ngetScore.run();\ninActiveMiner.run();\nactiveMiner.run();}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon button",
     "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",

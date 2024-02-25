@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "getMyEpoch_Solution",
+    "name": "getMinerRecords",
     "datasource": {
       "name": "qubic",
       "pluginId": "postgres-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "select\n  lower(miner_records_view.alias) as \"alias\",\n  miner_records_view.epoch,\n  sum(miner_records_view.totalsolutionsfound) as \"solutionTotal\"\nfrom\n  miner_records_view\n  join \"tickOverview\" on miner_records_view.epoch = \"tickOverview\".epoch\nwhere\n  lower(miner_records_view.alias) ilike '{{appsmith.store.username.substring(0,4)}}'\ngroup by\n  lower(miner_records_view.alias),\n  miner_records_view.epoch;",
+      "body": "select miner as \"Miner\", \"Solutions\", \"Its\", \"lastActive\", \"isActive\" from public.miner_records_current_epoch_raw_view where \nminer ilike '{{appsmith.store.username.substring(0,4)}}%'",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -38,13 +38,13 @@
     "jsonPathKeys": [
       "appsmith.store.username.substring(0,4)"
     ],
-    "userSetOnLoad": true,
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-02-18T01:56:56Z"
+    "createdAt": "2024-02-25T11:36:15Z"
   },
-  "id": "Miner Configuration_getMyEpoch_Solution",
+  "id": "Miner Configuration_getMinerRecords",
   "deleted": false,
-  "gitSyncId": "65b757f4839ff15ac032d275_65d163e867fa00479b41acb2"
+  "gitSyncId": "65b757f4839ff15ac032d275_65db262f67fa00479b41b5aa"
 }

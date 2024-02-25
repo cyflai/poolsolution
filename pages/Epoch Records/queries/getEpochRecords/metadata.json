@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "-- Supabase AI is experimental and may produce incorrect answers\n-- Always verify the output before executing\n\nselect\n  *\nfrom\n  (\n-- Supabase AI is experimental and may produce incorrect answers\n-- Always verify the output before executing\n\nselect distinct\n  on (epoch, alias) to_char(\"insertTime\", 'DD Mon YYYY HH24:MI') as \"Snapshot\",\n  epoch as \"Epoch\",\n  alias as \"Alias\",\n  \"solutionTotal\" as \"Total Solutions\",\n  \"totalIts\" as \"Total Its\"\nfrom\n  public.\"minerControlSumHistory\"\norder by\n  epoch DESC,\n  alias,\n  \"solutionTotal\" desc\n  ) as ttt where \"Alias\" = '{{appsmith.store.username.substring(0,4)}}';",
+      "body": "select\n  miner_records_view.epoch,\n  sum(miner_records_view.totalsolutionsfound) as \"solutionTotal\"\nfrom\n  miner_records_view\nwhere\n  lower(miner_records_view.alias) ilike '{{appsmith.store.username.substring(0,4)}}'\ngroup by\n  lower(miner_records_view.alias),\n  miner_records_view.epoch\norder by epoch DESC",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
