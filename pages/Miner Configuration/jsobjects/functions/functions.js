@@ -3,7 +3,6 @@ export default {
 	supabaseKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFmaHZvY3NwZWVzZXJhc3l0cHJzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDU4MjI0OTEsImV4cCI6MjAyMTM5ODQ5MX0.s0FtT89QeWCxTf8szuAtAyu8us0AZ5dhk6i13fMyvp8',
 	sb: supabase.createClient(this.supabaseUrl,this.supabaseKey),
 	checkToken: () => {
-		
 			if (!appsmith.store.access_token) {
 				navigateTo('Login')
 			} else {
@@ -11,13 +10,11 @@ export default {
 			
 			return appsmith.store.access_token		
 			}
-		
 	},	
 	autoRefresh: async () => {
 	setInterval(async ()=> await functions.checkToken(),360000,"checkToken")
 	setInterval(async () => await functions.getScore(),60000,"getScore")
 	setInterval(async ()=> await functions.refreshToke(),60000,"refreshToken")
-	setInterval(async ()=> await functions.refreshSolution(),60000,"refreshSolution")
 	// setInterval(async ()=> await functions.refreshToke(),60000, "reloadPage")
 	setInterval(async ()=> await functions.getTickOverview(),60000,"getTickOverview")
 	setInterval(async ()=> await functions.get_total_sol(),60000, "get_total_sol")
@@ -32,11 +29,6 @@ export default {
 					storeValue(i, data[i]);
 			});
 			// console.log(appsmith.store.access_token)
-		})
-	},
-	refreshSolution: async () => {
-		await getSolutions.run().then(data => {
-			storeValue("solutions",data)
 		})
 	},
 	get_total_sol: async () => {
@@ -61,5 +53,21 @@ export default {
 		await getTickOverview.run().then( data => {
 			storeValue('tickOverview',data)
 		})
+	},
+	isActive: (dateTimeString) => {
+  // Parse the provided datetime string
+  const providedDateTime = new Date(dateTimeString);
+
+  // Get the current datetime
+  const currentDateTime = new Date();
+
+  // Calculate the difference in minutes
+  const timeDifferenceInMinutes = (currentDateTime - providedDateTime) / (1000 * 60);
+
+  // Compare with 45 minutes
+  return Math.abs(timeDifferenceInMinutes) <= 45;
+	},
+	test: ()=>{
+		return (functions.isActive("2024-02-26 00:50:07.76"))
 	}
 }

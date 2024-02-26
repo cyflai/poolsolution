@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "refreshSolution",
-    "fullyQualifiedName": "functions.refreshSolution",
+    "name": "test",
+    "fullyQualifiedName": "functions.test",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -22,7 +22,7 @@
       "selfReferencingDataPaths": [],
       "jsArguments": []
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -31,13 +31,13 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "userSetOnLoad": true,
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-02-19T14:31:12Z"
+    "createdAt": "2024-02-26T01:02:18Z"
   },
-  "id": "Miner Configuration_functions.refreshSolution",
+  "id": "Miner Configuration_functions.test",
   "deleted": false,
-  "gitSyncId": "65b757f4839ff15ac032d275_65d3663067fa00479b41ae1f"
+  "gitSyncId": "65b757f4839ff15ac032d275_65dbe31a67fa00479b41b63f"
 }
