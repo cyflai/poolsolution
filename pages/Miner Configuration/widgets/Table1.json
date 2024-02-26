@@ -200,7 +200,7 @@
             "index": 2,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "Its",
+            "label": "It/s",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "CENTER",
