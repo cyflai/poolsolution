@@ -60,7 +60,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1708861505097,
+    "columnUpdatedAt": 1708921804291,
     "defaultSelectedRowIndices": [0],
     "alignment": "start",
     "mobileBottomRow": 54,
@@ -76,7 +76,10 @@
     "dynamicPropertyPathList": [],
     "displayName": "Table",
     "bottomRow": 427.3953125,
-    "columnWidthMap": {"Miner": 204},
+    "columnWidthMap": {
+        "Miner": 290,
+        "Solutions": 278
+    },
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 64,
@@ -164,7 +167,7 @@
             "allowCellWrapping": false,
             "index": 3,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "lastActive",
             "columnType": "date",
             "thousandSeparator": true,
