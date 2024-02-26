@@ -77,9 +77,9 @@
     "displayName": "Table",
     "bottomRow": 427.3953125,
     "columnWidthMap": {
-        "Miner": 622,
-        "Solutions": 202,
-        "Its": 153
+        "Miner": 266,
+        "Solutions": 288,
+        "Its": 129
     },
     "parentRowSpace": 10,
     "hideCard": false,
