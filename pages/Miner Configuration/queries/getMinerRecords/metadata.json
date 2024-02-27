@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "select miner as \"Miner\", \"Solutions\", \"Its\", \"lastActive\", \"isActive\" from public.miner_records_current_epoch_raw_view where \nminer ilike '{{appsmith.store.username.substring(0,4)}}%'",
+      "body": "select miner as \"Miner\", \"Solutions\", \"Its\", \"lastActive\", \"isActive\" from public.miner_records_current_epoch_raw_view where \nminer ilike '{{appsmith.store.username.substring(0,5)}}%'",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,7 +36,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.store.username.substring(0,4)"
+      "appsmith.store.username.substring(0,5)"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

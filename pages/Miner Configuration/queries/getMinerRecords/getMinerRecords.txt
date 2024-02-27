@@ -1,2 +1,2 @@
 select miner as "Miner", "Solutions", "Its", "lastActive", "isActive" from public.miner_records_current_epoch_raw_view where 
-miner ilike '{{appsmith.store.username.substring(0,4)}}%'
+miner ilike '{{appsmith.store.username.substring(0,5)}}%'

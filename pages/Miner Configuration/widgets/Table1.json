@@ -18,7 +18,11 @@
         {"key": "primaryColumns.Solutions.computedValue"},
         {"key": "primaryColumns.Its.computedValue"},
         {"key": "primaryColumns.lastActive.computedValue"},
-        {"key": "primaryColumns.isActive.computedValue"}
+        {"key": "primaryColumns.isActive.computedValue"},
+        {"key": "primaryColumns.Miner.cellBackground"},
+        {"key": "primaryColumns.Solutions.cellBackground"},
+        {"key": "primaryColumns.Its.cellBackground"},
+        {"key": "primaryColumns.lastActive.cellBackground"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -73,13 +77,18 @@
         "lastActive",
         "isActive"
     ],
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [
+        {"key": "primaryColumns.Miner.cellBackground"},
+        {"key": "primaryColumns.Solutions.cellBackground"},
+        {"key": "primaryColumns.Its.cellBackground"},
+        {"key": "primaryColumns.lastActive.cellBackground"}
+    ],
     "displayName": "Table",
     "bottomRow": 427.3953125,
     "columnWidthMap": {
         "Miner": 229,
         "Solutions": 187,
-        "Its": 129
+        "Its": 364
     },
     "parentRowSpace": 10,
     "hideCard": false,
@@ -117,6 +126,7 @@
             "sticky": "left",
             "originalId": "Miner",
             "currencyCode": "USD",
+            "cellBackground": "{{Table1.processedTableData.map((currentRow, currentIndex) => (  functions.isActive(currentRow.lastActive) == false ? \"yellow\" : \"\" ))}}",
             "verticalAlignment": "CENTER"
         },
         "Solutions": {
@@ -148,6 +158,7 @@
             "sticky": "",
             "originalId": "Solutions",
             "currencyCode": "USD",
+            "cellBackground": "{{Table1.processedTableData.map((currentRow, currentIndex) => (  functions.isActive(currentRow.lastActive) == false ? \"yellow\" : \"\" ))}}",
             "verticalAlignment": "CENTER"
         },
         "lastActive": {
@@ -180,6 +191,7 @@
             "sticky": "",
             "originalId": "lastActive",
             "currencyCode": "USD",
+            "cellBackground": "{{Table1.processedTableData.map((currentRow, currentIndex) => (  functions.isActive(currentRow.lastActive) == false ? \"yellow\" : \"\" ))}}",
             "verticalAlignment": "CENTER"
         },
         "Its": {
@@ -211,6 +223,7 @@
             "sticky": "",
             "originalId": "Its",
             "currencyCode": "USD",
+            "cellBackground": "{{Table1.processedTableData.map((currentRow, currentIndex) => (  functions.isActive(currentRow.lastActive) == false ? \"yellow\" : \"\" ))}}",
             "verticalAlignment": "CENTER"
         },
         "isActive": {

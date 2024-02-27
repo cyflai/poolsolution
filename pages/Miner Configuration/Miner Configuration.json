@@ -156,7 +156,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "appsmith.store.username.substring(0,4)"
+                "appsmith.store.username.substring(0,5)"
               ],
               "timeoutInMillisecond": 10000
             }

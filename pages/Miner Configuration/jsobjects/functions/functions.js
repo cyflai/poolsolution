@@ -57,9 +57,9 @@ export default {
 	isActive: (dateTimeString) => {
   // Parse the provided datetime string
   const providedDateTime = new Date(dateTimeString);
-
+	
   // Get the current datetime
-  const currentDateTime = new Date();
+  const currentDateTime = new Date(new Date().toISOString());
 
   // Calculate the difference in minutes
   const timeDifferenceInMinutes = (currentDateTime - providedDateTime) / (1000 * 60);
@@ -68,6 +68,6 @@ export default {
   return Math.abs(timeDifferenceInMinutes) <= 45;
 	},
 	test: ()=>{
-		return (functions.isActive("2024-02-26 00:50:07.76"))
+		return (functions.isActive("2024-02-27 01:27:33.186+00"))
 	}
 }
