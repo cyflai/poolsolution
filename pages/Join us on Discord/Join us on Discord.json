@@ -48,9 +48,7 @@
               "clientSideExecution": true,
               "confirmBeforeExecute": false,
               "pluginType": "JS",
-              "jsonPathKeys": [
-                "async function () {\n  navigateTo('https://discord.gg/CtT3mtxSpY', {}, 'NEW_WINDOW');\n}"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
