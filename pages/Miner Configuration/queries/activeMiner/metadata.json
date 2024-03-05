@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "select * from get_miner_records_active_count('{{appsmith.store.username.substring(0,4)}}%')",
+      "body": "select * from get_miner_records_active_count('{{appsmith.store.username.substring(0,4)}}%') as count",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

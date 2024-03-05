@@ -1,1 +1,1 @@
-select * from get_miner_records_active_count('{{appsmith.store.username.substring(0,4)}}%')
+select * from get_miner_records_active_count('{{appsmith.store.username.substring(0,4)}}%') as count
