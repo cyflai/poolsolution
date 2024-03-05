@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT count(*) from solutions_view where lower(miner) \nilike '{{appsmith.store.username.substring(0,3)}}%'\nand public.solutions_view.\"isActive\" = TRUE",
+      "body": "select * from get_miner_records_active_count('{{appsmith.store.username.substring(0,4)}}%')",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,7 +36,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.store.username.substring(0,3)"
+      "appsmith.store.username.substring(0,4)"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

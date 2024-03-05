@@ -10,7 +10,7 @@
           "mobileBottomRow": 1445.84375,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 4273.953125,
+          "bottomRow": 4353.953125,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -168,7 +168,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "appsmith.store.username.substring(0,3)"
+                "appsmith.store.username.substring(0,4)"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -189,7 +189,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "appsmith.store.username.substring(0,3)"
+                "appsmith.store.username.substring(0,4)"
               ],
               "timeoutInMillisecond": 10000
             }

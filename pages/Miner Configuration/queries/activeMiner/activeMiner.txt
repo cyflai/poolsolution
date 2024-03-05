@@ -1,3 +1,1 @@
-SELECT count(*) from solutions_view where lower(miner) 
-ilike '{{appsmith.store.username.substring(0,3)}}%'
-and public.solutions_view."isActive" = TRUE
+select * from get_miner_records_active_count('{{appsmith.store.username.substring(0,4)}}%')
