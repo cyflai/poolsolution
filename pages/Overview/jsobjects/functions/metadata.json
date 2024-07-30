@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "65b05840165cc466aa8cd8cc_65b0cc3f4b703a552d18620f",
+  "id": "Overview_functions",
   "unpublishedCollection": {
     "name": "functions",
     "pageId": "Overview",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "Overview_functions",
-  "deleted": false,
-  "gitSyncId": "65b05840165cc466aa8cd8cc_65b0cc3f4b703a552d18620f"
+    "variables": []
+  }
 }

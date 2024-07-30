@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "65ae1519b4b1fd3505406a5e_65ae236b77daa66efb5350ff",
+  "id": "Login_auth",
   "unpublishedCollection": {
     "name": "auth",
     "pageId": "Login",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "supabaseUrl",
@@ -19,10 +19,6 @@
         "name": "sb",
         "value": "supabase.createClient(auth.supabaseUrl, auth.supabaseKey)"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Login_auth",
-  "deleted": false,
-  "gitSyncId": "65ae1519b4b1fd3505406a5e_65ae236b77daa66efb5350ff"
+    ]
+  }
 }

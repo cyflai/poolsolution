@@ -1,55 +1,69 @@
 {
-    "resetFormOnClick": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 38.400000000001455,
-    "widgetName": "btn_navigateToSignUp",
-    "onClick": "{{functions.setDefaultTab('Sign Up')}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
-    "displayName": "Button",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 31.600000000001454,
-    "bottomRow": 35.60000000000146,
-    "parentRowSpace": 10,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 42.766961651917406,
-    "animateLoading": true,
-    "parentColumnSpace": 19.8125,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "text": "Don't have an account? Sign Up",
-    "isDisabled": false,
-    "key": "w5le6pkfax",
-    "flexVerticalAlignment": "end",
-    "isDeprecated": false,
-    "rightColumn": 23.308681672025724,
-    "isDefaultClickDisabled": true,
-    "widgetId": "6mx5oq7on0",
-    "minWidth": 120,
-    "isVisible": true,
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "8rq3ao3yqz",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 34.400000000001455,
-    "originalTopRow": 36.8,
-    "responsiveBehavior": "hug",
-    "disabledWhenInvalid": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
-    "originalBottomRow": 40.79999999999927,
-    "buttonVariant": "TERTIARY",
-    "placement": "CENTER",
-    "alignment": "start"
+  "alignment": "start",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 35.60000000000146,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "TERTIARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "flexVerticalAlignment": "end",
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "w5le6pkfax",
+  "leftColumn": 0,
+  "minWidth": 120,
+  "mobileBottomRow": 38.400000000001455,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 42.766961651917406,
+  "mobileTopRow": 34.400000000001455,
+  "onClick": "{{functions.setDefaultTab('Sign Up')}}",
+  "originalBottomRow": 40.79999999999927,
+  "originalTopRow": 36.8,
+  "parentColumnSpace": 19.8125,
+  "parentId": "8rq3ao3yqz",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 23.308681672025724,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Don't have an account? Sign Up",
+  "topRow": 31.600000000001454,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "6mx5oq7on0",
+  "widgetName": "btn_navigateToSignUp"
 }

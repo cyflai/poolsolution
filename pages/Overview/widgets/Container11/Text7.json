@@ -1,57 +1,63 @@
 {
-    "mobileBottomRow": 315.603125,
-    "widgetName": "Text7",
-    "displayName": "Text",
-    "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
-    "searchTags": [
-        "typography",
-        "paragraph",
-        "label"
-    ],
-    "topRow": 0,
-    "bottomRow": 46.86875,
-    "parentRowSpace": 10,
-    "type": "TEXT_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 64,
-    "animateLoading": true,
-    "overflow": "NONE",
-    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "parentColumnSpace": 12.4375,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "truncateButtonColor"},
-        {"key": "fontFamily"},
-        {"key": "borderRadius"}
-    ],
-    "shouldTruncate": false,
-    "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "<p>In the operation offered at Pool Solution, the introduction of fees is a standard practice aimed at sustaining the pool's infrastructure, covering operational costs, and ensuring its long-term viability. These fees are typically deducted from the rewards earned by miners and contribute to the maintenance, development, and improvements on the service. \n\nThere are two types of services offered:<\/p>\n<p><strong><p><strong>1) <span style=\"color: rgb(41, 105, 176);\">Solo:<\/span> &nbsp;<\/strong>Assigning an ID to a miner who would want to attempt to qualify his own ID. &nbsp;When and after qualified, an ID will reward the miner 1.479b $Qubic. <span style=\"background-color: rgb(250, 197, 28);\">The fee deducted by the pool for maintaining the infrastructure will be&nbsp;<\/span><strong><span style=\"background-color: rgb(250, 197, 28);\">179m<\/span><\/strong>. &nbsp;The remaining Amount will be paid directly to the miner <strong><span style=\"color: rgb(41, 105, 176);\">a week after successful<\/span>&nbsp;<\/strong>qualification.&nbsp;<\/p>\n\n<p>Solo miners should be aware that they must have the right amount of stated computing power before joining the pool.<\/p>\n<p>An additional ID will be allocated to smaller miners to share. The rewards will be calculated based on the epoch avg. score with a 10% bonus applied. \n\n<strong>2) <span style=\"color: rgb(41, 105, 176);\">Pooling<\/span>:&nbsp;<\/strong>An additional ID will be allocated for smaller miners to share. The rewards will be calculated based on the epoch avg. score +6%. In which the solution count of each miner will be paid in percent of contribution from the ID revenue. The pool miners will be paid by solutions that they found. The maximum value per ID to be obtained is&nbsp;<strong><span style=\"color: rgb(41, 105, 176);\">1,300,000,000<\/span><\/strong>. The payments for new miners will be distributed a week after their completion of the first epoch.&nbsp;\n\n<strong><span style=\"font-size: 14px; color: blue;\">**Due to the Qubic revenue payment system, initial payments may be delayed for new miners as more ID's are qualifying in the network. All these payments will be paid to the miners whom contributed after their successful qualification week and may receive bonuses for the outstanding week in the next epoch. If miners leave before the end of an epoch, penalties could be applied as the pool might suffer from disqualification of IDs, which will greatly affect the revenue**<\/span><\/strong>\n\n<p><strong>All payments are made on Wednesday&nbsp;<\/strong>after the Epoch transitions. (4 PM UTC)<\/p>\n\n\n",
-    "key": "eapzsxev5b",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "textAlign": "LEFT",
-    "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "mgd6j98icn",
-    "minWidth": 450,
-    "isVisible": true,
-    "fontStyle": "BOLD",
-    "textColor": "#231F20",
-    "version": 1,
-    "parentId": "86d0nlkuv9",
-    "tags": [
-        "Suggested",
-        "Content"
-    ],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 0,
-    "responsiveBehavior": "fill",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
-    "maxDynamicHeight": 9000,
-    "fontSize": "1rem",
-    "alignment": "start",
-    "minDynamicHeight": 4
+  "alignment": "start",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 46.86875,
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "eapzsxev5b",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 315.603125,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 0,
+  "overflow": "NONE",
+  "parentColumnSpace": 12.4375,
+  "parentId": "86d0nlkuv9",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "typography",
+    "paragraph",
+    "label"
+  ],
+  "shouldTruncate": false,
+  "tags": [
+    "Suggested",
+    "Content"
+  ],
+  "text": "<p>In the operation offered at Pool Solution, the introduction of fees is a standard practice aimed at sustaining the pool's infrastructure, covering operational costs, and ensuring its long-term viability. These fees are typically deducted from the rewards earned by miners and contribute to the maintenance, development, and improvements on the service. \n\nThere are two types of services offered:</p>\n<p><strong><p><strong>1) <span style=\"color: rgb(41, 105, 176);\">Solo:</span> &nbsp;</strong>Assigning an ID to a miner who would want to attempt to qualify his own ID. &nbsp;When and after qualified, an ID will reward the miner 1.479b $Qubic. <span style=\"background-color: rgb(250, 197, 28);\">The fee deducted by the pool for maintaining the infrastructure will be&nbsp;</span><strong><span style=\"background-color: rgb(250, 197, 28);\">179m</span></strong>. &nbsp;The remaining Amount will be paid directly to the miner <strong><span style=\"color: rgb(41, 105, 176);\">a week after successful</span>&nbsp;</strong>qualification.&nbsp;</p>\n\n<p>Solo miners should be aware that they must have the right amount of stated computing power before joining the pool.</p>\n<p>An additional ID will be allocated to smaller miners to share. The rewards will be calculated based on the epoch avg. score with a 10% bonus applied. \n\n<strong>2) <span style=\"color: rgb(41, 105, 176);\">Pooling</span>:&nbsp;</strong>An additional ID will be allocated for smaller miners to share. The rewards will be calculated based on the epoch avg. score +6%. In which the solution count of each miner will be paid in percent of contribution from the ID revenue. The pool miners will be paid by solutions that they found. The maximum value per ID to be obtained is&nbsp;<strong><span style=\"color: rgb(41, 105, 176);\">1,300,000,000</span></strong>. The payments for new miners will be distributed a week after their completion of the first epoch.&nbsp;\n\n<strong><span style=\"font-size: 14px; color: blue;\">**Due to the Qubic revenue payment system, initial payments may be delayed for new miners as more ID's are qualifying in the network. All these payments will be paid to the miners whom contributed after their successful qualification week and may receive bonuses for the outstanding week in the next epoch. If miners leave before the end of an epoch, penalties could be applied as the pool might suffer from disqualification of IDs, which will greatly affect the revenue**</span></strong>\n\n<p><strong>All payments are made on Wednesday&nbsp;</strong>after the Epoch transitions. (4 PM UTC)</p>\n\n\n",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 0,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "mgd6j98icn",
+  "widgetName": "Text7"
 }

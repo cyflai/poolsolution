@@ -1,52 +1,62 @@
 {
-    "resetFormOnClick": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 19.239062500000003,
-    "widgetName": "btnAdd",
-    "onClick": "{{functions.updateWalletAddr();}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "displayName": "Button",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 5.2,
-    "bottomRow": 9.2,
-    "parentRowSpace": 10,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 18.55072463768116,
-    "animateLoading": true,
-    "parentColumnSpace": 19.578125,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 54.964705882352945,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "text": "Update",
-    "isDisabled": true,
-    "key": "5szoq916mx",
-    "flexVerticalAlignment": "end",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "isDefaultClickDisabled": true,
-    "widgetId": "t9a2c5vt1r",
-    "minWidth": 120,
-    "isVisible": true,
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "w8soobe0qk",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 15.239062500000003,
-    "responsiveBehavior": "hug",
-    "disabledWhenInvalid": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
-    "buttonVariant": "PRIMARY",
-    "placement": "CENTER",
-    "alignment": "start"
+  "alignment": "start",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 9.2,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "flexVerticalAlignment": "end",
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": true,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "5szoq916mx",
+  "leftColumn": 54.964705882352945,
+  "minWidth": 120,
+  "mobileBottomRow": 19.239062500000003,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 18.55072463768116,
+  "mobileTopRow": 15.239062500000003,
+  "onClick": "{{functions.updateWalletAddr();}}",
+  "parentColumnSpace": 19.578125,
+  "parentId": "w8soobe0qk",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Update",
+  "topRow": 5.2,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "t9a2c5vt1r",
+  "widgetName": "btnAdd"
 }

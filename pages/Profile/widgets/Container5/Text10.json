@@ -1,58 +1,66 @@
 {
-    "mobileBottomRow": 16.359375,
-    "widgetName": "Text10",
-    "displayName": "Text",
-    "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
-    "searchTags": [
-        "typography",
-        "paragraph",
-        "label"
-    ],
-    "topRow": 13,
-    "bottomRow": 17,
-    "parentRowSpace": 10,
-    "type": "TEXT_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 64,
-    "animateLoading": true,
-    "overflow": "NONE",
-    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "parentColumnSpace": 19.578125,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "truncateButtonColor"},
-        {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "text"}
-    ],
-    "shouldTruncate": false,
-    "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "<p>For Solo mining, as for now, the recommended it/s is <span style=\"color: #ff0000;\"><strong> {{appsmith.store.recommandedIts.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}} It/s<\/strong><\/span><\/p>",
-    "key": "iumfysob3n",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "textAlign": "LEFT",
-    "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "lz6zii63td",
-    "minWidth": 450,
-    "isVisible": true,
-    "fontStyle": "BOLD",
-    "textColor": "#71717a",
-    "version": 1,
-    "parentId": "hzpv8vajfb",
-    "tags": [
-        "Suggested",
-        "Content"
-    ],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 12.2,
-    "responsiveBehavior": "fill",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
-    "maxDynamicHeight": 9000,
-    "fontSize": "0.875rem",
-    "alignment": "start",
-    "minDynamicHeight": 4
+  "alignment": "start",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 17,
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "0.875rem",
+  "fontStyle": "BOLD",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "iumfysob3n",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 16.359375,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 12.2,
+  "overflow": "NONE",
+  "parentColumnSpace": 19.578125,
+  "parentId": "hzpv8vajfb",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "typography",
+    "paragraph",
+    "label"
+  ],
+  "shouldTruncate": false,
+  "tags": [
+    "Suggested",
+    "Content"
+  ],
+  "text": "<p>For Solo mining, as for now, the recommended it/s is <span style=\"color: #ff0000;\"><strong> {{appsmith.store.recommandedIts.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}} It/s</strong></span></p>",
+  "textAlign": "LEFT",
+  "textColor": "#71717a",
+  "topRow": 13,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "lz6zii63td",
+  "widgetName": "Text10"
 }

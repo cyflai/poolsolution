@@ -1,4 +1,34 @@
 {
+  "appIsExample": false,
+  "appLayout": {
+    "type": "FLUID"
+  },
+  "applicationDetail": {
+    "appPositioning": {
+      "type": "AUTO"
+    },
+    "navigationSetting": {
+      "colorStyle": "theme",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoOnly",
+      "navStyle": "sidebar",
+      "orientation": "side",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": false
+    }
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#D6D1F2",
+  "embedSetting": {
+    "height": "720px",
+    "showNavigationBar": false,
+    "width": "1024px"
+  },
+  "evaluationVersion": 2,
+  "icon": "alien",
   "pages": [
     {
       "id": "Overview",
@@ -37,50 +67,23 @@
       "isDefault": false
     }
   ],
-  "viewMode": false,
-  "appIsExample": false,
-  "unreadCommentThreads": 0,
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedApplicationDetail": {
     "appPositioning": {
       "type": "AUTO"
     },
     "navigationSetting": {
-      "showNavbar": true,
-      "orientation": "side",
-      "navStyle": "sidebar",
-      "position": "static",
-      "itemStyle": "text",
       "colorStyle": "theme",
+      "itemStyle": "text",
       "logoAssetId": "",
       "logoConfiguration": "logoOnly",
+      "navStyle": "sidebar",
+      "orientation": "side",
+      "position": "static",
+      "showNavbar": true,
       "showSignIn": false
     }
-  },
-  "color": "#D6D1F2",
-  "icon": "alien",
-  "unpublishedAppLayout": {
-    "type": "FLUID"
-  },
-  "publishedAppLayout": {
-    "type": "FLUID"
-  },
-  "unpublishedCustomJSLibs": [
-    {
-      "uidString": "supabase_https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.4.0/dist/umd/supabase.min.js"
-    },
-    {
-      "uidString": "dcodeIO_https://cdn.jsdelivr.net/npm/bcryptjs@2.4.3/dist/bcrypt.min.js"
-    }
-  ],
-  "publishedCustomJSLibs": [],
-  "evaluationVersion": 2,
-  "applicationVersion": 2,
-  "embedSetting": {
-    "height": "720px",
-    "width": "1024px",
-    "showNavigationBar": false
-  },
-  "collapseInvisibleWidgets": true,
-  "isManualUpdate": false,
-  "deleted": false
+  }
 }

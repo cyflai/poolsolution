@@ -1,59 +1,67 @@
 {
-    "mobileBottomRow": 49.990625,
-    "widgetName": "Text2",
-    "displayName": "Text",
-    "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
-    "searchTags": [
-        "typography",
-        "paragraph",
-        "label"
-    ],
-    "topRow": 23.35625,
-    "bottomRow": 27.995312499999997,
-    "parentRowSpace": 10,
-    "type": "TEXT_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 64,
-    "animateLoading": true,
-    "overflow": "NONE",
-    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "parentColumnSpace": 12.4375,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "truncateButtonColor"},
-        {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "text"}
-    ],
-    "shouldTruncate": false,
-    "borderWidth": "0",
-    "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "<p><span style=\"color: rgb(41, 105, 176);\"><strong><u>Miners Information<\/u><\/strong><\/span><\/p><p><span style=\"color: rgb(44, 130, 201);\">Total Solutions<\/span>: {{getMyEpoch_Solution.data[0].solutionTotal.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\") }} <span style=\"color: rgb(44, 130, 201);\">Total It/s<\/span>: {{_.sumBy(Table1.tableData, (row) => row.Its).toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\") }} <span style=\"color: rgb(44, 130, 201);\">Score<\/span>: {{ appsmith.store.score.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}} <span style=\"color: rgb(44, 130, 201);\">Active Miner<\/span><span style=\"color: rgb(41, 105, 176);\">:<\/span> {{activeMiner.data[0].count}} <span style=\"color: rgb(44, 130, 201);\">inActive Miner<\/span>: {{inActiveMiner.data[0].count}}<\/p>",
-    "key": "g79dsj0q7j",
-    "isDeprecated": false,
-    "rightColumn": 61.976284584980235,
-    "textAlign": "LEFT",
-    "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "z3vgcwspb8",
-    "minWidth": 450,
-    "isVisible": true,
-    "fontStyle": "BOLD",
-    "textColor": "#231F20",
-    "version": 1,
-    "parentId": "0",
-    "tags": [
-        "Suggested",
-        "Content"
-    ],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 41.5125,
-    "responsiveBehavior": "fill",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
-    "maxDynamicHeight": 9000,
-    "fontSize": "1rem",
-    "alignment": "start",
-    "minDynamicHeight": 4
+  "alignment": "start",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "0",
+  "bottomRow": 27.995312499999997,
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "g79dsj0q7j",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 49.990625,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 41.5125,
+  "overflow": "NONE",
+  "parentColumnSpace": 12.4375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 61.976284584980235,
+  "searchTags": [
+    "typography",
+    "paragraph",
+    "label"
+  ],
+  "shouldTruncate": false,
+  "tags": [
+    "Suggested",
+    "Content"
+  ],
+  "text": "<p><span style=\"color: rgb(41, 105, 176);\"><strong><u>Miners Information</u></strong></span></p><p><span style=\"color: rgb(44, 130, 201);\">Total Solutions</span>: {{getMyEpoch_Solution.data[0].solutionTotal.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\") }} <span style=\"color: rgb(44, 130, 201);\">Total It/s</span>: {{_.sumBy(Table1.tableData, (row) => row.Its).toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\") }} <span style=\"color: rgb(44, 130, 201);\">Score</span>: {{ appsmith.store.score.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}} <span style=\"color: rgb(44, 130, 201);\">Active Miner</span><span style=\"color: rgb(41, 105, 176);\">:</span> {{activeMiner.data[0].count}} <span style=\"color: rgb(44, 130, 201);\">inActive Miner</span>: {{inActiveMiner.data[0].count}}</p>",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 23.35625,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "z3vgcwspb8",
+  "widgetName": "Text2"
 }

@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "65b05840165cc466aa8cd8cc_65b0cb76165cc466aa8ce462",
+  "id": "Miner Configuration_functions",
   "unpublishedCollection": {
     "name": "functions",
     "pageId": "Miner Configuration",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "supabaseUrl",
@@ -19,10 +19,6 @@
         "name": "sb",
         "value": "supabase.createClient(functions.supabaseUrl, functions.supabaseKey)"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Miner Configuration_functions",
-  "deleted": false,
-  "gitSyncId": "65b05840165cc466aa8cd8cc_65b0cb76165cc466aa8ce462"
+    ]
+  }
 }

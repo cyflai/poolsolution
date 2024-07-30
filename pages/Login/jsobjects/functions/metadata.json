@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "65ae1519b4b1fd3505406a5e_65ae2338344e1d59150113d3",
+  "id": "Login_functions",
   "unpublishedCollection": {
     "name": "functions",
     "pageId": "Login",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "supabaseUrl",
@@ -23,10 +23,6 @@
         "name": "defaultTab",
         "value": "'Sign In'"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Login_functions",
-  "deleted": false,
-  "gitSyncId": "65ae1519b4b1fd3505406a5e_65ae2338344e1d59150113d3"
+    ]
+  }
 }

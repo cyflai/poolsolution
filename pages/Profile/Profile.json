@@ -1,133 +1,73 @@
 {
+  "gitSyncId": "65ad1067cfb4567a2201e161_65ad1067cfb4567a2201e163",
   "unpublishedPage": {
-    "name": "Profile",
-    "slug": "profile",
     "customSlug": "",
+    "isHidden": false,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "mobileBottomRow": 1650.8749999999998,
-          "widgetName": "MainContainer",
-          "topRow": 0,
-          "bottomRow": 1468.953125,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
-          "minHeight": 1292,
-          "useAutoLayout": true,
-          "dynamicTriggerPathList": [],
-          "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "backgroundColor": "none",
-          "rightColumn": 4896,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
+          "bottomRow": 1468.953125,
+          "canExtend": true,
           "containerStyle": "none",
-          "snapRows": 124,
-          "version": 89,
-          "mobileTopRow": 0,
-          "responsiveBehavior": "fill",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
           "flexLayers": [
             {
               "children": [
                 {
-                  "id": "3wfgeft0tk",
-                  "align": "start"
+                  "align": "start",
+                  "id": "3wfgeft0tk"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "9n518dkbr4",
-                  "align": "start"
+                  "align": "start",
+                  "id": "9n518dkbr4"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "0u6uh7fopd",
-                  "align": "start"
+                  "align": "start",
+                  "id": "0u6uh7fopd"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "uu08z1olhn",
-                  "align": "start"
+                  "align": "start",
+                  "id": "uu08z1olhn"
                 }
               ]
-            }
-          ]
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Profile_functions.checkToken",
-              "name": "functions.checkToken",
-              "collectionId": "Profile_functions",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  if (!appsmith.store.access_token) {\n    navigateTo('Login');\n  } else {\n    selIdType.setSelectedOption(appsmith.store.idType);\n    return appsmith.store.access_token;\n  }\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Profile_functions.generateRunCmd",
-              "name": "functions.generateRunCmd",
-              "collectionId": "Profile_functions",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "() => {\n  txtRunCmd.setText(functions.runCmd + functions.qubicScript + String(appsmith.store.minerId).toUpperCase() + functions.qubicVersion);\n  txtUpdateCmd.setText(functions.runCmd + functions.qubicScriptUpdate + String(appsmith.store.minerId).toUpperCase() + functions.qubicVersion);\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Profile_functions.get_RecommmandedIts",
-              "name": "functions.get_RecommmandedIts",
-              "collectionId": "Profile_functions",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  await getRecommandedIts.run().then(data => {\n    storeValue('recommandedIts', data[0].recommandedIts);\n  });\n}"
-              ],
-              "timeoutInMillisecond": 10000
             }
           ],
-          [
-            {
-              "id": "Profile_functions.autoRefresh",
-              "name": "functions.autoRefresh",
-              "collectionId": "Profile_functions",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  if (appsmith.store.access_token) {\n    setInterval(async () => await functions.refreshToken(), 30000, \"refreshToken\");\n    setInterval(async () => await functions.getProfile(), 30000, \"refreshToken\");\n    return 'success';\n  } else {\n    return 'skipped';\n  }\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Profile",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "leftColumn": 0,
+          "minHeight": 1292,
+          "mobileBottomRow": 1650.8749999999998,
+          "mobileTopRow": 0,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "positioning": "vertical",
+          "responsiveBehavior": "fill",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "snapRows": 124,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "useAutoLayout": true,
+          "version": 89,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "65ad1067cfb4567a2201e161_65ad1067cfb4567a2201e163"
+    "name": "Profile",
+    "slug": "profile"
+  }
 }

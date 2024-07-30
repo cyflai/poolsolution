@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "65ae1519b4b1fd3505406a5e_65ae25d7344e1d59150113e3",
+  "id": "Profile_functions",
   "unpublishedCollection": {
     "name": "functions",
     "pageId": "Profile",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "qubicVersion",
@@ -35,10 +35,6 @@
         "name": "sb",
         "value": "supabase.createClient(functions.supabaseUrl, functions.supabaseKey, {\n  global: {\n    headers: {\n      Authorization: `Bearer ` + appsmith.store.access_token\n    }\n  }\n})"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Profile_functions",
-  "deleted": false,
-  "gitSyncId": "65ae1519b4b1fd3505406a5e_65ae25d7344e1d59150113e3"
+    ]
+  }
 }

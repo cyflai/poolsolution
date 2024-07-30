@@ -1,55 +1,69 @@
 {
-    "resetFormOnClick": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 45.79999999999855,
-    "widgetName": "btn_navigateToSignIn",
-    "onClick": "{{functions.setDefaultTab('Sign In')}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [{"key": "onClick"}],
-    "displayName": "Button",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 39.399999999998556,
-    "bottomRow": 43.399999999998556,
-    "parentRowSpace": 10,
-    "type": "BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 43.32743362831859,
-    "animateLoading": true,
-    "parentColumnSpace": 19.8125,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 19.904340836012864,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "text": "Already have an account? Sign In",
-    "isDisabled": false,
-    "key": "w5le6pkfax",
-    "flexVerticalAlignment": "end",
-    "isDeprecated": false,
-    "rightColumn": 44.095659163987136,
-    "isDefaultClickDisabled": true,
-    "widgetId": "at7txr50lc",
-    "minWidth": 120,
-    "isVisible": true,
-    "recaptchaType": "V3",
-    "version": 1,
-    "parentId": "f5yn1hxqze",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 41.79999999999855,
-    "originalTopRow": 51,
-    "responsiveBehavior": "hug",
-    "disabledWhenInvalid": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 20.672566371681413,
-    "originalBottomRow": 55,
-    "buttonVariant": "TERTIARY",
-    "placement": "CENTER",
-    "alignment": "center"
+  "alignment": "center",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 43.399999999998556,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "TERTIARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "flexVerticalAlignment": "end",
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "w5le6pkfax",
+  "leftColumn": 19.904340836012864,
+  "minWidth": 120,
+  "mobileBottomRow": 45.79999999999855,
+  "mobileLeftColumn": 20.672566371681413,
+  "mobileRightColumn": 43.32743362831859,
+  "mobileTopRow": 41.79999999999855,
+  "onClick": "{{functions.setDefaultTab('Sign In')}}",
+  "originalBottomRow": 55,
+  "originalTopRow": 51,
+  "parentColumnSpace": 19.8125,
+  "parentId": "f5yn1hxqze",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 44.095659163987136,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Already have an account? Sign In",
+  "topRow": 39.399999999998556,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "at7txr50lc",
+  "widgetName": "btn_navigateToSignIn"
 }

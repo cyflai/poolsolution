@@ -1,96 +1,70 @@
 {
+  "gitSyncId": "65b05840165cc466aa8cd8cc_65b05cd96329157f93b864b8",
   "unpublishedPage": {
-    "name": "Sign Off",
-    "slug": "sign-off",
     "customSlug": "",
+    "isHidden": true,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 380,
-          "containerStyle": "none",
-          "snapRows": 68,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 87,
-          "minHeight": 700,
-          "useAutoLayout": true,
-          "parentColumnSpace": 1,
-          "responsiveBehavior": "fill",
+          "containerStyle": "none",
+          "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "flexLayers": [
             {
               "children": [
                 {
-                  "id": "n7o13kwyyv",
-                  "align": "start"
+                  "align": "start",
+                  "id": "n7o13kwyyv"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "yowaw3ot9n",
-                  "align": "start"
+                  "align": "start",
+                  "id": "yowaw3ot9n"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "qodoctvc4p",
-                  "align": "start"
+                  "align": "start",
+                  "id": "qodoctvc4p"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "5ihbhk6uey",
-                  "align": "center"
+                  "align": "center",
+                  "id": "5ihbhk6uey"
                 }
               ]
             }
-          ]
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Sign Off_functions.signOff",
-              "name": "functions.signOff",
-              "collectionId": "Sign Off_functions",
-              "clientSideExecution": true,
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async function () {\n  try {\n    console.log(appsmith.store.access_token);\n    sign_off.run().catch();\n    clearStore();\n    signoffTxt.setText(\"Signed Off\");\n  } catch (error) {} finally {}\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Sign Off",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          ],
+          "leftColumn": 0,
+          "minHeight": 700,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "positioning": "vertical",
+          "responsiveBehavior": "fill",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 68,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "useAutoLayout": true,
+          "version": 89,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": true
-  },
-  "deleted": false,
-  "gitSyncId": "65b05840165cc466aa8cd8cc_65b05cd96329157f93b864b8"
+    "name": "Sign Off",
+    "slug": "sign-off"
+  }
 }

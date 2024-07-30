@@ -1,212 +1,88 @@
 {
+  "gitSyncId": "65b05840165cc466aa8cd8cc_65b05cc64b703a552d185ca5",
   "unpublishedPage": {
-    "name": "Miner Configuration",
-    "slug": "miner-configuration",
     "customSlug": "",
+    "isHidden": false,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "mobileBottomRow": 1445.84375,
-          "widgetName": "MainContainer",
-          "topRow": 0,
-          "bottomRow": 4353.953125,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
-          "minHeight": 700,
-          "useAutoLayout": true,
-          "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
+          "bottomRow": 4353.953125,
+          "canExtend": true,
           "containerStyle": "none",
-          "snapRows": 68,
-          "version": 89,
-          "mobileTopRow": 0,
-          "responsiveBehavior": "fill",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
           "flexLayers": [
             {
               "children": [
                 {
-                  "id": "vbysea4esc",
-                  "align": "start"
+                  "align": "start",
+                  "id": "vbysea4esc"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "2ebm86kygb",
-                  "align": "start"
+                  "align": "start",
+                  "id": "2ebm86kygb"
                 },
                 {
-                  "id": "hs01x7p07q",
-                  "align": "start"
+                  "align": "start",
+                  "id": "hs01x7p07q"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "z3vgcwspb8",
-                  "align": "start"
+                  "align": "start",
+                  "id": "z3vgcwspb8"
                 },
                 {
-                  "id": "r9bcwi43hg",
-                  "align": "start"
+                  "align": "start",
+                  "id": "r9bcwi43hg"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "d5elj9c060",
-                  "align": "start"
+                  "align": "start",
+                  "id": "d5elj9c060"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "5ydbm4buw1",
-                  "align": "start"
+                  "align": "start",
+                  "id": "5ydbm4buw1"
                 }
               ]
             }
-          ]
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Miner Configuration_functions.checkToken",
-              "name": "functions.checkToken",
-              "collectionId": "Miner Configuration_functions",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "() => {\n  if (!appsmith.store.access_token) {\n    navigateTo('Login');\n  } else {\n    return appsmith.store.access_token;\n  }\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Miner Configuration_functions.getScore",
-              "name": "functions.getScore",
-              "collectionId": "Miner Configuration_functions",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  await getScore.run().then(data => {\n    if (data) {\n      storeValue('score', data[0].score);\n    } else {\n      storeValue('score', \" \");\n    }\n  });\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Miner Configuration_functions.getTickOverview",
-              "name": "functions.getTickOverview",
-              "collectionId": "Miner Configuration_functions",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  await getTickOverview.run().then(data => {\n    storeValue('tickOverview', data);\n  });\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Miner Configuration_functions.get_total_sol",
-              "name": "functions.get_total_sol",
-              "collectionId": "Miner Configuration_functions",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  return await getMyEpoch_Solution.run().then(data => {\n    storeValue('TotalSolSum', data[0].solutionTotal);\n    console.log('d', data[0].solutionTotal);\n    return data[0].solutionTotal;\n  });\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Miner Configuration_functions.refreshToke",
-              "name": "functions.refreshToke",
-              "collectionId": "Miner Configuration_functions",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  await sign_in.run().then(data => {\n    Object.keys(data).forEach(i => {\n      storeValue(i, data[i]);\n    });\n  });\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Miner Configuration_getMyEpoch_Solution",
-              "name": "getMyEpoch_Solution",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.username.substring(0,4)"
-              ],
-              "timeoutInMillisecond": 10000
-            }
           ],
-          [
-            {
-              "id": "Miner Configuration_getMinerRecords",
-              "name": "getMinerRecords",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.username.substring(0,5)"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Miner Configuration_activeMiner",
-              "name": "activeMiner",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.username.substring(0,4)"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Miner Configuration_functions.autoRefresh",
-              "name": "functions.autoRefresh",
-              "collectionId": "Miner Configuration_functions",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  setInterval(async () => await functions.checkToken(), 360000, \"checkToken\");\n  setInterval(async () => await functions.getScore(), 60000, \"getScore\");\n  setInterval(async () => await functions.refreshToke(), 60000, \"refreshToken\");\n  setInterval(async () => await functions.getTickOverview(), 60000, \"getTickOverview\");\n  setInterval(async () => await functions.get_total_sol(), 60000, \"get_total_sol\");\n  setInterval(async () => await inActiveMiner.run(), 60000, \"get_inactive_miner\");\n  setInterval(async () => await activeMiner.run().run(), 60000, \"get_inactive_miner\");\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Miner Configuration_inActiveMiner",
-              "name": "inActiveMiner",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.username.substring(0,4)"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Miner Configuration",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "leftColumn": 0,
+          "minHeight": 700,
+          "mobileBottomRow": 1445.84375,
+          "mobileTopRow": 0,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "positioning": "vertical",
+          "responsiveBehavior": "fill",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 68,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "useAutoLayout": true,
+          "version": 89,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "65b05840165cc466aa8cd8cc_65b05cc64b703a552d185ca5"
+    "name": "Miner Configuration",
+    "slug": "miner-configuration"
+  }
 }

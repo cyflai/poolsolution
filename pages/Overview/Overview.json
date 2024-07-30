@@ -1,95 +1,84 @@
 {
+  "gitSyncId": "65ae1519b4b1fd3505406a5e_65ae652e410d613b430c8732",
   "unpublishedPage": {
-    "name": "Overview",
-    "slug": "overview",
     "customSlug": "",
+    "isHidden": false,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "mobileBottomRow": 1855.4375,
-          "widgetName": "MainContainer",
-          "topRow": 0,
-          "bottomRow": 1193.3593750000002,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
-          "minHeight": 540,
-          "useAutoLayout": true,
-          "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
+          "bottomRow": 1193.3593750000002,
+          "canExtend": true,
           "containerStyle": "none",
-          "snapRows": 52,
-          "version": 89,
-          "mobileTopRow": 0,
-          "responsiveBehavior": "fill",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
           "flexLayers": [
             {
               "children": [
                 {
-                  "id": "2lu6i4usak",
-                  "align": "start"
+                  "align": "start",
+                  "id": "2lu6i4usak"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "sg61nizqua",
-                  "align": "start"
+                  "align": "start",
+                  "id": "sg61nizqua"
                 },
                 {
-                  "id": "98ezf9coph",
-                  "align": "start"
+                  "align": "start",
+                  "id": "98ezf9coph"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "rqcegq6auq",
-                  "align": "start"
+                  "align": "start",
+                  "id": "rqcegq6auq"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "upyc7eqfzz",
-                  "align": "start"
+                  "align": "start",
+                  "id": "upyc7eqfzz"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "ha432p7pph",
-                  "align": "start"
+                  "align": "start",
+                  "id": "ha432p7pph"
                 }
               ]
             }
-          ]
-        },
-        "layoutOnLoadActions": [],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Overview",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          ],
+          "leftColumn": 0,
+          "minHeight": 540,
+          "mobileBottomRow": 1855.4375,
+          "mobileTopRow": 0,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "positioning": "vertical",
+          "responsiveBehavior": "fill",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 52,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "useAutoLayout": true,
+          "version": 89,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "65ae1519b4b1fd3505406a5e_65ae652e410d613b430c8732"
+    "name": "Overview",
+    "slug": "overview"
+  }
 }

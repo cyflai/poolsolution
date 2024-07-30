@@ -1,230 +1,294 @@
 {
-    "boxShadow": "none",
-    "mobileBottomRow": 61.20000000000145,
-    "borderColor": "#E0DEDE",
-    "widgetName": "tab_auth",
-    "isCanvas": true,
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.9e3d67c0af9c0bd092dc56240314e18a.svg",
-    "displayName": "Tabs",
-    "topRow": 21.2,
-    "bottomRow": 66.59999999999856,
-    "parentRowSpace": 10,
-    "type": "TABS_WIDGET",
-    "hideCard": false,
-    "shouldScrollContents": true,
-    "mobileRightColumn": 64,
-    "animateLoading": true,
-    "parentColumnSpace": 19.8125,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "defaultTab"}
-    ],
-    "children": [
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "start",
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "",
+  "bottomRow": 66.59999999999856,
+  "boxShadow": "none",
+  "children": [
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 453.99999999998556,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": true,
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [
         {
-            "tabId": "tab1",
-            "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-            "mobileBottomRow": 404.00000000001455,
-            "widgetName": "Canvas2",
-            "displayName": "Canvas",
-            "bottomRow": 453.99999999998556,
-            "topRow": 0,
-            "parentRowSpace": 1,
-            "type": "CANVAS_WIDGET",
-            "canExtend": true,
-            "hideCard": true,
-            "shouldScrollContents": false,
-            "minHeight": 362.0000000000073,
-            "mobileRightColumn": 475.5,
-            "useAutoLayout": true,
-            "parentColumnSpace": 1,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 0,
-            "dynamicBindingPathList": [
-                {"key": "borderRadius"},
-                {"key": "boxShadow"}
-            ],
-            "positioning": "vertical",
-            "isDisabled": false,
-            "key": "kzmnt00z2j",
-            "isDeprecated": false,
-            "tabName": "Sign In",
-            "rightColumn": 475.5,
-            "detachFromLayout": true,
-            "dynamicHeight": "AUTO_HEIGHT",
-            "widgetId": "8rq3ao3yqz",
-            "minWidth": 450,
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8voawvc8hu",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "mobileTopRow": 0,
-            "responsiveBehavior": "fill",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "mobileLeftColumn": 0,
-            "maxDynamicHeight": 9000,
-            "minDynamicHeight": 4,
-            "flexLayers": [
-                {"children": [
-                    {
-                        "id": "6zuo29nk37",
-                        "align": "start"
-                    },
-                    {
-                        "id": "18wnv63ezo",
-                        "align": "start"
-                    }
-                ]},
-                {"children": [{
-                    "id": "63lky3oent",
-                    "align": "start"
-                }]},
-                {"children": [{
-                    "id": "nckbq8kovr",
-                    "align": "start"
-                }]},
-                {"children": [{
-                    "id": "o5u6xu5jl7",
-                    "align": "start"
-                }]},
-                {"children": [{
-                    "id": "voz3dh2wjt",
-                    "align": "start"
-                }]},
-                {"children": [{
-                    "id": "6mx5oq7on0",
-                    "align": "start"
-                }]}
-            ]
+          "key": "borderRadius"
         },
         {
-            "tabId": "tab2",
-            "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-            "mobileBottomRow": 477.99999999998545,
-            "widgetName": "Canvas3",
-            "displayName": "Canvas",
-            "bottomRow": 453.99999999998556,
-            "topRow": 0,
-            "parentRowSpace": 1,
-            "type": "CANVAS_WIDGET",
-            "canExtend": true,
-            "hideCard": true,
-            "shouldScrollContents": false,
-            "minHeight": 435.9999999999855,
-            "mobileRightColumn": 475.5,
-            "useAutoLayout": true,
-            "parentColumnSpace": 1,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 0,
-            "dynamicBindingPathList": [
-                {"key": "borderRadius"},
-                {"key": "boxShadow"}
-            ],
-            "positioning": "vertical",
-            "isDisabled": false,
-            "key": "kzmnt00z2j",
-            "isDeprecated": false,
-            "tabName": "Sign Up",
-            "rightColumn": 475.5,
-            "detachFromLayout": true,
-            "dynamicHeight": "AUTO_HEIGHT",
-            "widgetId": "f5yn1hxqze",
-            "minWidth": 450,
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8voawvc8hu",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "mobileTopRow": 0,
-            "responsiveBehavior": "fill",
-            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-            "mobileLeftColumn": 0,
-            "maxDynamicHeight": 9000,
-            "minDynamicHeight": 4,
-            "flexLayers": [
-                {"children": [
-                    {
-                        "id": "72km60ephp",
-                        "align": "start"
-                    },
-                    {
-                        "id": "sar3p8uzae",
-                        "align": "start"
-                    }
-                ]},
-                {"children": [{
-                    "id": "0o4rn8nvlc",
-                    "align": "start"
-                }]},
-                {"children": [{
-                    "id": "l7hf8perg8",
-                    "align": "start"
-                }]},
-                {"children": [{
-                    "id": "00zeoarj4d",
-                    "align": "start"
-                }]},
-                {"children": [{
-                    "id": "j5yovh0h58",
-                    "align": "start"
-                }]},
-                {"children": [{
-                    "id": "mwnderxhs9",
-                    "align": "center"
-                }]},
-                {"children": [{
-                    "id": "at7txr50lc",
-                    "align": "center"
-                }]}
-            ]
+          "key": "boxShadow"
         }
-    ],
-    "borderWidth": "",
-    "flexVerticalAlignment": "stretch",
-    "key": "fjxlfcckvr",
-    "backgroundColor": "#FFFFFF",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "dynamicHeight": "AUTO_HEIGHT",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "widgetId": "8voawvc8hu",
-    "defaultTab": "{{functions.defaultTab}}",
-    "shouldShowTabs": false,
-    "minWidth": 450,
-    "tabsObj": {
-        "tab1": {
-            "widgetId": "8rq3ao3yqz",
-            "positioning": "vertical",
-            "index": 0,
-            "label": "Sign In",
-            "id": "tab1",
-            "isVisible": true
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "6zuo29nk37"
+            },
+            {
+              "align": "start",
+              "id": "18wnv63ezo"
+            }
+          ]
         },
-        "tab2": {
-            "widgetId": "f5yn1hxqze",
-            "positioning": "vertical",
-            "index": 1,
-            "label": "Sign Up",
-            "id": "tab2",
-            "isVisible": true
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "63lky3oent"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "nckbq8kovr"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "o5u6xu5jl7"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "voz3dh2wjt"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "6mx5oq7on0"
+            }
+          ]
         }
+      ],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "kzmnt00z2j",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 362.0000000000073,
+      "minWidth": 450,
+      "mobileBottomRow": 404.00000000001455,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 475.5,
+      "mobileTopRow": 0,
+      "parentColumnSpace": 1,
+      "parentId": "8voawvc8hu",
+      "parentRowSpace": 1,
+      "positioning": "vertical",
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 475.5,
+      "shouldScrollContents": false,
+      "tabId": "tab1",
+      "tabName": "Sign In",
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "useAutoLayout": true,
+      "version": 1,
+      "widgetId": "8rq3ao3yqz",
+      "widgetName": "Canvas2"
     },
-    "isVisible": true,
-    "version": 3,
-    "parentId": "oupq4ybxxj",
-    "tags": ["Layout"],
-    "isLoading": false,
-    "renderMode": "CANVAS",
-    "mobileTopRow": 20.8,
-    "originalTopRow": 0,
-    "responsiveBehavior": "fill",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
-    "maxDynamicHeight": 9000,
-    "originalBottomRow": 57,
-    "alignment": "start",
-    "minDynamicHeight": 15
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 453.99999999998556,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": true,
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "72km60ephp"
+            },
+            {
+              "align": "start",
+              "id": "sar3p8uzae"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "0o4rn8nvlc"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "l7hf8perg8"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "00zeoarj4d"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "start",
+              "id": "j5yovh0h58"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "center",
+              "id": "mwnderxhs9"
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "align": "center",
+              "id": "at7txr50lc"
+            }
+          ]
+        }
+      ],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "kzmnt00z2j",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 435.9999999999855,
+      "minWidth": 450,
+      "mobileBottomRow": 477.99999999998545,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 475.5,
+      "mobileTopRow": 0,
+      "parentColumnSpace": 1,
+      "parentId": "8voawvc8hu",
+      "parentRowSpace": 1,
+      "positioning": "vertical",
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 475.5,
+      "shouldScrollContents": false,
+      "tabId": "tab2",
+      "tabName": "Sign Up",
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "useAutoLayout": true,
+      "version": 1,
+      "widgetId": "f5yn1hxqze",
+      "widgetName": "Canvas3"
+    }
+  ],
+  "defaultTab": "{{functions.defaultTab}}",
+  "displayName": "Tabs",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultTab"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "stretch",
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.9e3d67c0af9c0bd092dc56240314e18a.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "fjxlfcckvr",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 15,
+  "minWidth": 450,
+  "mobileBottomRow": 61.20000000000145,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 20.8,
+  "originalBottomRow": 57,
+  "originalTopRow": 0,
+  "parentColumnSpace": 19.8125,
+  "parentId": "oupq4ybxxj",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "shouldScrollContents": true,
+  "shouldShowTabs": false,
+  "tabsObj": {
+    "tab1": {
+      "id": "tab1",
+      "index": 0,
+      "isVisible": true,
+      "label": "Sign In",
+      "positioning": "vertical",
+      "widgetId": "8rq3ao3yqz"
+    },
+    "tab2": {
+      "id": "tab2",
+      "index": 1,
+      "isVisible": true,
+      "label": "Sign Up",
+      "positioning": "vertical",
+      "widgetId": "f5yn1hxqze"
+    }
+  },
+  "tags": [
+    "Layout"
+  ],
+  "topRow": 21.2,
+  "type": "TABS_WIDGET",
+  "version": 3,
+  "widgetId": "8voawvc8hu",
+  "widgetName": "tab_auth"
 }

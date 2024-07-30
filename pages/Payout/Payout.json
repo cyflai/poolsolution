@@ -1,97 +1,59 @@
 {
+  "gitSyncId": "65b757f4839ff15ac032d275_65d0b9ca67fa00479b41ac3f",
   "unpublishedPage": {
-    "name": "Payout",
-    "slug": "payout",
+    "isHidden": false,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "mobileBottomRow": 600,
-          "widgetName": "MainContainer",
-          "topRow": 0,
-          "bottomRow": 600,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
-          "minHeight": 600,
-          "useAutoLayout": true,
-          "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
+          "bottomRow": 600,
+          "canExtend": true,
           "containerStyle": "none",
-          "snapRows": 58,
-          "version": 89,
-          "mobileTopRow": 0,
-          "responsiveBehavior": "fill",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
           "flexLayers": [
             {
               "children": [
                 {
-                  "id": "6nneisi66y",
-                  "align": "start"
+                  "align": "start",
+                  "id": "6nneisi66y"
                 },
                 {
-                  "id": "59yyndx0o1",
-                  "align": "end"
+                  "align": "end",
+                  "id": "59yyndx0o1"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "f6khoduxee",
-                  "align": "start"
+                  "align": "start",
+                  "id": "f6khoduxee"
                 }
               ]
             }
-          ]
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Payout_functions.checkToken",
-              "name": "functions.checkToken",
-              "collectionId": "Payout_functions",
-              "clientSideExecution": true,
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  if (!appsmith.store.access_token) {\n    navigateTo('Login');\n  } else {\n    return appsmith.store.access_token;\n  }\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
           ],
-          [
-            {
-              "id": "Payout_getMyPayout",
-              "name": "getMyPayout",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.username"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Payout",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "leftColumn": 0,
+          "minHeight": 600,
+          "mobileBottomRow": 600,
+          "mobileTopRow": 0,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "positioning": "vertical",
+          "responsiveBehavior": "fill",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 58,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "useAutoLayout": true,
+          "version": 89,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "65b757f4839ff15ac032d275_65d0b9ca67fa00479b41ac3f"
+    "name": "Payout",
+    "slug": "payout"
+  }
 }

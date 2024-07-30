@@ -1,80 +1,69 @@
 {
+  "gitSyncId": "65b757f4839ff15ac032d275_65cb7bc467fa00479b41a7e7",
   "unpublishedPage": {
-    "name": "Pool Statistics",
-    "slug": "pool-statistics",
+    "isHidden": true,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 600,
-          "containerStyle": "none",
-          "snapRows": 58,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 87,
-          "minHeight": 600,
-          "useAutoLayout": true,
-          "parentColumnSpace": 1,
-          "responsiveBehavior": "fill",
+          "containerStyle": "none",
+          "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "flexLayers": [
             {
               "children": [
                 {
-                  "id": "7pku8o5hjb",
-                  "align": "start"
+                  "align": "start",
+                  "id": "7pku8o5hjb"
                 },
                 {
-                  "id": "vazmzgoqsx",
-                  "align": "start"
+                  "align": "start",
+                  "id": "vazmzgoqsx"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "op2cgsddeq",
-                  "align": "start"
+                  "align": "start",
+                  "id": "op2cgsddeq"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "1p9gtdjtgm",
-                  "align": "start"
+                  "align": "start",
+                  "id": "1p9gtdjtgm"
                 },
                 {
-                  "id": "qe2r225sxa",
-                  "align": "start"
+                  "align": "start",
+                  "id": "qe2r225sxa"
                 }
               ]
             }
-          ]
-        },
-        "layoutOnLoadActions": [],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Pool Statistics",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          ],
+          "leftColumn": 0,
+          "minHeight": 600,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "positioning": "vertical",
+          "responsiveBehavior": "fill",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 58,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "useAutoLayout": true,
+          "version": 89,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": true
-  },
-  "deleted": false,
-  "gitSyncId": "65b757f4839ff15ac032d275_65cb7bc467fa00479b41a7e7"
+    "name": "Pool Statistics",
+    "slug": "pool-statistics"
+  }
 }

@@ -1,72 +1,46 @@
 {
+  "gitSyncId": "65b757f4839ff15ac032d275_65c96f1c8ad8496b0ae7d000",
   "unpublishedPage": {
-    "name": "Join us on Discord",
-    "slug": "join-us-on-discord",
     "customSlug": "",
+    "isHidden": false,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 380,
-          "containerStyle": "none",
-          "snapRows": 58,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 87,
-          "minHeight": 600,
-          "useAutoLayout": true,
-          "parentColumnSpace": 1,
-          "responsiveBehavior": "fill",
+          "containerStyle": "none",
+          "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "flexLayers": [
             {
               "children": [
                 {
-                  "id": "6j4a34t6pz",
-                  "align": "start"
+                  "align": "start",
+                  "id": "6j4a34t6pz"
                 }
               ]
             }
-          ]
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Join us on Discord_functions.discord",
-              "name": "functions.discord",
-              "collectionId": "Join us on Discord_functions",
-              "clientSideExecution": true,
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async function () {\n  navigateTo('https://discord.gg/CtT3mtxSpY', {}, 'NEW_WINDOW');\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Join us on Discord",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          ],
+          "leftColumn": 0,
+          "minHeight": 600,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "positioning": "vertical",
+          "responsiveBehavior": "fill",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 58,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "useAutoLayout": true,
+          "version": 89,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "65b757f4839ff15ac032d275_65c96f1c8ad8496b0ae7d000"
+    "name": "Join us on Discord",
+    "slug": "join-us-on-discord"
+  }
 }

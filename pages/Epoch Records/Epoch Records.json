@@ -1,94 +1,57 @@
 {
+  "gitSyncId": "65b757f4839ff15ac032d275_65d4b1e167fa00479b41b0b2",
   "unpublishedPage": {
-    "name": "Epoch Records",
-    "slug": "epoch-records",
+    "isHidden": false,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 632,
-          "containerStyle": "none",
-          "snapRows": 52,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 87,
-          "minHeight": 540,
-          "useAutoLayout": true,
-          "parentColumnSpace": 1,
-          "responsiveBehavior": "fill",
+          "containerStyle": "none",
+          "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "flexLayers": [
             {
               "children": [
                 {
-                  "id": "0nq0edtmsq",
-                  "align": "start"
+                  "align": "start",
+                  "id": "0nq0edtmsq"
                 },
                 {
-                  "id": "qb0tezaolv",
-                  "align": "start"
+                  "align": "start",
+                  "id": "qb0tezaolv"
                 }
               ]
             },
             {
               "children": [
                 {
-                  "id": "ll5ahxehtx",
-                  "align": "start"
+                  "align": "start",
+                  "id": "ll5ahxehtx"
                 }
               ]
             }
-          ]
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Epoch Records_functions.checkToken",
-              "name": "functions.checkToken",
-              "collectionId": "Epoch Records_functions",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "() => {\n  if (!appsmith.store.access_token) {\n    navigateTo('Login');\n  } else {\n    return appsmith.store.access_token;\n  }\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
           ],
-          [
-            {
-              "id": "Epoch Records_getEpochRecords",
-              "name": "getEpochRecords",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.username.substring(0,4)"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Epoch Records",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "leftColumn": 0,
+          "minHeight": 540,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "positioning": "vertical",
+          "responsiveBehavior": "fill",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 52,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "useAutoLayout": true,
+          "version": 89,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "65b757f4839ff15ac032d275_65d4b1e167fa00479b41b0b2"
+    "name": "Epoch Records",
+    "slug": "epoch-records"
+  }
 }

@@ -1,46 +1,56 @@
 {
-    "boxShadow": "none",
-    "mobileBottomRow": 28,
-    "widgetName": "IconButton1",
-    "onClick": "{{getMyEpoch_Solution.run();\ngetMinerRecords.run()\ngetScore.run();\ninActiveMiner.run();\nactiveMiner.run();}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "displayName": "Icon button",
-    "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 23.35625,
-    "bottomRow": 27.35625,
-    "parentRowSpace": 10,
-    "type": "ICON_BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 2.21,
-    "animateLoading": true,
-    "parentColumnSpace": 12.4375,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 61.976284584980235,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "isDisabled": false,
-    "key": "nq8cxg1azw",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "iconName": "refresh",
-    "widgetId": "r9bcwi43hg",
-    "minWidth": 50,
-    "isVisible": true,
-    "version": 1,
-    "parentId": "0",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 24,
-    "responsiveBehavior": "hug",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
-    "buttonVariant": "PRIMARY",
-    "alignment": "start"
+  "alignment": "start",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 27.35625,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Icon button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "refresh",
+  "iconSVG": "/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "nq8cxg1azw",
+  "leftColumn": 61.976284584980235,
+  "minWidth": 50,
+  "mobileBottomRow": 28,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 2.21,
+  "mobileTopRow": 24,
+  "onClick": "{{getMyEpoch_Solution.run();\ngetMinerRecords.run()\ngetScore.run();\ninActiveMiner.run();\nactiveMiner.run();}}",
+  "parentColumnSpace": 12.4375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "topRow": 23.35625,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "r9bcwi43hg",
+  "widgetName": "IconButton1"
 }

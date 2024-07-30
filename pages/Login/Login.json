@@ -1,60 +1,49 @@
 {
+  "gitSyncId": "65ae1519b4b1fd3505406a5e_65ae2338344e1d59150113c1",
   "unpublishedPage": {
-    "name": "Login",
-    "slug": "login",
     "customSlug": "",
+    "isHidden": true,
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "mobileBottomRow": 1292,
-          "widgetName": "MainContainer",
-          "topRow": 0,
-          "bottomRow": 685.9999999999856,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
-          "minHeight": 1292,
-          "useAutoLayout": true,
-          "dynamicTriggerPathList": [],
-          "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0,
-          "positioning": "vertical",
           "backgroundColor": "none",
-          "rightColumn": 4896,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
+          "bottomRow": 685.9999999999856,
+          "canExtend": true,
           "containerStyle": "none",
-          "snapRows": 124,
-          "version": 89,
-          "mobileTopRow": 0,
-          "responsiveBehavior": "fill",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
           "flexLayers": [
             {
               "children": [
                 {
-                  "id": "s1b0qjafgz",
-                  "align": "start"
+                  "align": "start",
+                  "id": "s1b0qjafgz"
                 }
               ]
             }
-          ]
-        },
-        "layoutOnLoadActions": [],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Login",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          ],
+          "leftColumn": 0,
+          "minHeight": 1292,
+          "mobileBottomRow": 1292,
+          "mobileTopRow": 0,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "positioning": "vertical",
+          "responsiveBehavior": "fill",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "snapRows": 124,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "useAutoLayout": true,
+          "version": 89,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": true
-  },
-  "deleted": false,
-  "gitSyncId": "65ae1519b4b1fd3505406a5e_65ae2338344e1d59150113c1"
+    "name": "Login",
+    "slug": "login"
+  }
 }

@@ -1,58 +1,66 @@
 {
-    "mobileBottomRow": 8.478125,
-    "widgetName": "Text3Copy1",
-    "displayName": "Text",
-    "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
-    "searchTags": [
-        "typography",
-        "paragraph",
-        "label"
-    ],
-    "topRow": 0,
-    "bottomRow": 8.478125,
-    "parentRowSpace": 10,
-    "type": "TEXT_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 64,
-    "animateLoading": true,
-    "overflow": "NONE",
-    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-    "parentColumnSpace": 13.296875,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "truncateButtonColor"},
-        {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "text"}
-    ],
-    "shouldTruncate": false,
-    "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "<p id=\"isPasted\"><u>Network Details<br><\/u><span style=\"color: rgb(40, 50, 78);\">Supply: {{appsmith.store.tickOverview[0].supply.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}}<br>Price: ${{appsmith.store.tickOverview[0].price.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}}<br>Capitalization: {{appsmith.store.tickOverview[0].marketCapitalization.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}}<\/span><\/p>",
-    "key": "dqmvu1zwxb",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "textAlign": "LEFT",
-    "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "r0yzt2igit",
-    "minWidth": 450,
-    "isVisible": true,
-    "fontStyle": "BOLD",
-    "textColor": "#231F20",
-    "version": 1,
-    "parentId": "7nc1oz087b",
-    "tags": [
-        "Suggested",
-        "Content"
-    ],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 0,
-    "responsiveBehavior": "fill",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0,
-    "maxDynamicHeight": 9000,
-    "fontSize": "1rem",
-    "alignment": "start",
-    "minDynamicHeight": 4
+  "alignment": "start",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8.478125,
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "dqmvu1zwxb",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 8.478125,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 0,
+  "overflow": "NONE",
+  "parentColumnSpace": 13.296875,
+  "parentId": "7nc1oz087b",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "typography",
+    "paragraph",
+    "label"
+  ],
+  "shouldTruncate": false,
+  "tags": [
+    "Suggested",
+    "Content"
+  ],
+  "text": "<p id=\"isPasted\"><u>Network Details<br></u><span style=\"color: rgb(40, 50, 78);\">Supply: {{appsmith.store.tickOverview[0].supply.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}}<br>Price: ${{appsmith.store.tickOverview[0].price.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}}<br>Capitalization: {{appsmith.store.tickOverview[0].marketCapitalization.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\")}}</span></p>",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 0,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "r0yzt2igit",
+  "widgetName": "Text3Copy1"
 }

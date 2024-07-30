@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "65b757f4839ff15ac032d275_65d431d267fa00479b41b01e",
+  "id": "Payout_functions",
   "unpublishedCollection": {
     "name": "functions",
     "pageId": "Payout",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "Payout_functions",
-  "deleted": false,
-  "gitSyncId": "65b757f4839ff15ac032d275_65d431d267fa00479b41b01e"
+    "variables": []
+  }
 }
